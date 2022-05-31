@@ -1,0 +1,144 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thiết kế, lắp đặt, thử nghiệm và vận hành hệ thống lạnh</title>
+  <metadata>
+  <md:content-id>m30756</md:content-id><md:title>Thiết kế, lắp đặt, thử nghiệm và vận hành hệ thống lạnh</md:title>
+  <md:abstract>Thiết kế hệ thống lạnh</md:abstract>
+  <md:uuid>438c5025-b451-402c-9046-cc64e38a74dc</md:uuid>
+</metadata>
+
+<content>
+    <para id="id7811627">Tóm tắt:</para>
+    <section id="id-378939870322">
+      <title>NHỮNG VẤN ĐỀ CẦN QUAN TÂM KHI THIẾT KẾ HỆ THỐNG LẠNH</title>
+      <section id="id-631377922253">
+        <title>Chọn phương pháp cấp dịch dàn lạnh</title>
+        <para id="id7736052">Lựa chọn phương pháp cấp dịch cho dàn lạnh có ý nghĩa rất quan trọng đến hiệu quả làm việc, khả năng thu hồi dầu..</para>
+        <para id="id7736064">Có các phương pháp cấp dịch chủ yếu sau :</para>
+        <para id="id7736071">- Cấp dịch bằng tiết lưu trực tiếp</para>
+        <para id="id7736078">- Cấp dịch kiểu ngập dịch từ bình giữ mức</para>
+        <para id="id7736085">- Cấp dịch bằng bơm dịch</para>
+        <section id="id-665118550772">
+          <title>Phương pháp cấp dịch tiết lưu trực tiếp</title>
+          <para id="id7736100">Phương pháp cấp dịch tiết lưu trực tiếp là phương pháp cấp dịch mà môi chất sau tiết lưu đi trực tiếp vào dàn lạnh không qua bất cứ khâu trung gian nào (hình 11-1).</para>
+          <para id="id7736117">Môi chất lạnh sau tiết lưu đi trực tiếp vào dàn lạnh không qua các khâu trung gian nên tổn thất nhiệt thấp. Đây là phương pháp đơn giãn, không đòi hỏi phải có các thiết bị khác đi kèm, chi phí đầu tư thấp.</para>
+          <para id="id7736131">Phương pháp tiết lưu trực tiếp có thể sử dụng van tiết lưu tay và van tiết lưu tự động. Nhưng van tiết lưu tay chỉ nên sử dụng tiết lưu trực tiếp cho các hệ thống có chế độ nhiệt ổn định lâu dài. Đối với các hệ thống hoạt động không ổn định, phụ tải luôn biến động không nên sử dụng van tiết lưu tay, vì có thể gây ngập dịch khi phụ tải giảm, nhiệt độ buồng lạnh thấp.</para>
+          <para id="id7736160">Tuy nhiên, để điều chỉnh lưu lượng hợp lý theo phụ tải thực tế, chỉ nên sử dụng van tiết lưu tự động và công suất của van phải tương ứng với phụ tải của hệ thống. Trong trường hợp sử dụng van tiết lưu tay hoặc sử dung van tiết lưu tự động nhưng có công suất lớn hơn sẽ rất nguy hiểm khi phụ tải nhiệt bên ngoài thay đổi. Khi phụ tải nhiệt giảm, rất dễ gây ra ngập lỏng.</para>
+          <figure id="id7736192">
+            <media id="id10078736" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="232" width="378"/></media>
+          </figure>
+          <para id="id7736216">1- Dàn lạnh; 2- Quạt dàn lạnh; 3- Cụm van tiết lưu; 4- Xả nước ngưng</para>
+          <para id="id7736223">Hình 11-1 : Phương pháp tiết lưu trực tiếp</para>
+          <para id="id7736229">Phương pháp tiết lưu trực tiếp thường được sử dụng cho các dàn lạnh nhỏ, phụ tải nhiệt không lớn, ví dụ như hệ thống lạnh máy điều hoà, kho lạnh thương nghiệp, kho bảo quản, kho chờ đông vv… Đối với các hệ thống công suất lớn, phương pháp này tỏ ra hiệu quả thấp, trong nhiều trường hợp dàn lạnh thiếu môi chất trầm trọng làm cho thời gian làm lạnh tăng lên đáng kể, đặc biệt ở cuối dàn lạnh.</para>
+          <para id="id7736252">Mặt khác do môi chất ở trong dàn lạnh chủ yếu ở thể hơi nên hiệu quả trao đổi nhiệt không cao, đối với hệ thống làm lạnh nhanh người ta ít sử dụng kiểu cấp dịch này.</para>
+          <para id="id7736264"/>
+        </section>
+        <section id="id-795201639281">
+          <title>Phương pháp cấp dịch kiểu ngập lỏng từ bình giữ mức</title>
+          <para id="id7736278">Phương pháp cấp dịch kiểu ngập lỏng từ bình giữ mức được sử dụng cho các thiết bị bay hơi đòi hỏi lưu lượng môi chất và phụ tải nhiệt lớn, thời gian làm lạnh tương đối nhanh (hình 11-2).</para>
+          <para id="id7736292">Thiết bị bay hơi trong hệ thống lạnh cấp dịch kiểu ngập lỏng luôn luôn chứa ngập lỏng lỏng bão hoà. Dịch lỏng được cấp trực tiếp từ bình giữ mức xuống nhờ cột áp thuỷ tĩnh. Để đảm bảo cung cấp dịch lỏng đầy đủ cho dàn lạnh, mức dịch tối thiểu trong bình giữ mức luôn được duy trì. </para>
+          <para id="id7736315">Do trong dàn lạnh luôn luôn ngập dịch lỏng nên hiệu quả trao đổi nhiệt khá lớn so với hơi bão hoà khi tiết lưu trực tiếp, giảm đáng kể thời gian làm lạnh.</para>
+          <para id="id7735460">Tuy nhiên, phương pháp này có một số nhược điểm :</para>
+          <para id="id7735467">- Phải trang bị thêm bình giữ mức và các thiết bị khác đi kèm (van phao, van an toàn, đồng hồ áp suất, van chặn vv..) nên chi phí đầu tư tăng lên đáng kể.</para>
+          <para id="id7735479">- Lượng môi chất sử dụng trong hệ thống tăng do trong quá trình hoạt động một lượng lớn đã tích tụ tại bình giữ mức.</para>
+          <para id="id7735490">- Chuyển động của môi chất trong dàn bay hơi là chuyển động đối lưu tự nhiên, nhờ cột áp thuỷ tĩnh nên tốc độ khá thấp. Tốc độ đó phụ thuộc vào tốc độ hoá hơi của môi chất trong dàn lạnh. Nếu tốc độ hoá hơi chậm thì kéo theo tốc độ luân chuyển chậm. Do tốc độ môi chất bên trong dàn lạnh chậm nên hiệu quả trao đổi nhiệt cũng không thực sự cao và thời gian làm lạnh vẫn còn dài. Đối với hệ thống đòi hỏi thời gian làm lạnh ngắn như các hệ thống cấp đông nhanh phương pháp này không đảm bảo yêu cầu kỹ thuật. </para>
+          <para id="id7735530">- Vòng tuần hoàn môi chất giữa dàn lạnh và bình giữa mức là riêng biệt so với hệ thống, hầu như không chịu tác động của máy nén mà chỉ phụ thuộc tốc độ hoá hơi ở dàn lạnh, nên rất khó can thiệp để thay đổi tốc độ. Nếu tốc độ làm lạnh chậm thì vòng luân chuyển cũng chậm theo. </para>
+          <figure id="id7735559">
+            <media id="id10285681" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="217" width="509"/></media>
+          </figure>
+          <para id="id7735583">1- Dàn lạnh, 2- Bình giữ mức</para>
+          <para id="id7735588">Hình 11-2 : Phương pháp tiết lưu ngập lỏng</para>
+          <para id="id7735594">Phương pháp cấp dịch kiểu ngập lỏng thường sử dụng cho các hệ thống sau đây :</para>
+          <para id="id7735603">- Máy đá cây và máy đá vảy.</para>
+          <para id="id7735610">- Tủ cấp đông tiếp xúc (thời gian làm lạnh 4-5 giờ/mẻ)</para>
+          <para id="id7735620">- Thiết bị làm lạnh nước chế biến và điều hoà không khí trong các nhà máy chế biến thực phẩm</para>
+          <para id="id7735634">- Một số thiết bị cấp đông I.Q.F</para>
+          <para id="id7735641">Mặc dù bên trong dàn lạnh là môi chất lỏng, nhưng do tốc độ chuyển động chậm nên trong các hệ thống làm lạnh nhanh hoặc siêu tốc phương pháp cấp dịch từ bình giữ mức không đảm bảo yêu cầu nên người ta bắt buộc sử dụng phương pháp đối lưu cưỡng bức nhờ bơm.</para>
+        </section>
+        <section id="id-37026123734">
+          <title>Phương pháp cấp dịch bằng bơm cấp dịch</title>
+          <para id="id7735670">Để tăng tốc độ chuyển động của dịch lỏng tuần hoàn trong dàn lạnh, nâng cao hiệu quả giải nhiệt, giảm thời gian làm lạnh, người ta sử dụng phương pháp cấp dịch bằng bơm. Phương pháp này được sử dụng dụng trong các thiết bị cấp đông lạnh nhanh. Sở dĩ cấp dịch bằng bơm thì hiệu quả trao đổi nhiệt rất cao và thời gian làm lạnh giảm là vì 2 lý do sau :</para>
+          <para id="id7735693">- Môi chất trong dàn lạnh ở trạng thái lỏng có nhiệt rất thấp. </para>
+          <list id="id7735701" list-type="bulleted">
+            <item>Môi chất lỏng chuyển động cưỡng bức với tốc độ lớn.</item>
+          </list>
+          <figure id="id7735715">
+            <media id="id10425605" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="263" width="501"/></media>
+          </figure>
+          <para id="id7735739">Hình 11-3 : Phương pháp cấp dịch bằng bơm</para>
+          <para id="id7735747">Tuy nhiên sử dụng bơm cấp dịch cho dàn lạnh có nhược điểm chỉ có một lượng lỏng khi qua dàn lạnh sẽ hoá hơi, một lượng lớn sau dàn lạnh không kịp hoá hơi nên khả năng ngập lỏng rất lớn nếu hút trực tiếp về máy nén ngay. Trong trường hợp này bắt buộc phải có bình chứa hạ áp. Bình chứa hạ áp có chức năng vừa là nơi chứa lỏng cho bơm cấp dịch hoạt động ổn định vừa là thiết bị để tách lỏng và hơi sau dàn lạnh.</para>
+        </section>
+      </section>
+      <section id="id-679130586003">
+        <title>Lựa chọn thiết bị ngưng tụ</title>
+        <para id="id7766396">Để chọn thiết bị ngưng tụ phù hợp với từng hệ thống cụ thể, chúng ta cần nắm rỏ các đặc điểm của từng loại thiết bị ngưng tụ.</para>
+        <para id="id7766409">Các hệ thống lạnh lớn thường sử dụng các thiết bị ngưng tụ sau đây:</para>
+        <para id="id7766418">- Dàn ngưng không khí </para>
+        <para id="id7766424">- Bình ngưng ống chùm nằm ngang</para>
+        <para id="id7766430">- Dàn ngưng tụ bay hơi </para>
+        <para id="id7766436">- Dàn ngưng kiểu tưới</para>
+        <para id="id7766441">Bảng 11-1 : Phạm vi ứng dụng của các thiết bị ngưng tụ</para>
+        <table id="id7766448" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry>STT</entry>
+                <entry>Loại thiết bị ngưng tụ</entry>
+                <entry>Phạm vi sử dụng</entry>
+              </row>
+              <row>
+                <entry>1</entry>
+                <entry>Bình ngưng tụ- Bình ngưng tụ nằm ngang ống thép- Bình ngưng ống đồng</entry>
+                <entry>- Hệ thống NH3 và frêôn công suất trung bình và lớn: Tủ đông, kho cấp đông, máy đá.- Hệ thống lạnh frêôn công suất nhỏ, trung bình và lớn: Kho lạnh, kho cấp đông, kho chờ đông, máy đá, máy điều hoà không khí</entry>
+              </row>
+              <row>
+                <entry>2</entry>
+                <entry>Dàn ngưng tụ bay hơi</entry>
+                <entry>- Hệ thống lạnh công suất lớn và rất lớn: Máy đá, tủ cấp đông, hệ thống lạnh I.Q.F, hệ thống lạnh nhà máy bia, hệ thống lạnh trung tâm, đặc biệt hay sử dụng trong các hệ thống NH3 công suất lớn.- Nơi nguồn nước khan hiếm, phải sử dụng nước thuỷ cục hoặc nước ngầm đã qua xử lý.</entry>
+              </row>
+              <row>
+                <entry>3</entry>
+                <entry>Dàn ngưng kiểu tưới</entry>
+                <entry>- Dùng trong các hệ thống công suất trung bình và lớn, nơi chất lượng nguồn nước không tốt (sông, ao, hồ), khu vực xa dân cư, ven sông, hồ.- Hệ thống sử dụng: Máy đá cây </entry>
+              </row>
+              <row>
+                <entry>4</entry>
+                <entry>Dàn ngưng không khí</entry>
+                <entry>- Dùng cho hệ thống lạnh công suất nhỏ và trung bình, đặc biệt các hệ thống lạnh, môi chất frêôn- Hệ thống sử dụng: Kho lạnh, kho chờ đông, hệ thống điều hoà không khí .</entry>
+              </row>
+              <row>
+                <entry>5</entry>
+                <entry>Dàn ống lồng ống</entry>
+                <entry>- Dùng trong các hệ thống nhỏ, đặc biệt hệ thống lạnh frêôn , trong các máy điều hoà không khí</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-511590004751">
+        <title>Chọn môi chất lạnh</title>
+        <para id="id7833496">Lựa chọn môi chất lạnh hợp lý là một trong những vấn đề rất quan trọng khi thiết kế các hệ thống lạnh.</para>
+        <para id="id7833508">- Môi chất amôniắc NH3 là môi chất lạnh không gây phá huỷ tầng ôzôn và hiệu ứng nhà kính, có thể nói NH3 là môi chất lạnh của hiện tại và tương lai. Hiện nay hầu hết các hệ thống lạnh trong các nhà máy chế biến thuỷ sản (trừ kho lạnh bảo quản), trong các nhà máy bia đều được thiết kế sử dụng môi chất NH3. Đặc điểm của NH3 là rất thích hợp đối với hệ thống lớn và rất lớn, do năng suất lạnh riêng thể tích lớn. Các hệ thống lạnh máy đá cây, máy đá vảy, kho cấp đông, tủ cấp đông các loại và dây chuyền I.Q.F, hệ thống làm lạnh glycol trong nhà máy bia đều rất thích hợp khi sử dụng NH3. Nhược điểm của NH3 là làm hỏng thực phẩm và ăn mòn kim loại màu nên không phù hợp khi sử dụng cho các hệ thống nhỏ. </para>
+        <para id="id7833594">Tuyệt đối không nên sử dụng NH3 cho các kho lạnh bảo quản, vì đặc điểm của NH3 là độc và làm hỏng thực phẩm, nếu xảy ra rò rỉ môi chất bên trong các kho lạnh thì rất khó phát hiện, khi phát hiện thì đã quá trễ. Khác với các thiết bị cấp đông, máy đá hoạt động theo mẻ, hàng hoá chỉ đưa vào làm lạnh trong một thời gian ngắn, mỗi lần làm lạnh số lượng hàng không lớn lắm, các kho lạnh hoạt động lâu dài, hàng hoá được bảo quản hàng tháng, có khi cả năm trời, trong quá trình đó xác suất rò rỉ rất lớn, nghĩa là rủi ro rất cao. Mặt khác kho lạnh là nơi tập trung một khối lượng hàng rất lớn, hàng trăm thậm chí nghìn tấn sản phẩm. Giá trị hàng hoá trong các kho lạnh cực kỳ lớn, nếu xảy ra rò rỉ môi chất NH3 vào bên trong các kho lạnh, hàng hoá bị hỏng các xí nghiệp có thể sẽ bị phá sản. Việc thiết kế kế các kho lạnh sử dụng NH3 là chứa đựng nhiều nguy cơ và rủi ro cho doanh nghiệp. </para>
+        <para id="id7833689">- Đối với hệ thống nhỏ , trung bình nên sử dụng môi chất lạnh frêôn</para>
+        <para id="id7833698">+ Môi chất R134a là môi chất thay thế thích hợp nhất cho R12, nó được sử dụng cho các hệ thống lạnh công suất rất nhỏ như tủ lạnh gia đình, máy điều hoà công suất nhỏ, máy điều hoà xe hơi vv.. vì năng suất lạnh riêng thể tích nhỏ.</para>
+        <para id="id7833722">+ Môi chất lạnh R22 được sử dụng chủ yếu cho các hệ thống lạnh nhỏ và trung bình, ví dụ trong các máy điều hoà công suất trung bình và lớn (từ 24.000 Btu/h trở lên) , môi chất R22 cũng rất thích hợp các kho lạnh bảo quản, kho lạnh thương nghiệp, kho chờ đông và các hệ thống lạnh công suất lớn khác như tủ đông, máy đá đơn lẻ. Hiện nay và trong tương lai gần người ta sử dụng R404A hoặc R407C thay cho R22. Trước mắt nước ta còn có thể sử dụng R22 đến năm 2040. </para>
+        <para id="id7841946">Ưu điểm nổi trội khi sử dụng là không làm hỏng thực phẩm, không độc nên được sử dụng cho các kho lạnh bảo quản, không ăn mòn kim loại màu như đồng nên thiết bị gọn nhẹ và rất phù hợp các hệ thống lạnh trong dân dụng như điều hoà, các tủ lạnh thương nghiệp.</para>
+      </section>
+      <section id="id-0559881532577">
+        <title>Chọn dầu máy lạnh</title>
+        <para id="id7841971">Chất lượng và đặc tính của dầu có ảnh hưởng đến tuổi thọ của máy nén. Trong mọi trường hợp cũng phải chọn loại dầu tốt nhất. Khi tỷ số nén, nhiệt độ đầu đẩy không cao, dầu tiêu hao ở mức bình thường mà than bám nhiều ở vòng cách của van xả (dischage valve cage) hay các bộ phận chuyển động chóng mòn thì cần kiểm tra:</para>
+        <list id="id7842000" list-type="enumerated">
+          <item>Trong dầu có lẫn tạp chất hay không</item>
+          <item>Phẩm chất của dầu </item>
+          <item>Dầu có phù hợp với máy hay không</item>
+        </list>
+        <para id="id7842024">Phán đoán phẩm chất của dầu là rất khó mà chỉ có thể xác định thông qua sử dụng. </para>
+        <para id="id7842032">Do vậy nên sử dụng loại dầu của các nhã hiệu có uy tín đã được nhà cung cấp giới thiệu. Không nên cho rằng dầu tốt nếu giá cao. Những thông số quan trọng của dầu là điểm đông đặc thấp, điểm bắt lửa cao, độ nhớt ít thay đổi khi nhiệt độ thay đổi. Bảo quản dầu cẩn thận tránh lọt ẩm, bụi vào bên trong dầu. </para>
+        <para id="id7842066">Không nên sử dụng tuỳ tiện dầu. Khi cần thay dầu cần có sự góp ý của nhà sản xuất. </para>
+      </section>
+    </section>
+  </content>
+</document>

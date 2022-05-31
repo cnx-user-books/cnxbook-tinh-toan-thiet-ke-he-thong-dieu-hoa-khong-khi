@@ -1,0 +1,1177 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tính toán thiết kế hệ thống đường dẫn nước</title>
+  <metadata>
+  <md:content-id>m30040</md:content-id><md:title>Tính toán thiết kế hệ thống đường dẫn nước</md:title>
+  <md:abstract>Trong các kỹ thuật điều hoà không khí có sử dụng các loại đường ống nước như sau :
+	- Đường ống nước giải nhiệt cho các thiết bị ngưng tụ.
+	- Đường ống nước lạnh để làm lạnh không khí.
+	- Đường ống nước nóng và hơi bão hoà để sưởi ấm không khí
+	- Đường ống nước ngưng.
+Mục đích của việc tính toán ống dẫn nước là xác định kích thước hợp lý của đường ống, xác định tổng tổn thất trở lực và chọn bơm.  Để làm được điều đó cần phải biết trước lưu lượng nước tuần hoàn. Lưu lượng đó được xác định từ các phương trình trao đổi nhiệt.</md:abstract>
+  <md:uuid>aea35b77-a8d6-455f-86c5-558d50fde616</md:uuid>
+</metadata>
+
+<content>
+    <para id="id22133432">Hệ thống đường ống dẫn nước</para>
+    <para id="id22133438">* Vật liệu đường ống : Người ta sử dụng nhiều loại vật liệu khác nhau làm đường ống cụ thể như sau :</para>
+    <para id="id22133452">Bảng 7-1 : Vật liệu ống dẫn nước</para>
+    <table id="id22133458" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Chức năng</entry>
+            <entry>Vật liệu</entry>
+          </row>
+          <row>
+            <entry>1. Ống nước lạnh chiller</entry>
+            <entry>- Thép đen hoặc thép tráng kẽm- Ống đồng cứng</entry>
+          </row>
+          <row>
+            <entry>2. Ống nước giải nhiệt và nước cấp</entry>
+            <entry>- Ống thép tráng kẽm- Ống đồng cứng</entry>
+          </row>
+          <row>
+            <entry>3. Ống nước ngưng hoặc xả cặn</entry>
+            <entry>- Ống thép tráng kẽm- Ống đồng cứng- Ống PVC</entry>
+          </row>
+          <row>
+            <entry>4. Bão hoà hoặc nước ngưng bão hoà</entry>
+            <entry>- Ống thép đen- Ống đồng cứng</entry>
+          </row>
+          <row>
+            <entry>5. Nước nóng </entry>
+            <entry>- Ống thép đen- Ống đồng cứng</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id22433243">* Đặc tính của đường ống thép</para>
+    <para id="id22433249">Các loại ống thép đen thường được sử dụng để dẫn nước có nhiều loại với độ dày mỏng khác nhau. Theo mức độ dày người ta chia ra làm nhiều mức khác nhau từ Schedul 10 đến Schedul 160. Trên bảng 7-2 các loại ống ký hiệu ST là ống có độ dày tiêu chuẩn, các ống XS là loại ống có chiều dày rất lớn</para>
+    <para id="id22433270">Bảng 7-2 : Đặc tính của đường ống thép</para>
+    <table id="id22433276" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entrytbl namest="c1" nameend="c2" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c2">Đường kính danh nghĩa</entry>
+                </row>
+                <row>
+                  <entry>in</entry>
+                  <entry>mm</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Đường kính trongmm</entry>
+            <entry>Đường kính ngoàimm</entry>
+            <entry>Áp suất làm việcat</entry>
+            <entry>Loại</entry>
+          </row>
+          <row>
+            <entry>1 / 41 / 4 3/83/81 / 21 / 23 / 43 / 4111.1/41.1/41.1/21.1/2222.1/22.1/23344668881010101212121214141414</entry>
+            <entry>6,356,359,5259,52512,712,719,0519,0525,425,431,7531,7538,138,150,850,863,563,576,276,2101,6101,6152,4152,4203,2203,2203,2254254254304,8304,8304,8304,8355,6355,6355,6355,6</entry>
+            <entry>9,2457,6712,5210,7415,79813,86820,9318,4626,6424,335,0532,4640,9838,152,549,2562,715977,92773,66102,2697,18154,05146,33205202,171193,675257,45254,5247,65307,08303,225298,45288,95336,55333,4330,2317,5</entry>
+            <entry>13,71613,71617,14517,14521,33621,33626,6726,6728,8328,8342,16442,16448,2648,2660,32560,32573,02573,02588,988,9114,3114,3168,275168,275219,07219,07219,07273,05273,05273,05323,85323,85323,85323,85355,6355,6355,6355,6</entry>
+            <entry>1361145815531548164516421640163937593454304949853745783443623241537634414876</entry>
+            <entry>40ST80XS40ST80XS40ST80XS40ST80XS40ST80XS40ST80XS40ST80XS40ST80XS40 ST80XS40ST80XS40ST80XS40ST80XS3040ST80XS3040ST80XS30ST40XS8030 ST40XS80</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id22162392">Đường ống đồng được chia ra các loại K, L, M và DWV. Loại K có bề dày lớn nhất, loại DWV là mỏng nhất. Thực tế hay sử dụng loại L. Bảng 7-3 trình bày các đặc tính kỹ thuật của một số loại ống đồng khác nhau.</para>
+    <para id="id22162401">Bảng 7-3 : Đặc tính của đường ống đồng</para>
+    <table id="id22162408" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entrytbl namest="c1" nameend="c2" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c2">Đường kính danh nghĩa</entry>
+                </row>
+                <row>
+                  <entry>in</entry>
+                  <entry>mm</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Loại</entry>
+            <entry>Đường kính trong, mm</entry>
+            <entry>Đường kính ngoài, mm</entry>
+          </row>
+          <row>
+            <entry>1.1/41.1/2234568888101010121212</entry>
+            <entry>31,7538,150,876,2101,6127152,4203,2203,2203,2203,2254254254304,8304,8304,8</entry>
+            <entry>DWVDWVDWVDWVDWVDWVDWVKLMDWVKLMKLM</entry>
+            <entry>32,8939,1451,8477,089101,828126,517151,358192,6196,215197,74200,83240244,475246,4287,4293,75295,07</entry>
+            <entry>34,92541,27553,97579,375104,775130,185155,57206,375206,375206,375206,375257,175257,175257,175307,975307,975307,975</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id22511480">* Sự giãn nở vì nhiệt của các loại đường ống</para>
+    <para id="id22511489">Trong quá trình làm việc nhiệt độ của nước luôn thay đổi trong một khoản tương đối rộng, nên cần lưu ý tới sự giãn nở vì nhiệt của đường ống để có các biện pháp ngăn ngừa thích hợp.</para>
+    <para id="id22027259">Trên bảng 7-4 là mức độ giãn nở của đường ống đồng và ống thép, so với ở trạng thái 0oC. Mức độ giãn nở hầu như tỷ lệ thuận với khoảng thay đổi nhiệt độ. Để bù giãn nở trong kỹ thuật điều hoà người ta sử dụng các đoạn ống chữ U, chữ Z và chữ L.</para>
+    <para id="id22027288">Bảng 7-4 : Mức độ giãn nở đường ống</para>
+    <table id="id22027296" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Khoảng nhiệt độ</entry>
+            <entrytbl namest="c2" nameend="c3" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c2">Mức độ giãn nở, mm/m</entry>
+                </row>
+                <row>
+                  <entry>Ống đồng</entry>
+                  <entry>Ống thép</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+          </row>
+          <row>
+            <entry>010203040506070</entry>
+            <entry>00,1680,3360,5040,6720,8401,0801,187</entry>
+            <entry>00,1110,2230,3360,4590,5720,6840,805</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id22027502">Ngoài phương pháp sử dụng các đoạn ống nêu ở trên , trong thực tế để bù giãn nở người ta còn sử dụng các roăn giãn nở, dùng ống mềm cao su nếu nhiệt độ cho phép.</para>
+    <para id="id22027518">* Giá đỡ đường ống</para>
+    <para id="id22027523">Để treo đỡ đường ống người ta thường sử dụng các loại sắt chữ L hoặc sắt U làm giá đỡ. Các giá đỡ phải đảm bảo chắc chắn, dễ lắp đặt đường ống và có khẩu độ hợp lý. Khi khẩu độ nhỏ thì số lượng giá đỡ tăng, chi phí tăng. Nếu khẩu độ lớn đường ống sẽ võng, không đảm bảo chắc chắn. Vì thế người ta qui định khoảng cách giữa các giá đỡ . Khoảng cách này phụ thuộc vào kích thước đường ống, đường ống càng lớn khoảng cách cho phép càng lớn.</para>
+    <para id="id22027543">Bảng 7-5 : Khẩu độ hợp lý của giá đỡ ống thép </para>
+    <table id="id22027549" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Đường kính danh nghĩa của ống , mm</entry>
+            <entry>Khẩu độm</entry>
+          </row>
+          <row>
+            <entry>Từ 19,05  31,7538,1  63,576,2  88,9101,6  152,4203,2 đến 304,8355,6 đến 609,6</entry>
+            <entry>2,4383,0483,6574,2674,8776,096</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id22049946">Bảng 7-6 : Khẩu độ hợp lý của giá đỡ ống đồng</para>
+    <table id="id22049952" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Đường kính danh nghĩa của ống , mm</entry>
+            <entry>Khẩu độm</entry>
+          </row>
+          <row>
+            <entry>15,87522,225  28,57534,925  53,97566,675  130,175155,575  206,375</entry>
+            <entry>1,8292,4383,0483,6574,267</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <section id="id-86095375834">
+      <title>Tính toán đường ống dẫn nước và chọn bơm</title>
+      <section id="id-933429886284">
+        <title>Lưu lượng nước yêu cầu</title>
+        <para id="id22050091">Lưu lượng nước yêu cầu được xác định tuỳ thuộc trường hợp cụ thể</para>
+        <para id="id22050099">(7-1)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi fontstyle="italic">Δt</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>K</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{n} } = {  {Q rSub { size 8{k} } }  over  {C rSub { size 8{p} }  "." Δt rSub { size 8{K} } } } } {}</m:annotation></m:semantics></m:math>- Nếu nước sử dụng để giải nhiệt bình ngưng máy điều hoà</para>
+        <para id="id22050233">(7-2)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ok</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi fontstyle="italic">Δt</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{ ital "NL"} } = {  {Q rSub { size 8{ ital "Ok"} } }  over  {C rSub { size 8{p} }  "." Δt rSub { size 8{O} } } } } {}</m:annotation></m:semantics></m:math>- Lưu lượng nước lạnh </para>
+        <para id="id22156088">(7-3)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NN</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SI</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>p</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi fontstyle="italic">Δt</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NN</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{ ital "NN"} } = {  {Q rSub { size 8{ ital "SI"} } }  over  {C rSub { size 8{p} }  "." Δt rSub { size 8{ ital "NN"} } } } } {}</m:annotation></m:semantics></m:math>- Lưu lượng nước nóng</para>
+        <para id="id22156229">trong đó:</para>
+        <para id="id22156235">Qk, Qo và QSI - Công suất nhiệt bình ngưng, công suất lạnh bình bay hơi và công suất bộ gia nhiệt không khí, kW.</para>
+        <para id="id22156260">tn, tNL, tNN - Độ chênh nhiệt độ nước vào ra bình ngưng, bình bay hơi và bộ sấy. Thường t  3  5 oC. </para>
+        <para id="id22156323">Cp - Nhiệt dung riêng của nước, Cp 4186 J/kg.oC.</para>
+        <para id="id21678184">Dọc theo tuyến ống lưu lượng thay đổi vì vậy cần phải thay đổi tiết diện đường ống một cách tương ứng.</para>
+      </section>
+      <section id="id-781419124326">
+        <title>Chọn tốc độ nước trên đường ống</title>
+        <para id="id21678202">Tốc độ của nước chuyển động trên đường ống phụ thuộc 2 yếu tố</para>
+        <para id="id21678210">- Độ ồn do nước gây ra. Khi tốc độ cao độ ồn lớn , khi tốc độ nhỏ kích thước đường ống lớn nên chi phí tăng</para>
+        <para id="id21678219">- Hiện tượng ăn mòn : Trong nước có lẫn cặn bẩn như cát và các vật khác , khi tốc độ cao khả năng ăm mòn rất lớn</para>
+        <para id="id21678228">Bảng 7-7 : Tốc độ nước trên đường ống</para>
+        <table id="id21678234" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Trường hợp</entry>
+                <entry>Tốc độ của nước</entry>
+              </row>
+              <row>
+                <entry>- Đầu đẩy của bơm- Đầu hút của bơm- Đường xả- Ống góp- Đường hướng lên- Các trường hợp thông thường- Nước thành phố</entry>
+                <entry>2,4  3,61,2  2,11,2  2,11,2  4,50,9  3,0 1,5  30,9  2,1</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-845514255092">
+        <title>Xác định đường kính ống dẫn</title>
+        <para id="id21678401">(7-4)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mi>V</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:mtext>.</m:mtext><m:mi>ω</m:mi></m:mrow></m:mfrac></m:msqrt></m:mrow><m:mi>,</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d= sqrt { {  {4 "." V}  over  {π "." ω} } } ,m} {}</m:annotation></m:semantics></m:math>Trên cơ sở lưu lượng và tốc độ trên từng đoạn ống tiến hành xác định đường kính trong của ống như sau : </para>
+        <para id="id21678512">trong đó:</para>
+        <para id="id21678516">V- Lưu lượng thể tích nước chuyển động qua đoạn ống đang tính, m3/s</para>
+        <para id="id21678529">V = L/</para>
+        <para id="id21678538">L - Lưu lượng khối lượng nước chuyển động qua ống, kg/s</para>
+        <para id="id21675590">- Khối lượng riêng của nước, kg/m3</para>
+        <para id="id21675604">- Tốc độ nước chuyển động trên ống, được lựa chọn theo bảng 7-7, m/s</para>
+      </section>
+      <section id="id-928398666539">
+        <title>Xác định tổn thất áp suất</title>
+        <para id="id21675625">Có 2 cách xác định tổn thất áp lực trên đường ống</para>
+        <para id="id21675632">- Phương pháp xác định theo công thức</para>
+        <para id="id21675639">- Xác định theo đồ thị</para>
+        <section id="id-666011427743">
+          <title>Xác định tổn thất áp suất theo công thức</title>
+          <para id="id21675658">Tổn thất áp lực được xác định theo công thức</para>
+          <para id="id21675666">p = pms + pcb (7-5)</para>
+          <para id="id21675707">(7-6)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δp</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ms</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>λ</m:mi></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mi>l</m:mi><m:mi>d</m:mi></m:mfrac><m:mtext>.</m:mtext><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>ρω</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp rSub { size 8{ ital "ms"} } =λ "."  {  {l}  over  {d} }  "."  {  { ital "ρω" rSup { size 8{2} } }  over  {2} } } {}</m:annotation></m:semantics></m:math>trong đó </para>
+          <para id="id21675834">(7-7)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δp</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>cb</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>ξ</m:mi></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ρω</m:mtext></m:mrow></m:mstyle><m:mn>2</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mi>λ</m:mi></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>l</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>td</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mi>d</m:mi></m:mfrac><m:mtext>.</m:mtext><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>ρω</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp rSub { size 8{ ital "cb"} } =ξ "."  {  { ital "ρω"2}  over  {2} } =λ "."  {  {l rSub { size 8{ ital "td"} } }  over  {d} }  "."  {  { ital "ρω" rSup { size 8{2} } }  over  {2} } } {}</m:annotation></m:semantics></m:math></para>
+          <para id="id22427466"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>64</m:mtext><m:mtext>Re</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ= {  {"64"}  over  {"Re"} } } {}</m:annotation></m:semantics></m:math>* Hệ số trở lực ma sát </para>
+          <para id="id22427538">(7-8)- Khi chảy tầng Re = d/ &lt; 2.103</para>
+          <para id="id22427588">(7-9)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,</m:mn><m:mtext>82</m:mtext><m:mrow><m:mtext>logRe</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>64</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ= {  {1}  over  { \( 1,"82""logRe" - 1,"64" \)  rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>- Khi chảy rối Re &gt; 104 :</para>
+          <para id="id22427731">* Hệ số ma sát cục bộ lấy theo bảng 7-8.</para>
+          <para id="id22427739">Bảng 7-8 : Hệ số ma sát</para>
+          <table id="id22427744" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Vị trí</entry>
+                  <entry>Hệ số </entry>
+                </row>
+                <row>
+                  <entry>- Từ bình vào ống- Qua van- Cút 45o tiêu chuẩn- Cút 90o tiêu chuẩn- Cút 90o bán kính cong lớn- Chữ T, nhánh chính- Chữ T, Nhánh phụ- Qua ống thắt- Qua ống mở- Khớp nối- Van cổng mở 100%mở 75%mở 50%mở 25%- Van cầu có độ mở 100%mở 50%</entry>
+                  <entry>0,52  30,350,750,450,41,50,10,250,040,200,904,524,06,49,5</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id21676511"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ξ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="" close=""><m:mrow><m:mo stretchy="false">[</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ξ= left ( \[ 1 -  {  {A rSub { size 8{1} } }  over  {A rSub { size 8{2} } } }  right ) rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>Đối với đoạn ống mở rộng đột ngột, hệ số tổn thất cục bộ có thể tính theo công thức sau :</para>
+          <para id="id21676623">(7-10)</para>
+          <para id="id21676649">trong đó : A1, A2 - lần lượt là tiết diện đầu vào và đầu ra của ống</para>
+          <para id="id21676667">Trường hợp đường ống thu hẹp đột ngột thì hệ số trở lực ma sát có thể tra theo bảng 7-9. Cần lưu ý là tốc độ dùng để tính tổn thất trong trường hợp này là ở đoạn ống có đường kính nhỏ.</para>
+          <para id="id21676680">Bảng 7-9 : Hệ số ma sát đoạn ống đột mở</para>
+          <table id="id21676686" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Tỉ số A2/A1</entry>
+                  <entry>Hệ số </entry>
+                </row>
+                <row>
+                  <entry>0,10,20,30,40,50,60,70,80,91,0</entry>
+                  <entry>0,370,350,320,270,220,170,100,060,020</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id22285894">* Xác định trở lực cục bộ bằng độ dài tương đương</para>
+          <para id="id22285901">Để xác định trở lực cục bộ ngoài cách xác định nhờ hệ số trở lực cục bộ , người ta còn có cách qui đổi ra tổn thất ma sát tương đương và ứng với nó là chiều dài tương đương.</para>
+          <para id="id22285917">Dưới đây là chiều dài tương đương của một số thiết bị đường ống nước.</para>
+          <para id="id22285925">Bảng 7- 10 : Chiều dài tương đương của các loại van (mét đường ống)</para>
+          <table id="id22285932" summary="">
+            <tgroup cols="10">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <colspec colnum="9" colname="c9"/>
+              <colspec colnum="10" colname="c10"/>
+              <tbody>
+                <row>
+                  <entry>Đường kínhin</entry>
+                  <entry>Van cầu</entry>
+                  <entry>Van 60o Y</entry>
+                  <entry>Van 45o Y</entry>
+                  <entry>Van góc</entry>
+                  <entry>Van cửa</entry>
+                  <entry>Van 1 chiều lật</entry>
+                  <entry>Lọc Ymặt bích</entry>
+                  <entry>Lọc Yren</entry>
+                  <entry>Van 1 chiều nâng</entry>
+                </row>
+                <row>
+                  <entry>3/81/23/4111/411/2221/2331/2456810121416182024</entry>
+                  <entry>5,1805,4866,7058,83911,58213,10616,76421,03125,60330,48036,57642,67251,81667,05685,34497,536109,728124,968140,208158,496185,928</entry>
+                  <entry>2,4382,7433,3534,5726,0967,3159,14410,66813,10615,24017,67821,64126,88235,05244,19650,29256,38861,01073,15283,82097,536</entry>
+                  <entry>1,8292,1342,7433,6574,5725,4867,3158,83910,66812,49614,32517,67821,33625,91032,00039,62447,24054,86460,96071,62880,772</entry>
+                  <entry>1,8292,1342,7433,6574,5725,4867,3158,83910,66812,49614,32517,67821,33625,91032,00039,62447,24054,86460,96071,62880,772</entry>
+                  <entry>0,1830,2130,2740,3050,4570,5480,7010,8530,9751,2191,3721,8292,1342,7433,6573,6924,5725,1825,7916,7057,620</entry>
+                  <entry>1,5241,8292,4383,0484,2674,8776,0967,6209,14410,66812,19215,24018,28824,38430,48036,57641,14845,72050,29260,96073,152</entry>
+                  <entry>------8,2298,53412,80014,63018,28823,38033,52845,72057,19276,200-----</entry>
+                  <entry>-0,9141,2191,5242,7433,0484,2676,09612,192------------</entry>
+                  <entry>Van 1 chiều dạng cầu giống van cầuVan 1 chiều dạng góc giống van góc</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id22068497">Bảng 7- 11 : Chiều dài tương đương của Tê, cút</para>
+          <table id="id21619152" summary="">
+            <tgroup cols="11">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <colspec colnum="9" colname="c9"/>
+              <colspec colnum="10" colname="c10"/>
+              <colspec colnum="11" colname="c11"/>
+              <tbody>
+                <row>
+                  <entry>Đường kínhin</entry>
+                  <entry>Cút 90o chuẩn</entry>
+                  <entry>Cút 90odài</entry>
+                  <entry>Cút 90oren trongren ngoài</entry>
+                  <entry>Cút 45ochuẩn</entry>
+                  <entry>Cút 45oren trongren ngoài</entry>
+                  <entry>Cút 180ochuẩn</entry>
+                  <entrytbl namest="c8" nameend="c11" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry namest="c1" nameend="c2">Tê</entry>
+                      </row>
+                      <row>
+                        <entry>Đường nhánh</entry>
+                        <entrytbl cols="3">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <tbody>
+                            <row>
+                              <entry namest="c1" nameend="c3">Đường chính</entry>
+                            </row>
+                            <row>
+                              <entry>d không đổi</entry>
+                              <entry>d giảm 25%</entry>
+                              <entry>d giảm 50%</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>3/81/23/4111/411/2221/2331/2456810121416182024</entry>
+                  <entry>0,4270,4870,6090,7921,0061,2191,5241,8292,2862,7433,0483,6924,8776,0967,6209,114410,36311,58212,80015,24018,288</entry>
+                  <entry>0,2740,3050,4270,5180,7010,7921,0061,2491,5241,7982,0422,5003,0503,6924,8775,7917,0107,9258,83910,05812,192</entry>
+                  <entry>0,7010,7620,9751,2501,7071,9202,5003,0483,6574,5725,1826,4007,620--------</entry>
+                  <entry>0,2130,2440,2740,3960,5180,6400,7920,9751,2201,4321,5851,9812,4083,0483,9624,8775,4866,0967,0107,9259,144</entry>
+                  <entry>0,3350,3960,4870,6400,9141,0361,3711,5851,9512,2252,5913,3533,962</entry>
+                  <entry>0,7010,7620,9751,2501,7071,9202,5003,0483,6574,5725,1826,4007,62010,06012,80015,24016,76018,89721,33624,69028,650</entry>
+                  <entry>0,8230,9141,2201,5242,1332,4383,0483,6574,5725,4866,4007,6209,14412,19015,24018,28820,72623,77425,91030,48035,050</entry>
+                  <entry>0,2740,3050,4270,5180,7010,7921,0061,2491,5241,7982,0422,5003,0503,6924,8775,7917,0107,9258,83910,05812,192</entry>
+                  <entry>0,3660,4270,5790,7010,9451,1281,4321,7072,1332,4382,7433,6574,2675,4867,0107,9259,14410,67012,19213,41115,240</entry>
+                  <entry>0,4270,4870,6090,7921,0061,2191,5241,8292,2862,7433,0483,6924,8776,0967,6209,114410,36311,58212,80015,24018,288</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id22068665">Bảng 7- 12 : Chiều dài tương đương của một số trường hợp đặc biệt</para>
+          <table id="id22068672" summary="">
+            <tgroup cols="12">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <colspec colnum="9" colname="c9"/>
+              <colspec colnum="10" colname="c10"/>
+              <colspec colnum="11" colname="c11"/>
+              <colspec colnum="12" colname="c12"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c2">Đường kính</entry>
+                  <entry namest="c3" nameend="c5">Đột mở, d/D</entry>
+                  <entry namest="c6" nameend="c8">Đột thu, d/D</entry>
+                  <entry namest="c9" nameend="c12">Đường ống nối vào thùng</entry>
+                </row>
+                <row>
+                  <entry>in</entry>
+                  <entry>mm</entry>
+                  <entry>1/4</entry>
+                  <entry>1/2</entry>
+                  <entry>3/4</entry>
+                  <entry>1/4</entry>
+                  <entry>1/2</entry>
+                  <entry>3/4</entry>
+                  <entry>(1)</entry>
+                  <entry>(2)</entry>
+                  <entry>(3)</entry>
+                  <entry>(4)</entry>
+                </row>
+                <row>
+                  <entry>3/81 /23 /411.1/41.1/222.1/233.1/2456810121416182024</entry>
+                  <entry>9,52512,719,0525,431,7538,150,863,576,288,9101,6127152,4203,2254304,8355,6406,4457,2508609,6</entry>
+                  <entry>0,4270,5480,7620,9751,4321,7682,4383,053,9624,5725,1817,3158,839--------</entry>
+                  <entry>0,2440,3350,4570,6090,9141,0971,4631,8592,4382,8043,3534,5726,7057,629,75312,496-----</entry>
+                  <entry>0,0920,1220,1520,2130,3050,3660,4880,6090,7920,9141,1581,5241,8292,5913,3533,9624,8775,4866,096--</entry>
+                  <entry>0,2130,2740,3660,4870,7010,8841,221,5241,9812,3472,7433,6574,572--------</entry>
+                  <entry>0,1520,2130,3050,3660,5480,670,9141,1581,4931,8292,0722,7433,3534,5726,0967,62-----</entry>
+                  <entry>0,09140,1220,1520,2130,3050,3660,4880,6090,7920,9141,1581,5241,8292,5913,3533,9624,8775,4866,096--</entry>
+                  <entry>0,4570,5480,8531,1271,6152,0122,7433,6574,2675,1816,0968,2310,05814,32518,28822,2526,2129,2635,0543,2849,68</entry>
+                  <entry>0,2440,3050,4270,5480,7921,0061,3411,7072,1942,593,0484,2675,7917,3158,83911,2813,71615,2417,67821,33625,298</entry>
+                  <entry>0,4570,5480,8531,1271,6152,0122,7433,6574,2675,1816,0968,2310,05814,32518,28822,2526,2129,2635,0543,2849,68</entry>
+                  <entry>0,3350,4570,670,8231,281,5242,0732,6513,3533,9624,8776,0967,6210,68814,0217,3720,11723,4727,4332,91839,624</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id22444801">Các trường hợp đường ống nối vào thùng :</para>
+          <para id="id22444807">(1) - Nước chuyển động từ ống vào thùng và đường ống nối bằng mặt với cạnh thùng.</para>
+          <para id="id22444815">(2) - Nước chuyển đông từ thùng ra đường ống và đường ống nối bằng mặt với cạnh thùng.</para>
+          <para id="id22444824">(3)- Nước chuyển động từ ống vào thùng và đường ống nối nhô lên khỏi cạnh thùng.</para>
+          <para id="id22444832">(4) - Nước chuyển động từ thùng ra đường ống và đường ống nối nhô lên khỏi cạnh thùng.</para>
+        </section>
+        <section id="id-564831163723">
+          <title>Xác định tổn thất áp suất theo đồ thị</title>
+          <para id="id22444850">Ngoài cách xác định theo công thức, trên thực tế người ta hay sử dụng phương pháp đồ thị. Các đồ thị thường xây dựng tổn thất áp suất cho 1m chiều dài đường ống. Khi biết 2 trong ba thông số : Lưu lượng nước tuần hoàn (L/s), đường kính ống (mm) và tốc độ chuyển động (m/s). Thông thường chúng ta biết trước lưu lượng và chọn tốc độ sẽ xác định được kích thước ống và tổn thất áp suất cho 1m ống.</para>
+          <para id="id22444870">Hình 7-1 : Tổn thất áp suất (Pa/m) trên ống dẫn thép đen Schedul 40</para>
+          <para id="id22444877">Hình 7-2 : Tổn thất áp suất (Pa/m) trong ống dẫn nước bằng đồng </para>
+          <para id="id22444884">Trên hình 7-2 biểu diễn đồ thị xác định tổn thất áp suất (Pa/m) trong các ống dẫn đồng loai K, L, M </para>
+          <para id="id22444893">Hình 7-3 : Tổn thất áp suất (Pa/m) trong các ống dẫn nước bằng plastic</para>
+          <para id="id22444900">Hình 7-3 trình bày đồ thị xác định tổn thất áp suất trong các ống dẫn plastic . Khi xây dựng đồ thị người ta lấy nhiệt độ nước là 20oC.</para>
+          <para id="id22444916">Ví dụ 1 : Xác định tổn thất áp suất trên một tuyến ống thép 100mm trước đầu đẩy bơm, biết chiều dài tổng là 50m, 01 van cửa và có 6 cút 90o</para>
+          <para id="id22444942">- Chiều dài tương đương của 6 cút 90o</para>
+          <para id="id22444952">ltđ1 = 6 x 3,048m = 18,28 m</para>
+          <para id="id22444962">- Chiều dài tương đương của van chặn</para>
+          <para id="id22444968">ltđ2 = 1,362 m</para>
+          <para id="id22444978">- Tổng chiều dài tương đương</para>
+          <para id="id22444985">Ltđ = 50 + 18,28 + 1,372 = 69,652 m</para>
+          <para id="id22444994">- Đối với đoạn ống trước đầu đẩy của bơm , theo bảng tốc độ nằm trong khoảng 2,4  3,6 m/s. Chọn  = 3 m/s.</para>
+          <para id="id22445020">- Căn cứ vào đồ thị hình 7-1 , xác định được L= 25 Li/s và p = 800 Pa/m</para>
+          <para id="id22445033">- Tổng tổn thất trên toàn tuyến</para>
+          <para id="id22445040">p = 69,652 x 800 = 55.722 Pa = 0,557 bar</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-723099322349">
+      <title>Tháp giải nhiệt và bình giãn nỡ</title>
+      <section id="id-112688438088">
+        <title>Tháp giải nhiệt</title>
+        <para id="id22445067">Trong hệ thống điều hoà không khí giải nhiệt bằng nước bắt buộc phải sử dụng tháp giải nhiệt. Tháp giải nhiệt được sử dụng để giải nhiệt nước làm mát bình ngưng trong hệ thống lạnh máy điều hoà không khí.</para>
+        <para id="id22445082">Trên hình 7-4 trình bày cấu tạo của một tháp giải nhiệt </para>
+        <para id="id22445090">Hình 7-4 : Tháp giải nhiệt RINKI (Hồng Kông)</para>
+        <para id="id22445096">Cấu tạo gồm : Thân và đáy tháp bằng nhựa composit . Bên trong có các khối sợi nhựa có tác dụng làm tơi nước, tăng bề mặt tiếp xúc, thường có 02 khối. Ngoài ra bên trong còn có hệ thống ống phun nước, quạt hướng trục. Hệ thống ống phun nuớc quay xung quanh trục khi có nước phun. Mô tơ quạt đặt trên đỉnh tháp. Xung quanh phần thân còn có các tấm lưới , có thể dễ dàng tháo ra để vệ sinh đáy tháp, cho phép quan sát tình hình nước trong tháp nhưng vẫn ngăn cản rác có thể rơi vào bên trong tháp. Thân tháp được lắp từ một vài tấm riêng biệt, các vị trí lắp tạo thành gân tăng sức bền cho thân tháp.</para>
+        <para id="id22486561">Phần dưới đáy tháp có các ống nước sau : Ống nước vào, ống nước ra, ống xả cặn, ống cấp nước bổ sung và ống xả tràn.</para>
+        <para id="id22486571">Khi chọn tháp giải nhiệt người ta căn cứ vào công suất giải nhiệt . Công suất đó được căn cứ vào mã hiệu của tháp. Ví dụ tháp FRK-80 có công suất giải nhiệt 80 Ton</para>
+        <para id="id22486582">Bảng 7-3 dưới đây trình bày các đặc tính kỹ thuật của tháp giải nhiệt RINKI. Theo bảng đó ta có thể xác định được lưu lượng nước yêu cầu, các thông số về cấu trúc và khối lượng của tháp. Từ lưu lượng của tháp có thể xác định được công suất giải nhiệt của tháp</para>
+        <para id="id22486596">Q = G.Cn.tn</para>
+        <para id="id22486615">G- Lưu lượng nước của tháp, kg/s</para>
+        <para id="id22486621">Cn- Nhiệt dung riêng của nước : Cn = 1 kCal/kg.độ</para>
+        <para id="id22486638">tn - Độ chênh lệch nhiệt độ nước vào ra tháp tn = 4oC</para>
+        <para id="id22486670">Bảng 7-13: Bảng đặc tính kỹ thuật của tháp giải nhiệt RINKI</para>
+        <table id="id22486677" summary="">
+          <tgroup cols="17">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <colspec colnum="10" colname="c10"/>
+            <colspec colnum="11" colname="c11"/>
+            <colspec colnum="12" colname="c12"/>
+            <colspec colnum="13" colname="c13"/>
+            <colspec colnum="14" colname="c14"/>
+            <colspec colnum="15" colname="c15"/>
+            <colspec colnum="16" colname="c16"/>
+            <colspec colnum="17" colname="c17"/>
+            <tbody>
+              <row>
+                <entry>MODEL</entry>
+                <entry>LL(L/s)</entry>
+                <entrytbl namest="c3" nameend="c17" cols="15">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <colspec colnum="8" colname="c8"/>
+                  <colspec colnum="9" colname="c9"/>
+                  <colspec colnum="10" colname="c10"/>
+                  <colspec colnum="11" colname="c11"/>
+                  <colspec colnum="12" colname="c12"/>
+                  <colspec colnum="13" colname="c13"/>
+                  <colspec colnum="14" colname="c14"/>
+                  <colspec colnum="15" colname="c15"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c4">Kích thước</entry>
+                      <entry namest="c5" nameend="c9">Đường ống</entry>
+                      <entry namest="c10" nameend="c12">Quạt</entry>
+                      <entry namest="c13" nameend="c14">Khối lượng</entry>
+                      <entry>Độ ồn</entry>
+                    </row>
+                    <row>
+                      <entry>m</entry>
+                      <entry>h</entry>
+                      <entry>H</entry>
+                      <entry>D</entry>
+                      <entry>Vào</entry>
+                      <entry>Ra</entry>
+                      <entry>Xả tràn</entry>
+                      <entry>Xả đáy</entry>
+                      <entry>Bổ sung</entry>
+                      <entry>m3/ph</entry>
+                      <entry>mm</entry>
+                      <entry>kW</entry>
+                      <entry>Tinh</entry>
+                      <entry>Có nước</entry>
+                      <entry>dB</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>FRK-8</entry>
+                <entry>1,63</entry>
+                <entry>170</entry>
+                <entry>950</entry>
+                <entry>1600</entry>
+                <entry>930</entry>
+                <entry>40</entry>
+                <entry>40</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>70</entry>
+                <entry>530</entry>
+                <entry>0,20</entry>
+                <entry>54</entry>
+                <entry>185</entry>
+                <entry>46,0</entry>
+              </row>
+              <row>
+                <entry>10</entry>
+                <entry>2,17</entry>
+                <entry>170</entry>
+                <entry>1085</entry>
+                <entry>1735</entry>
+                <entry>930</entry>
+                <entry>40</entry>
+                <entry>40</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>85</entry>
+                <entry>630</entry>
+                <entry>0,20</entry>
+                <entry>58</entry>
+                <entry>195</entry>
+                <entry>50,0</entry>
+              </row>
+              <row>
+                <entry>15</entry>
+                <entry>3,25</entry>
+                <entry>170</entry>
+                <entry>990</entry>
+                <entry>665</entry>
+                <entry>1170</entry>
+                <entry>50</entry>
+                <entry>50</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>140</entry>
+                <entry>630</entry>
+                <entry>0,37</entry>
+                <entry>70</entry>
+                <entry>295</entry>
+                <entry>50,5</entry>
+              </row>
+              <row>
+                <entry>20</entry>
+                <entry>4,4</entry>
+                <entry>170</entry>
+                <entry>1170</entry>
+                <entry>1845</entry>
+                <entry>1170</entry>
+                <entry>50</entry>
+                <entry>50</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>170</entry>
+                <entry>760</entry>
+                <entry>0,37</entry>
+                <entry>80</entry>
+                <entry>305</entry>
+                <entry>54,0</entry>
+              </row>
+              <row>
+                <entry>25</entry>
+                <entry>5,4</entry>
+                <entry>180</entry>
+                <entry>1130</entry>
+                <entry>1932</entry>
+                <entry>1400</entry>
+                <entry>80</entry>
+                <entry>80</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>200</entry>
+                <entry>760</entry>
+                <entry>0,75</entry>
+                <entry>108</entry>
+                <entry>400</entry>
+                <entry>55,0</entry>
+              </row>
+              <row>
+                <entry>30</entry>
+                <entry>6,5</entry>
+                <entry>180</entry>
+                <entry>1230</entry>
+                <entry>2032</entry>
+                <entry>1400</entry>
+                <entry>80</entry>
+                <entry>80</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>230</entry>
+                <entry>760</entry>
+                <entry>0,75</entry>
+                <entry>114</entry>
+                <entry>420</entry>
+                <entry>56,0</entry>
+              </row>
+              <row>
+                <entry>40</entry>
+                <entry>8,67</entry>
+                <entry>200</entry>
+                <entry>1230</entry>
+                <entry>2052</entry>
+                <entry>1580</entry>
+                <entry>80</entry>
+                <entry>80</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>290</entry>
+                <entry>940</entry>
+                <entry>1,50</entry>
+                <entry>155</entry>
+                <entry>500</entry>
+                <entry>57,0</entry>
+              </row>
+              <row>
+                <entry>50</entry>
+                <entry>10,1</entry>
+                <entry>200</entry>
+                <entry>1200</entry>
+                <entry>2067</entry>
+                <entry>1910</entry>
+                <entry>80</entry>
+                <entry>80</entry>
+                <entry>25</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>330</entry>
+                <entry>940</entry>
+                <entry>1,50</entry>
+                <entry>230</entry>
+                <entry>800</entry>
+                <entry>57,5</entry>
+              </row>
+              <row>
+                <entry>60</entry>
+                <entry>13,0</entry>
+                <entry>270</entry>
+                <entry>1410</entry>
+                <entry>2417</entry>
+                <entry>1910</entry>
+                <entry>100</entry>
+                <entry>100</entry>
+                <entry>25</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>420</entry>
+                <entry>1200</entry>
+                <entry>1,50</entry>
+                <entry>285</entry>
+                <entry>1100</entry>
+                <entry>57,0</entry>
+              </row>
+              <row>
+                <entry>80</entry>
+                <entry>17,4</entry>
+                <entry>270</entry>
+                <entry>1480</entry>
+                <entry>2487</entry>
+                <entry>2230</entry>
+                <entry>100</entry>
+                <entry>100</entry>
+                <entry>25</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>450</entry>
+                <entry>1200</entry>
+                <entry>1,50</entry>
+                <entry>340</entry>
+                <entry>1250</entry>
+                <entry>58,0</entry>
+              </row>
+              <row>
+                <entry>90</entry>
+                <entry>19,5</entry>
+                <entry>270</entry>
+                <entry>1480</entry>
+                <entry>2487</entry>
+                <entry>2230</entry>
+                <entry>100</entry>
+                <entry>100</entry>
+                <entry>25</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>620</entry>
+                <entry>1200</entry>
+                <entry>2,25</entry>
+                <entry>355</entry>
+                <entry>1265</entry>
+                <entry>59,5</entry>
+              </row>
+              <row>
+                <entry>100</entry>
+                <entry>21,7</entry>
+                <entry>270</entry>
+                <entry>1695</entry>
+                <entry>2875</entry>
+                <entry>2470</entry>
+                <entry>125</entry>
+                <entry>125</entry>
+                <entry>50</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>680</entry>
+                <entry>1500</entry>
+                <entry>2,25</entry>
+                <entry>510</entry>
+                <entry>1850</entry>
+                <entry>61,0</entry>
+              </row>
+              <row>
+                <entry>125</entry>
+                <entry>27,1</entry>
+                <entry>270</entry>
+                <entry>1740</entry>
+                <entry>3030</entry>
+                <entry>2900</entry>
+                <entry>125</entry>
+                <entry>125</entry>
+                <entry>50</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>830</entry>
+                <entry>1500</entry>
+                <entry>2,25</entry>
+                <entry>610</entry>
+                <entry>2050</entry>
+                <entry>60,5</entry>
+              </row>
+              <row>
+                <entry>150</entry>
+                <entry>32,4</entry>
+                <entry>270</entry>
+                <entry>1740</entry>
+                <entry>3030</entry>
+                <entry>2900</entry>
+                <entry>150</entry>
+                <entry>150</entry>
+                <entry>50</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>950</entry>
+                <entry>1500</entry>
+                <entry>2,25</entry>
+                <entry>680</entry>
+                <entry>2120</entry>
+                <entry>61,0</entry>
+              </row>
+              <row>
+                <entry>175</entry>
+                <entry>38,0</entry>
+                <entry>350</entry>
+                <entry>1740</entry>
+                <entry>3100</entry>
+                <entry>3400</entry>
+                <entry>150</entry>
+                <entry>150</entry>
+                <entry>50</entry>
+                <entry>25</entry>
+                <entry>25</entry>
+                <entry>1150</entry>
+                <entry>1960</entry>
+                <entry>3,75</entry>
+                <entry>760</entry>
+                <entry>2600</entry>
+                <entry>61,5</entry>
+              </row>
+              <row>
+                <entry>200</entry>
+                <entry>43,4</entry>
+                <entry>350</entry>
+                <entry>1840</entry>
+                <entry>3200</entry>
+                <entry>3400</entry>
+                <entry>150</entry>
+                <entry>150</entry>
+                <entry>50</entry>
+                <entry>25</entry>
+                <entry>25</entry>
+                <entry>1250</entry>
+                <entry>1960</entry>
+                <entry>3,75</entry>
+                <entry>780</entry>
+                <entry>2750</entry>
+                <entry>62,5</entry>
+              </row>
+              <row>
+                <entry>225</entry>
+                <entry>48,5</entry>
+                <entry>350</entry>
+                <entry>1840</entry>
+                <entry>3200</entry>
+                <entry>3400</entry>
+                <entry>150</entry>
+                <entry>150</entry>
+                <entry>50</entry>
+                <entry>25</entry>
+                <entry>25</entry>
+                <entry>1350</entry>
+                <entry>1960</entry>
+                <entry>3,75</entry>
+                <entry>795</entry>
+                <entry>2765</entry>
+                <entry>62,5</entry>
+              </row>
+              <row>
+                <entry>250</entry>
+                <entry>54,2</entry>
+                <entry>590</entry>
+                <entry>1960</entry>
+                <entry>3760</entry>
+                <entry>4030</entry>
+                <entry>200</entry>
+                <entry>200</entry>
+                <entry>80</entry>
+                <entry>32</entry>
+                <entry>32</entry>
+                <entry>1750</entry>
+                <entry>2400</entry>
+                <entry>5,50</entry>
+                <entry>1420</entry>
+                <entry>2950</entry>
+                <entry>56,5</entry>
+              </row>
+              <row>
+                <entry>300</entry>
+                <entry>65</entry>
+                <entry>680</entry>
+                <entry>1960</entry>
+                <entry>3860</entry>
+                <entry>4030</entry>
+                <entry>200</entry>
+                <entry>200</entry>
+                <entry>80</entry>
+                <entry>32</entry>
+                <entry>32</entry>
+                <entry>2200</entry>
+                <entry>2400</entry>
+                <entry>7,50</entry>
+                <entry>1510</entry>
+                <entry>3200</entry>
+                <entry>57,5</entry>
+              </row>
+              <row>
+                <entry>350</entry>
+                <entry>76</entry>
+                <entry>680</entry>
+                <entry>2000</entry>
+                <entry>4160</entry>
+                <entry>4760</entry>
+                <entry>200</entry>
+                <entry>200</entry>
+                <entry>80</entry>
+                <entry>32</entry>
+                <entry>32</entry>
+                <entry>2200</entry>
+                <entry>2400</entry>
+                <entry>7,50</entry>
+                <entry>1810</entry>
+                <entry>3790</entry>
+                <entry>61,0</entry>
+              </row>
+              <row>
+                <entry>400</entry>
+                <entry>86,7</entry>
+                <entry>720</entry>
+                <entry>2100</entry>
+                <entry>4300</entry>
+                <entry>4760</entry>
+                <entry>200</entry>
+                <entry>200</entry>
+                <entry>80</entry>
+                <entry>32</entry>
+                <entry>32</entry>
+                <entry>2600</entry>
+                <entry>3000</entry>
+                <entry>11,0</entry>
+                <entry>2100</entry>
+                <entry>4080</entry>
+                <entry>61,0</entry>
+              </row>
+              <row>
+                <entry>500</entry>
+                <entry>109</entry>
+                <entry>720</entry>
+                <entry>2125</entry>
+                <entry>4650</entry>
+                <entry>5600</entry>
+                <entry>250</entry>
+                <entry>250</entry>
+                <entry>100</entry>
+                <entry>50</entry>
+                <entry>50</entry>
+                <entry>2600</entry>
+                <entry>3000</entry>
+                <entry>11,0</entry>
+                <entry>2880</entry>
+                <entry>7380</entry>
+                <entry>62,5</entry>
+              </row>
+              <row>
+                <entry>600</entry>
+                <entry>130</entry>
+                <entry>840</entry>
+                <entry>2450</entry>
+                <entry>5360</entry>
+                <entry>6600</entry>
+                <entry>250</entry>
+                <entry>250</entry>
+                <entry>100</entry>
+                <entry>50</entry>
+                <entry>50</entry>
+                <entry>3750</entry>
+                <entry>3400</entry>
+                <entry>15,0</entry>
+                <entry>3750</entry>
+                <entry>9500</entry>
+                <entry>66,0</entry>
+              </row>
+              <row>
+                <entry>700</entry>
+                <entry>152</entry>
+                <entry>840</entry>
+                <entry>2450</entry>
+                <entry>5360</entry>
+                <entry>6600</entry>
+                <entry>250</entry>
+                <entry>250</entry>
+                <entry>100</entry>
+                <entry>50</entry>
+                <entry>50</entry>
+                <entry>3750</entry>
+                <entry>3400</entry>
+                <entry>15,0</entry>
+                <entry>3850</entry>
+                <entry>9600</entry>
+                <entry>66,0</entry>
+              </row>
+              <row>
+                <entry>800</entry>
+                <entry>174</entry>
+                <entry>940</entry>
+                <entry>3270</entry>
+                <entry>6280</entry>
+                <entry>7600</entry>
+                <entry>250</entry>
+                <entry>250</entry>
+                <entry>100</entry>
+                <entry>80</entry>
+                <entry>80</entry>
+                <entry>5000</entry>
+                <entry>3700</entry>
+                <entry>22,0</entry>
+                <entry>5980</entry>
+                <entry>14650</entry>
+                <entry>74,0</entry>
+              </row>
+              <row>
+                <entry>1000</entry>
+                <entry>217</entry>
+                <entry>940</entry>
+                <entry>3270</entry>
+                <entry>6280</entry>
+                <entry>7600</entry>
+                <entry>250</entry>
+                <entry>250</entry>
+                <entry>100</entry>
+                <entry>80</entry>
+                <entry>80</entry>
+                <entry>5400</entry>
+                <entry>3700</entry>
+                <entry>22,0</entry>
+                <entry>6120</entry>
+                <entry>14790</entry>
+                <entry>74,0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id22474404">Bình (thùng) giãn nở</para>
+        <para id="id22474409">Trong các hệ thống ống dẫn nước kín thường có trang bị bình giãn nở. Mục đích của bình giãn nở là tạo nên một thể tích dự trữ nhằm điều hoà những ảnh hưởng do giản nỡ nhiệt của nước gây ra, ngoài ra bình còn có chức năng bổ sung nước cho hệ thống trong trường hợp bị rò rỉ .</para>
+        <para id="id22474425">Có 2 loại bình giãn nở : Loại hở và loại kín.</para>
+        <para id="id22474432">Bình giãn nở kiểu hở là bình mà mặt thoáng tiếp xúc với khí trời trên phía đầu hút của bơm và ở vị trí cao nhất của hệ thống. </para>
+        <para id="id22474447">Độ cao của bình giãn nở phải đảm bảo tạo ra cột áp thuỷ tĩnh lớn hơn tổn thất thuỷ lực từ vị trí nối thông bình giãn nở tới đầu hút của bơm.</para>
+        <figure id="id22474460">
+          <media id="id3453786" alt=""><image src="../../media/graphics1-d3f2.png" mime-type="image/png" height="304" width="415"/></media>
+        </figure>
+        <para id="id22474484">Trên hình 7-5 , cột áp thuỷ tĩnh đoạn AB phải đảm bảo lớn hơn trở lực của đoạn AC, nếu không nước về trên đường (1) không trở về đầu hút của bơm mà bị đẩy vào thùng giãn nỡ làm tràn nước. Khi lắp thêm trên đường hút của bơm các thiết bị phụ, ví dụ như lọc nước thì cần phải tăng độ cao đoạn AB.</para>
+        <para id="id22474500">Để tính toán thể tích bình giãn nở chúng ta căn cứ vào mức độ tăng thể tích của nước cho ở bảng 7-14 .</para>
+        <para id="id22474507">Bảng 7-14 : Giãn nở thể tích nước theo nhiệt độ</para>
+        <table id="id22474516" summary="">
+          <tgroup cols="11">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <colspec colnum="10" colname="c10"/>
+            <colspec colnum="11" colname="c11"/>
+            <tbody>
+              <row>
+                <entry>t, oC</entry>
+                <entry>5</entry>
+                <entry>10</entry>
+                <entry>15</entry>
+                <entry>20</entry>
+                <entry>25</entry>
+                <entry>30</entry>
+                <entry>35</entry>
+                <entry>40</entry>
+                <entry>45</entry>
+                <entry>50</entry>
+              </row>
+              <row>
+                <entry>% Thể tích</entry>
+                <entry>0,02</entry>
+                <entry>0,11</entry>
+                <entry>0,19</entry>
+                <entry>0,28</entry>
+                <entry>0,37</entry>
+                <entry>0,46</entry>
+                <entry>0,55</entry>
+                <entry>0,69</entry>
+                <entry>0,90</entry>
+                <entry>1,11</entry>
+              </row>
+              <row>
+                <entry>t, oC</entry>
+                <entry>55</entry>
+                <entry>60</entry>
+                <entry>65</entry>
+                <entry>70</entry>
+                <entry>75</entry>
+                <entry>80</entry>
+                <entry>85</entry>
+                <entry>90</entry>
+                <entry>95</entry>
+                <entry>100</entry>
+              </row>
+              <row>
+                <entry>% Thể tích</entry>
+                <entry>1,33</entry>
+                <entry>1,54</entry>
+                <entry>1,76</entry>
+                <entry>2,11</entry>
+                <entry>2,49</entry>
+                <entry>2,85</entry>
+                <entry>3,10</entry>
+                <entry>3,35</entry>
+                <entry>3,64</entry>
+                <entry>4,00</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id22002601">Bình giãn nở kiểu kín được sử dụng trong hệ thống nước nóng và nhiệt độ cao . Bình giãn nở kiểu kín không mở ra khí quyển và vận hành ở áp suất khí quyển. Bình cần trang bị van xả khí. Bình giãn nở kiểu kín được lắp đặt trên đường hút của bơm, cho phép khi vận hành áp suất hút của bơm gần như không đổi.</para>
+        <para id="id22002622">Trong hệ thống điều hoà chúng ta ít gặp bình giãn nở kiểu kín.</para>
+      </section>
+    </section>
+    <section id="id-223224100443">
+      <title>Lắp đặt hệ thống đường ống nước</title>
+      <para id="id22002646">Khi lắp đặt hệ thống đường ống nước cần lưu ý bố trí sao cho trở lực trên các nhánh ống đều nhau, muốn vậy cần bố trí sao cho tổng chiều dài các nhánh đều nhau.</para>
+      <para id="id22002660">Trên hình 7-6 trình bày sơ đồ đường dẫn nước lạnh cung cấp cho các FCU và AHU . Ở hình 7-6a , ta thấy chiều dài của các nhánh ABGHA, ABCFGHA và ABCDEFGHA là không đều nhau , do đó trở lực của các nhánh không đều nhau. Sơ đồ này gọi là sơ đồ đường quay về trực tiếp. Đây là sơ đồ đơn giản, dễ lắp đặt và tổng chiều dài đường ống nhỏ. Tuy nhiên do trở lực không đều nên cần lắp đặt các van điều chỉnh để điều chỉnh lượng nước cấp cho các nhánh đều nhau. </para>
+      <para id="id22002693">Ở hình 7-6b là sơ đồ đường quay về không trực tiếp , trong trường hợp này chiều dài đường đi của các nhánh đến các FCU và AHU đều nhau. Các FCU (AHU) có đường cấp nước dài thì đường hồi nước ngắn và ngược lại.</para>
+      <para id="id22002713">Cần lưu ý khi trở lực của các FCU đều nhau thì nên sử dụng sơ đồ không trực tiếp. Nếu các FCU có trở lực khác nhau thì về mặt kinh tế nên chọn sơ đồ loại trực tiếp , lúc đó cần sử dụng các biện pháp khác để hiệu chỉnh cần thiết. Một trong những biện pháp mà người ta hay áp dụng là sử dụng van cầu trên đường hút.</para>
+      <para id="id22002728">Hình 7-6 : Các loại sơ đồ bố trí đường ống</para>
+      <para id="id22002734">Trên hình 7-7 trình bày hai trường hợp lắp đặt đường ống theo sơ đồ không trực tiếp , phương án thường được áp dụng cho hệ thống kín.</para>
+      <para id="id22002746">Hình 7-7a trình bày minh họa ứng với trường hợp các FCU bố trí với độ cao khác nhau và trên hình 7-7b là trường hợp các FCU bố trí trên cùng một độ cao. Trong trường hợp này ngoài việc cần chú ý bố trí đường ống đi và về cho các nhánh đều nhau, người thiết kế cần lưu ý tới cột áp tĩnh do cột nước tạo nên. Theo cách bố trí như trên quảng đường đi cho tất cả các FCU gần như nhau và cột áp tĩnh đều nhau, do đó đảm bảo phân bố nước đến các nhánh đều nhau. </para>
+      <para id="id22002785">Hình 7-7 : Cách bố trí đường ống cấp nước FCU</para>
+      <para id="id22002791">* * *</para>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,311 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Những kiến thức cơ bản về không khí ẩm</title>
+  <metadata>
+  <md:content-id>m30114</md:content-id><md:title>Những kiến thức cơ bản về không khí ẩm</md:title>
+  <md:abstract>Điều hòa không khí là kỹ thuật tạo ra và duy trì điều kiện vi khí hậu thích hợp với con người và công nghệ của các quá trình sản xuất.</md:abstract>
+  <md:uuid>17e1d29e-47be-4644-912b-b68be598336e</md:uuid>
+</metadata>
+
+<content>
+    
+    <para id="id18905780">Để có thể đi sâu nghiên cứu kỹ thuật điều hoà không khí trước hết chúng tôi sơ lược các tính chất nhiệt động cơ bản của không khí ẩm. </para>
+    <section id="id-675022841765">
+      <title>KHÔNG KHÍ ẨM</title>
+      <para id="id18701906">Không khí xung quanh chúng ta là hỗn hợp của nhiều chất khí, chủ yếu là N2 và O2 ngoài ra còn một lượng nhỏ các khí trơ, CO2, hơi nước . . .</para>
+      <para id="id18701934">- Không khí khô : Không khí không chứa hơi nước gọi là không khí khô.Trong các tính toán thường không khí khô được coi là khí lý tưởng.</para>
+      <para id="id18701950">Thành phần của các chất trong không khí khô được phân theo tỷ lệ sau :</para>
+      <para id="id18701957">Bảng 1-1 : Tỷ lệ các chất khí trong không khí khô</para>
+      <table id="id18701963" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Thành phần</entry>
+              <entry>Theo khối lượng (%)</entry>
+              <entry>Theo thể tích (%)</entry>
+            </row>
+            <row>
+              <entry>- Ni tơ : N2- Ôxi : O2- Argon - A- Carbon-Dioxide : CO2</entry>
+              <entry>75,523,11,30.1</entry>
+              <entry>78,08420,9480,9340,0314</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id19015775">- Không khí ẩm : Không khí có chứa hơi nước gọi là không khí ẩm. Trong tự nhiên không có không khí khô tuyệt đối mà toàn là không khí ẩm. Không khí ẩm được chia ra :</para>
+      <para id="id19015792">+ Không khí ẩm chưa bão hòa : Là trạng thái mà hơi nước còn có thể bay hơi thêm vào được trong không khí.</para>
+      <para id="id19015803">+ Không khí ẩm bão hòa : Là trạng thái mà hơi nước trong không khí đã đạt tối đa và không thể bay hơi thêm vào đó được. Nếu bay hơi thêm vào bao nhiêu thì có bấy nhiêu hơi ẩm ngưng tụ lại.</para>
+      <para id="id19015817">+ Không khí ẩm quá bão hòa : Là không khí ẩm bão hòa và còn chứa thêm một lượng hơi nước nhất định. Tuy nhiên trạng thái quá bão hoà là trạng thái không ổn định mà có xu hướng biến đổi đến trạng thái bão hoà do lượng hơi nước dư bị tách dần ra khỏi không khí . Ví dụ như sương mù là không khí quá bão hòa.</para>
+      <para id="id19015834">Tính chất vật lý và ảnh hưởng của không khí đến cảm giác con người phụ thuộc nhiều vào lượng hơi nước tồn tại trong không khí.</para>
+    </section>
+    <section id="id-94449101519">
+      <title>CÁC THÔNG SỐ CỦA KHÔNG KHÍ ẨM </title>
+      <section id="id-0458136949538">
+        <title>Áp suất.</title>
+        <para id="id18109741">Ap suất không khí thường được gọi là khí áp. Ký hiệu là B. Nói chung giá trị B thay đổi theo không gian và thời gian. Tuy nhiên trong kỹ thuật điều hòa không khí giá trị chênh lệch không lớn có thể bỏ qua và người ta coi B không đổi. Trong tính toán người ta lấy ở trạng thái tiêu chuẩn Bo = 760 mmHg .</para>
+        <para id="id18109761">Đồ thị I-d của không khí ẩm thường được xây dựng ở áp suất B = 745mmHg và Bo = 760mmHg .</para>
+      </section>
+      <section id="id-840447014294">
+        <title>Khối lượng riêng và thể tích riêng.</title>
+        <para id="id18109783">Khối lượng riêng của không khí là khối lượng của một đơn vị thể tích không khí . Ký hiệu là , đơn vị kg/m3 .</para>
+        <para id="id18109804"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>ρ</m:mi></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= {  {1}  over  {ρ} } ,m rSup { size 8{3} } / ital "kg"} {}</m:annotation></m:semantics></m:math>(1-1)Đại lượng nghịch đảo của khối lượng riêng là thể tích riêng. Ký hiệu là v</para>
+        <para id="id18809153">Khối lượng riêng và thể tích riêng là hai thông số phụ thuộc.</para>
+        <para id="id18809161">Khối lượng riêng thay đổi theo nhiệt độ và khí áp. Tuy nhiên cũng như áp suất sự thay đổi của khối lượng riêng của không khí trong thực tế kỹ thuật không lớn nên người ta lấy không đổi ở điều kiện tiêu chuẩn : to = 20oC và B = Bo = 760mmHg :  = 1,2 kg/m3</para>
+      </section>
+      <section id="id-784103918329">
+        <title>Độ ẩm </title>
+        <section id="id-124157296346">
+          <title>Độ ẩm tuyệt đối .</title>
+          <para id="id18809219"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mi>V</m:mi></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ rSub { size 8{h} } = {  {G rSub { size 8{h} } }  over  {V} } , ital "kg"/m rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>(1-2)Là khối lượng hơi ẩm trong 1m3 không khí ẩm. Giả sử trong V (m3) không khí ẩm có chứa Gh (kg) hơi nước thì độ ẩm tuyệt đối ký hiệu là h được tính như sau :</para>
+          <para id="id18034396"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>v</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>T</m:mi></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ rSub { size 8{h} } = {  {1}  over  {v rSub { size 8{h} } } } = {  {p rSub { size 8{h} } }  over  {R rSub { size 8{h} }  "." T} } , ital "kg"/m rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>(1-3)Vì hơi nước trong không khí có thể coi là khí lý tưởng nên:</para>
+          <para id="id5331094">trong đó : </para>
+          <para id="id5331098">ph - Phân áp suất của hơi nước trong không khí chưa bão hoà, N/m2</para>
+          <para id="id5331115">Rh - Hằng số của hơi nước Rh = 462 J/kg.oK</para>
+          <para id="id18785163">T - Nhiệt độ tuyệt đối của không khí ẩm, tức cũng là nhiệt độ của hơi nước , oK</para>
+          <para id="id18785177"/>
+        </section>
+        <section id="id-987324754445">
+          <title>Độ ẩm tương đối.</title>
+          <para id="id18785189"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>max</m:mtext></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>,%</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ= {  {ρ rSub { size 8{h} } }  over  {ρ rSub { size 8{"max"} } } } ",%"} {}</m:annotation></m:semantics></m:math>(1-4)Độ ẩm tương đối của không khí ẩm , ký hiệu là  (%) là tỉ số giữa độ ẩm tuyệt đối h của không khí với độ ẩm bão hòa max ở cùng nhiệt độ với trạng thái đã cho.</para>
+          <para id="id18244611">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>ϕ</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:msub>
+                              <m:mi>p</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>h</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>p</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mtext>max</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mtext>,%</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ϕ= {  {p rSub { size 8{h} } }  over  {p rSub { size 8{"max"} } } } ",%"} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id18244691">(1-5)hay :</para>
+          <para id="id18244719">Độ ẩm tương đối biểu thị mức độ chứa hơi nước trong không khí ẩm so với không khí ẩm bão hòa ở cùng nhiệt độ.</para>
+          <para id="id18244726">Khi  = 0 đó là trạng thái không khí khô.</para>
+          <para id="id18244739">0 &lt;  &lt; 100 đó là trạng thái không khí ẩm chưa bão hoà.</para>
+          <para id="id18987937">  = 100 đó là trạng thái không khí ẩm bão hòa.</para>
+          <para id="id18987952">- Độ ẩm  là đại lượng rất quan trọng của không khí ẩm có ảnh hưởng nhiều đến cảm giác của con người và khả năng sử dụng không khí để sấy các vật phẩm.</para>
+          <para id="id18987972">- Độ ẩm tương đối  có thể xác định bằng công thức, hoặc đo bằng ẩm kế . Ẩm kế là thiết bị đo gồm 2 nhiệt kế : một nhiệt kế khô và một nhiệt kế ướt. Nhiệt kế ướt có bầu bọc vải thấm nước ở đó hơi nước thấm ở vải bọc xung quanh bầu nhiệt kế khi bốc hơi vào không khí sẽ lấy nhiệt của bầu nhiệt kế nên nhiệt độ bầu giảm xuống bằng nhiệt độ nhiệt kế ướt tư ứng với trạng thái không khí bên ngoài. Khi độ ẩm tương đối bé , cường độ bốc hơi càng mạnh, độ chênh nhiệt độ giữa 2 nhiệt kế càng cao. Do đó độ chênh nhiệt độ giữa 2 nhiệt kế phụ thuộc vào độ ẩm tương đối và nó được sử dụng để làm cơ sở xác định độ ẩm tương đối . Khi  =100%, quá trình bốc hơi ngừng và nhiệt độ của 2 nhiệt kế bằng nhau. </para>
+        </section>
+      </section>
+      <section id="id-341015612165">
+        <title>Dung ẩm (độ chứa hơi).</title>
+        <para id="id18988036"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kgkkk</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d= {  {G rSub { size 8{h} } }  over  {G rSub { size 8{k} } } } , ital "kg"/ ital "kgkkk"} {}</m:annotation></m:semantics></m:math>(1-6) Dung ẩm hay còn gọi là độ chứa hơi, được ký hiệu là d là lượng hơi ẩm chứa trong 1 kg không khí khô.</para>
+        <para id="id17524654">- Gh : Khối lượng hơi nước chứa trong không khí, kg</para>
+        <para id="id17524667">(1-7)- Gk : Khối lượng không khí khô, kg</para>
+        <para id="id17524702"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d= {  {G rSub { size 8{h} } }  over  {G rSub { size 8{k} } } } = {  {ρ rSub { size 8{h} } }  over  {ρ rSub { size 8{k} } } } = {  {p rSub { size 8{h} } }  over  {p rSub { size 8{k} } } }  "."  {  {R rSub { size 8{k} } }  over  {R rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math>Ta có quan hệ:</para>
+        <para id="id18696851"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>622</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mfrac><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>p</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kgkkk</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d=0,"622" "."  {  {p rSub { size 8{h} } }  over  {p rSub { size 8{k} } } } = {  {p rSub { size 8{h} } }  over  {p - p rSub { size 8{h} } } } , ital "kg"/ ital "kgkkk"} {}</m:annotation></m:semantics></m:math>(1-8)Sau khi thay R = 8314/ ta có</para>
+      </section>
+      <section id="id-248975567655">
+        <title>Nhiệt độ.</title>
+        <para id="id18691909">Nhiệt độ là đại lượng biểu thị mức độ nóng lạnh. Đây là yếu tố ảnh hưởng lớn nhất đến cảm giác của con người. Trong kỹ thuật điều hòa không khí người ta thường sử dụng 2 thang nhiệt độ là độ C và độ F. Đối với một trạng thái không khí nhất định nào đó ngoài nhiệt độ thực của nó trong kỹ thuật còn có 2 giá trị nhiệt độ có ảnh hưởng nhiều đến các hệ thống và thiết bị là nhiệt độ điểm sương và nhiệt độ nhiệt kế ướt.</para>
+        <para id="id18534252">- Nhiệt độ điểm sương: Khi làm lạnh không khí nhưng giữ nguyên dung ẩm d (hoặc phân áp suất ph) tới nhiệt độ ts nào đó hơi nước trong không khí bắt đầu ngưng tụ thành nước bão hòa. Nhiệt độ ts đó gọi là nhiệt độ điểm sương. </para>
+        <para id="id18534290">Như vậy nhiệt độ điểm sương của một trạng thái bất kỳ nào đó là nhiệt độ ứng với trạng thái bão hòa và có dung ẩm bằng dung ẩm của trạng thái đã cho. Hay nói cách khác nhiệt độ điểm sương là nhiệt độ bão hòa của hơi nước ứng với phân áp suất ph đã cho. Từ đây ta thấy giữa ts và d có mối quan hệ phụ thuộc.</para>
+        <para id="id18534324">- Nhiệt độ nhiệt kế ướt : Khi cho hơi nước bay hơi đoạn nhiệt vào không khí chưa bão hòa (I=const) . Nhiệt độ của không khí sẽ giảm dần trong khi độ ẩm tương đối tăng lên. Tới trạng thái  = 100% quá trình bay hơi chấm dứt. Nhiệt độ ứng với trạng thái bão hoà cuối cùng này gọi là nhiệt độ nhiệt độ nhiệt kế ướt và ký hiệu là tư . Người ta gọi nhiệt độ nhiệt kế ướt là vì nó được xác định bằng nhiệt kế có bầu thấm ướt nước.</para>
+        <para id="id18534366">Như vậy nhiệt độ nhiệt kế ướt của một trạng thái là nhiệt độ ứng với trạng thái bão hòa và có entanpi I bằng entanpi của trạng thái đã cho. Giữa entanpi I và nhiệt độ nhiệt kế ướt tư có mối quan hệ phụ thuộc. Trên thực tế ta có thể đo được nhiệt độ nhiệt kế ướt của trạng thái không khí hiện thời là nhiệt độ trên bề mặt thoáng của nước.</para>
+      </section>
+      <section id="id-989551405034">
+        <title>Entanpi</title>
+        <para id="id17951342">Entanpi của không khí ẩm bằng entanpi của không khí khô và của hơi nước chứa trong nó. </para>
+        <para id="id17951351">(1-9)Entanpi của không khí ẩm được tính cho 1 kg không khí khô. Ta có công thức:</para>
+        <para id="id17951383">I = Cpk.t + d (ro + Cph.t) kJ/kg kkk</para>
+        <para id="id17951407">Trong đó :</para>
+        <para id="id17951411">Cpk - Nhiệt dung riêng đẳng áp của không khí khô Cpk = 1,005 kJ/kg.oC</para>
+        <para id="id17951435">Cph - Nhiệt dung riêng đẳng áp của hơi nước ở 0oC : Cph = 1,84 kJ/kg.oC</para>
+        <para id="id17951464">ro - Nhiệt ẩn hóa hơi của nước ở 0oC : ro = 2500 kJ/kg</para>
+        <para id="id17951487">(1-10)Như vậy:</para>
+        <para id="id18760574">I = 1,005.t + d (2500 + 1,84.t) kJ/kg kkk</para>
+      </section>
+    </section>
+    <section id="id-0303760411381">
+      <title>ĐỒ THỊ I-d VÀ t-d CỦA KHÔNG KHÍ ẨM</title>
+      <section id="id-249849616579">
+        <title>Đồ thị I-d.</title>
+        <para id="id18760600">Đồ thị I-d biểu thị mối quan hệ của các đại lượng t, , I, d và pbh của không khí ẩm . Đồ thị được giáo sư L.K.Ramzin (Nga) xây dựng năm 1918 và sau đó được giáo sư Mollier (Đức) lập năm 1923. Nhờ đồ thị này ta có thể xác định được tất cả các thông số còn lại của không khí ẩm khi biết 2 thông số bất kỳ . Đồ thị I-d thường được các nước Đông Âu và Liên xô (cũ) sử dụng.</para>
+        <para id="id18760628">Đồ thị I-d được xây dựng ở áp suất khí quyển 745mmHg và 760mmHg.</para>
+        <para id="id18760633">Đồ thị gồm 2 trục I và d nghiêng với nhau một góc 135o. Mục đích xây dựng các trục nghiêng một góc 135o là nhằm làm giãn khoảng cách giữa các đường cong tham số để thuận lợi cho việc tra cứu.</para>
+        <para id="id18760658">Trên đồ thị này các đường I = const nghiêng với trục hoành một góc 135o, đường d = const là những đường thẳng đứng. Đối với đồ thị I-d được xây dựng theo cách trên cho thấy các đường tham số hầu như chỉ nằm trên góc 1/4 thứ nhất .Vì vậy, để hình vẽ được gọn người ta xoay trục d lại vuông góc với trục I mà vẫn giữ nguyên các đường cong như đã biểu diễn, tuy nhiên khi tra cứu entanpi I của không khí ta vẫn tra theo đường nghiêng với trục hoành một góc 135o.</para>
+        <para id="id18760695">Trên đồ thị I-d các đường đẳng nhiệt t=const là những đường thẳng chếch lên trên , các đường  = const là những đường cong lồi, càng lên trên khoảng cách giữa chúng càng xa. Các đường  = const không cắt nhau và không đi qua gốc toạ độ. Đi từ trên xuống dưới độ ẩm  càng tăng. Đường cong  =100% hay còn gọi là đường bão hoà ngăn cách giữa 2 vùng : Vùng chưa bão hoà và vùng ngưng kết hay còn gọi là vùng sương mù. Các điểm nằm trong vùng sương mù thường không ổn định mà có xung hướng ngưng kết bớt hơi nước và chuyển về trạng thái bão hoà .</para>
+        <para id="id17529479">Khi áp suất khí quyển thay đổi thì đồ thị I-d cũng thay đổi theo. Áp suất khí quyển thay đổi trong khoảng 20mmHg thì sự thay đổi đó là không đáng kể.</para>
+        <para id="id17529491">Trên hình 1.1 là đồ thị I-d của không khí ẩm , xây dựng ở áp suất khí quyển Bo= 760mmHg. Trên đồ thị này ở xung quanh còn có vẽ thêm các đường =const giúp cho tra cứu các sơ đồ tuần hoàn không khí trong chương 4.</para>
+        <para id="id17529518">Hình 1.1 : Đồ thị I-d của không khí ẩm</para>
+      </section>
+      <section id="id-787738538724">
+        <title>Đồ thị d-t.</title>
+        <para id="id17529533">Đồ thị d-t được các nước Anh, Mỹ , Nhật, Úc ...vv sử dụng rất nhiều </para>
+        <para id="id17529540">Đồ thị d-t có 2 trục d và t vuông góc với nhau , còn các đường đẳng entanpi I=const tạo thành gốc 135o so với trục t. Các đường  = const là những đường cong tương tự như trên đồ thị I-d. Có thể coi đồ thị d-t là hình ảnh của đồ thị I-d qua một gương phản chiếu.</para>
+        <para id="id17529566">Hình 1.2 : Đồ thị t-d của không khí ẩm</para>
+        <para id="id17529572">Đồ thị d-t chính là đồ thị t-d khi xoay 90o , được Carrrier xây dựng năm 1919 nên thường được gọi là đồ thị Carrier.</para>
+        <para id="id17529590">Trục tung là độ chứa hơi d (g/kg), bên cạnh là hệ số nhiệt hiện SHF (Sensible)</para>
+        <para id="id17529598">Trục hoành là nhiệt độ nhiệt kế khô t (oC) </para>
+        <para id="id17529611">Trên đồ thị có các đường tham số</para>
+        <para id="id17529616">- Đường I=const tạo với trục hoành một góc 135o. Các giá trị entanpi của không khí cho tbên cạnh đường =100%, đơn vị kJ/kg không khí khô</para>
+        <para id="id18881616">- Đường =const là những đường cong lõm, càng đi lên phía trên (d tăng)  càng lớn. Trên đường =100% là vùng sương mù.</para>
+        <para id="id18881643">- Đường thể tích riêng v = const là những đường thẳng nghiêng song song với nhau, đơn vị m3/kg không khí khô.</para>
+        <para id="id18881658">- Ngoài ra trên đồ thị còn có đường Ihc là đường hiệu chỉnh entanpi (sự sai lệch giữa entanpi không khí bão hoà và chưa bão hoà)</para>
+      </section>
+    </section>
+    <section id="id-648085977655">
+      <title>MỘT SỐ QUÁ TRÌNH CƠ BẢN TRÊN ĐỒ THỊ I-d </title>
+      <section id="id-885225729243">
+        <title>Quá trình thay đổi trạng thái của không khí .</title>
+        <para id="id18881694">Quá trình thay đổi trạng thái của không khí ẩm từ trạng thái A (tA, A) đến B (tB, B) được biểu thị bằng đoạn thẳng AB, mủi tên chỉ chiều quá trình gọi là tia quá trình. </para>
+        <figure id="id18881740">
+          <media id="id1166934538438" alt=""><image src="../../media/graphics1-e5c0.png" mime-type="image/png" height="236" width="279"/></media>
+        </figure>
+        <para id="id18822305">Đặt (IA - IB)/(dA-dB) = I/d =AB gọi là hệ số góc tia của quá trình AB</para>
+        <para id="id18822361">Ta hãy xét ý nghĩa hình học của hệ số AB </para>
+        <para id="id18822376">Ký hiệu góc giữa tia AB với đường nằm ngang là . Ta có</para>
+        <para id="id18822390">I = IB - IA = m.AD</para>
+        <para id="id18822415">d= dB - dA = n.BC</para>
+        <para id="id18822431">Trong đó m, n là tỉ lệ xích của các trục toạ độ.</para>
+        <para id="id18822437">Từ đây ta có</para>
+        <para id="id18822442">AB = I/d = m.AD/n.BC</para>
+        <para id="id18221589">AB = (tg + tg45o).m/n = (tg + 1).m/n</para>
+        <para id="id18221621">Như vậy trên trục toạ độ I-d có thể xác định tia AB thông qua giá trị AB . Để tiện cho việc sử dụng trên đồ thị ở ngoài biên người ta vẽ thêm các đường  = const . Các đường  = const có các tính chất sau :</para>
+        <para id="id18221656">- Hệ số góc tia  phản ánh hướng của quá trình AB, mỗi quá trình  có một giá trị nhất định. </para>
+        <para id="id18221681">- Các đường  có trị số như nhau thì song song với nhau.</para>
+        <para id="id18221699">- Tất cả các đường  đều đi qua góc tọa độ (I=0 và d=0).</para>
+      </section>
+      <section id="id-31804747634">
+        <title> Quá trình hòa trộn hai dòng không khí.</title>
+        <para id="id18221728">Trong kỹ thuật điều hòa không khí người ta thường gặp các quá trình hòa trộn 2 dòng không khí ở các trạng thái khác nhau để đạt được một trạng thái cần thiết. Quá trình này gọi là quá trình hoà trộn.</para>
+        <para id="id18221746">Giả sử hòa trộn một lượng không khí ở trạng thái A(IA, dA) có khối lượng phần khô là LA với một lượng không khí ở trạng thái B(IB, dB) có khối lượng phần khô là LB và thu được một lượng không khí ở trạng thái C(IC, dC) có khối lượng phần khô là LC. Ta xác định các thông số của trạng thái hoà trộn C.</para>
+        <figure id="id18401116">
+          <media id="id1166934484047" alt=""><image src="../../media/graphics2-7657.png" mime-type="image/png" height="278" width="319"/></media>
+        </figure>
+        <para id="id18401140">Ta có các phương trình:</para>
+        <para id="id18401147">- Cân bằng khối lượng</para>
+        <para id="id18401153">LC = LA + LB(1-11)</para>
+        <para id="id18401184">- Cân bằng ẩm</para>
+        <para id="id18401190">dC.LC = dA .LA + dB .LB(1-12)</para>
+        <para id="id8543718">- Cân bằng nhiệt</para>
+        <para id="id8543724">IC.LC = IA .LA + IB .LB(1-13)</para>
+        <para id="id8543768">Thế (a) vào (b), (c) và trừ theo vế ta có :</para>
+        <para id="id8543777">(IA - IC).LA = (IC - IB).LB</para>
+        <para id="id8543813">(dA - dC).LA = (dC - dB).LB</para>
+        <para id="id8543848"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {I rSub { size 8{A} }  - I rSub { size 8{C} } }  over  {d rSub { size 8{A} }  - d rSub { size 8{C} } } } = {  {I rSub { size 8{C} }  - I rSub { size 8{B} } }  over  {d rSub { size 8{C} }  - d rSub { size 8{B} } } } } {}</m:annotation></m:semantics></m:math>(1-14)hay :</para>
+        <para id="id18920023"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {I rSub { size 8{A} }  - I rSub { size 8{C} } }  over  {I rSub { size 8{C} }  - I rSub { size 8{B} } } } = {  {d rSub { size 8{A} }  - d rSub { size 8{C} } }  over  {d rSub { size 8{C} }  - d rSub { size 8{B} } } } = {  {L rSub { size 8{B} } }  over  {L rSub { size 8{A} } } } } {}</m:annotation></m:semantics></m:math>(1-15)Từ biểu thức này ta rút ra:</para>
+        <para id="id18314694">- Phương trình (1-14) là các phương trình đường thẳng AC và BC, các đường thẳng này có cùng hệ số góc tia và chung điểm C nên ba điểm A, B, C thẳng hàng. Điểm C nằm trên đoạn AB.</para>
+        <para id="id18314710">- Theo phương trình (1-15) suy ra điểm C nằm trên AB và chia đoạn AB theo tỷ lệ LB/LA</para>
+        <para id="id18314728">(1-16)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>A</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>B</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{C} } =I rSub { size 8{A} }  "."  {  {L rSub { size 8{A} } }  over  {L rSub { size 8{C} } } } +I rSub { size 8{B} }  "."  {  {L rSub { size 8{B} } }  over  {L rSub { size 8{C} } } } } {}</m:annotation></m:semantics></m:math>Trạng thái C được xác định như sau :</para>
+        <para id="id19068352">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>d</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>d</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>A</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:msub>
+                            <m:mi>L</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>A</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>L</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>C</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mfrac>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>d</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>B</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>L</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>B</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>L</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>C</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{C} } =d rSub { size 8{A} }  "."  {  {L rSub { size 8{A} } }  over  {L rSub { size 8{C} } } } +d rSub { size 8{B} }  "."  {  {L rSub { size 8{B} } }  over  {L rSub { size 8{C} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id18905824">(1-17)</para>
+        <para id="id18905850">* * *</para>
+      </section>
+    </section>
+  </content>
+</document>

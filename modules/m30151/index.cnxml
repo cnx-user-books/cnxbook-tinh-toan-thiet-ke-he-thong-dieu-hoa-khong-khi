@@ -1,0 +1,611 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Môi trường không khí và chọn thông số tính toán cho các hệ thống điều hòa</title>
+  <metadata>
+  <md:content-id>m30151</md:content-id><md:title>Môi trường không khí và chọn thông số tính toán cho các hệ thống điều hòa</md:title>
+  <md:abstract>Để thiết kế hệ thống điều hoà không khí cần phải tiến hành chọn các thông số tính toán của không khí  ngoài trời và thông số tiện nghi trong nhà. Các thông số đó bao gồm:
+	- Nhiệt độ t (oC) . 
+	- Độ ẩm tương đối  (%) .
+	- Tốc độ chuyển động không khí trong phòng  (m/s) .
+	- Độ ồn cho phép trong phòng Lp (dB) .
+	- Lượng khí tươi cung cấp LN (m3/s) .
+	- Nồng độ cho phép của các chất độc hại trong phòng .</md:abstract>
+  <md:uuid>d691c82a-d67a-4bae-b8f8-e86630039f4c</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-667693616947">
+      <title>ẢNH HƯỞNG CỦA MÔI TRƯỜNG TỚI CON NGƯỜI VÀ SẢN XUẤT</title>
+      <section id="id-54244654525">
+        <title>Ảnh hưởng của môi trường đến con người</title>
+        <section id="id-382142974637">
+          <title>Nhiệt độ.</title>
+          <para id="id5071455">Nhiệt độ là yếu tố gây cảm giác nóng lạnh đối với con người. Cơ thể con người có nhiệt độ là tct = 37oC. Trong quá trình vận động cơ thể con người luôn luôn toả ra nhiệt lượng qtỏa. Lượng nhiệt do cơ thể toả ra phụ thuộc vào cường độ vận động. Để duy trì thân nhiệt cơ thể thường xuyên trao đổi nhiệt với môi trường. Sự trao đổi nhiệt đó sẽ biến đổi tương ứng với cường độ vận động. Có 2 hình thức trao đổi nhiệt với môi trường xung quanh.</para>
+          <para id="id5071499">- Truyền nhiệt : Truyền nhiệt từ cơ thể con người vào môi trường xung quanh dưới 3 cách: dẫn nhiệt, đối lưu và bức xạ. Nói chung nhiệt lượng trao đổi theo hình thức truyền nhiệt phụ thuộc chủ yếu vào độ chênh nhiệt độ giữa cơ thể và môi trường xung quanh. Lượng nhiệt trao đổi này gọi là nhiệt hiện . Ký hiệu qh</para>
+          <para id="id18117888">Khi nhiệt độ môi trường tmt nhỏ hơn thân nhiệt, cơ thể truyền nhiệt cho môi trường, khi nhiệt độ môi trường lớn hơn thân nhiệt thì cơ thể nhận nhiệt từ môi trường. Khi nhiệt độ môi trường bé, t = tct-tmt lớn, qh lớn, cơ thể mất nhiều nhiệt nên có cảm giác lạnh và ngược lại khi nhiệt độ môi trường lớn khả năng thải nhiệt ra môi trường giảm nên có cảm giác nóng. Nhiệt hiện qh phụ thuộc vào t = tct-tmt và tốc độ chuyển động của không khí . Khi nhiệt độ môi trường không đổi, tốc độ không khí ổn định thì qh không đổi. Nếu cường độ vận động của con người thay đổi thì lượng nhiệt hiện qh không thể cân bằng với lượng nhiệt do cơ thể sinh ra. Để thải hết nhiệt lượng do cơ thể sinh ra, cần có hình thức trao đổi thứ 2, đó là toả ẩm.</para>
+          <para id="id18117992">- Tỏa ẩm : Ngoài hình thức truyền nhiệt cơ thể còn trao đổi nhiệt với môi trường xung quanh thông qua tỏa ẩm. Tỏ ẩm có thể xảy ra trong mọi phạm vi nhiệt độ và khi nhiệt độ môi trường càng cao thì cường độ càng lớn. Nhiệt năng của cơ thể được thải ra ngoài cùng với hơi nước dưới dạng nhiệt ẩn, nên lượng nhiệt này được gọi là nhiệt ẩn. Ký hiệu qw.</para>
+          <para id="id17952863">Ngay cả khi nhiệt độ môi trường lớn hơn 37oC, cơ thể con người vẫn thải được nhiệt ra môi trường thông qua hình thức tỏa ẩm, đó là thoát mồ hôi . Người ta đã tính được rằng cứ thoát 1 g mồ hôi thì cơ thể thải được một lượng nhiệt xấp xỉ 2500J. Nhiệt độ càng cao, độ ẩm môi trường càng bé thì mức độ thoát mồ hôi càng nhiều. </para>
+          <para id="id17952889">Nhiệt ẩn có giá trị càng cao khi hình thức thải nhiệt bằng truyền nhiệt không thuận lợi.</para>
+          <para id="id17952900">Tổng nhiệt lượng truyền nhiệt và tỏa ẩm phải đảm bảo luôn luôn bằng lượng nhiệt do cơ thể sản sinh ra.</para>
+          <para id="id17952908">Mối quan hệ giữa 2 hình thức phải luôn luôn đảm bảo :</para>
+          <para id="id17952916">qtỏa = qh + qW</para>
+          <para id="id17952936">Đây là một phương trình cân bằng động, giá trị của mỗi một đại lượng trong phương trình có thể thay đổi tuỳ thuộc vào cường độ vận động, nhiệt độ, độ ẩm, tốc độ chuyển động của không khí môi trường xung quanh...vv</para>
+          <para id="id16763623">Nếu vì một lý do gì đó mất cân bằng thì sẽ gây rối loạn và sinh đau ốm </para>
+          <para id="id16763629">Nhiệt độ thích hợp nhất đối với con người nằm trong khoảng 22-27 oC .</para>
+        </section>
+        <section id="id-242456617199">
+          <title>Độ ẩm tương đối</title>
+          <para id="id16763652">Độ ẩm tương đối có ảnh hưởng quyết định tới khả năng thoát mồ hôi vào trong môi trường không khí xung quanh. Quá trình này chỉ có thể tiến hành khi  &lt; 100%. Độ ẩm càng thấp thì khả năng thoát mồ hôi càng cao, cơ thể cảm thấy dễ chịu. </para>
+          <para id="id16763671">Độ ẩm quá cao, hay quá thấp đều không tốt đối với con người.</para>
+          <para id="id16763678">- Độ ẩm cao : Khi độ ẩm tăng lên khả năng thoát mồ hôi kém, cơ thể cảm thấy rất nặng nề , mệt mỏi và dễ gây cảm cúm. Người ta nhận thấy ở một nhiệt độ và tốc độ gió không đổi khi độ ẩm lớn khả năng bốc mồ hôi chậm hoặc không thể bay hơi được, điều đó làm cho bề mặt da có lớp mồ hôi nhớp nháp.</para>
+          <para id="id16763706">- Độ ẩm thấp : Khi độ ẩm thấp mồi hôi sẽ bay hơi nhanh làm da khô, gây nứt nẻ chân tay, môi ...vv. Như vậy độ ẩm quá thấp cũng không tốt cho cơ thể.</para>
+          <para id="id18997890">Độ ẩm thích hợp đối với cơ thể con người nằm trong khoảng tương đối rộng = 50 70%.</para>
+        </section>
+        <section id="id-39111069979">
+          <title>Tốc độ không khí </title>
+          <para id="id18997918"> Tốc độ không khí xung quanh có ảnh hưởng đến cường độ trao đổi nhiệt và trao đổi chất (thoát mồ hôi) giữa cơ thể con người với môi trường xung quanh. Khi tốc độ lớn cường độ trao đổi nhiệt ẩm tăng lên. Vì vậy khi đứng trước gió ta cảm thấy mát và thường da khô hơn nơi yên tĩnh trong cùng điều kiện về độ ẩm và nhiệt độ .</para>
+          <para id="id18997936">Khi nhiệt độ không khí thấp, tốc độ quá lớn thì cơ thể mất nhiệt gây cảm giác lạnh. Tốc độ gió thích hợp tùy thuộc vào nhiều yếu tố : nhiệt độ gió, cường độ lao động, độ ẩm, trạng thái sức khỏe của mỗi người. . .vv.</para>
+          <para id="id18997952">Trong kỹ thuật điều hòa không khí người ta chỉ quan tâm tốc độ gió trong vùng làm việc, tức là vùng dưới 2m kể từ sàn nhà. Đây là vùng mà một người bất kỳ khi đứng trong phòng đều lọt thỏm vào trong khu vực đó.</para>
+        </section>
+        <section id="id-929530467072">
+          <title>Nồng độ các chất độc hại.</title>
+          <para id="id18997977">Khi trong không khí có các chất độc hại chiếm một tỷ lệ lớn thì nó sẽ có ảnh hưởng đến sức khỏe con người. Mức độ tác hại của mỗi một chất tùy thuộc vào bản chất chất khí, nồng độ của nó trong không khí, thời gian tiếp xúc của con người, tình trạng sức khỏe ...vv.</para>
+          <para id="id18742196">Các chất độc hại bao gồm các chất chủ yếu sau :</para>
+          <para id="id18997997">- Bụi : Bụi ảnh hưởng đến hệ hô hấp . Tác hại của bụi phụ thuộc vào bản chất bụi, nồng độ và kích thước của nó. Kích thước càng nhỏ thì càng có hại vì nó tồn tại trong không khí lâu và khả năng thâm nhập vào cơ thể sâu hơn và rất khó khử bụi. Hạt bụi lớn thì khả năng khử dễ dàng hơn nên ít ảnh hưởng đến con người. Bụi có 2 nguồn gốc hữu cơ và vô cơ.</para>
+          <para id="id18742233">- Khí CO2, SO2 . . Các khí này không độc, nhưng khi nồng độ của chúng lớn thì sẽ làm giảm nồng độ O2 trong không khí, gây nên cảm giác mệt mỏi. Khi nồng độ quá lớn có thể dẫn đến ngạt thở .</para>
+          <para id="id18742273">- Các chất độ hại khác : Trong quá trình sản xuất và sinh hoạt trong không khí có thể có lẫn các chất độc hại như NH3, Clo . . vv là những chất rất có hại đến sức khỏe con người. </para>
+          <para id="id18742296">Cho tới nay không có tiêu chuẩn chung để đánh giá mức độ ảnh hưởng tổng hợp của các chất độc hại trong không khí.</para>
+          <para id="id18396480">Tuy các chất độc hại có nhiều nhưng trên thực tế trong các công trình dân dụng chất độc hại phổ biến nhất đó là khí CO2 do con người thải ra trong quá trình hô hấp. Vì thế trong kỹ thuật điều hoà người ta chủ yếu quan tâm đến nồng độ CO2.</para>
+          <para id="id18396506">Để đánh giá mức độ ô nhiểm người ta dựa vào nồng độ CO2 có trong không khí. </para>
+          <para id="id18396518">Bảng 2.1 trình bày mức độ ảnh hưởng của nồng độ CO2 trong không khí . Theo bảng này khi nồng độ CO2 trong không khí chiếm 0,5% theo thể tích là gây nguy hiểm cho con người. Nồng độ cho phép trong không khí là 0,15% theo thể tích.</para>
+          <para id="id18396547">Bảng 2.1 : Ảnh hưởng của nồng độ CO2 trong không khí</para>
+          <table id="id18396565" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Nồng độ CO2% thể tích</entry>
+                  <entry>Mức độ ảnh hưởng</entry>
+                </row>
+                <row>
+                  <entry>0,07</entry>
+                  <entry>- Chấp nhận được ngay cả khi có nhiều người trong phòng</entry>
+                </row>
+                <row>
+                  <entry>0,10</entry>
+                  <entry>- Nồng độ cho phép trong trường hợp thông thường</entry>
+                </row>
+                <row>
+                  <entry>0,15</entry>
+                  <entry>- Nồng độ cho phép khi dùng tính toán thông gió</entry>
+                </row>
+                <row>
+                  <entry>0,20-0,50</entry>
+                  <entry>- Tương đối nguy hiểm</entry>
+                </row>
+                <row>
+                  <entry>&gt; 0,50</entry>
+                  <entry>- Nguy hiểm</entry>
+                </row>
+                <row>
+                  <entry>4  5</entry>
+                  <entry>- Hệ thần kinh bị kích thích gây ra thở sâu và nhịp thở gia tăng. Nếu hít thở trong môi trường này kéo dài thì có thể gây ra nguy hiểm.</entry>
+                </row>
+                <row>
+                  <entry>8</entry>
+                  <entry>- Nếu thở trong môi trường này kéo dài 10 phút thì mặt đỏ bừng và đau đầu</entry>
+                </row>
+                <row>
+                  <entry>18 hoặc lớn hơn</entry>
+                  <entry>- Hết sức nguy hiểm có thể dẫn tới tử vong.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id18761393"/>
+        </section>
+        <section id="id-0654918809485">
+          <title>Độ ồn</title>
+          <para id="id18761406">Người ta phát hiện ra rằng khi con người làm việc lâu dài trong khu vực có độ ồn cao thì lâu ngày cơ thể sẽ suy sụp, có thể gây một số bệnh như : Stress, bồn chồn và gây các rối loạn gián tiếp khác. Độ ồn tác động nhiều đến hệ thần kinh. Mặt khác khi độ ồn lớn có thể làm ảnh hưởng đến mức độ tập trung vào công việc hoặc đơn giản hơn là gây sự khó chịu cho con người. Ví dụ các âm thanh của quạt trong phòng thư viện nếu quá lớn sẽ làm mất tập trung của người đọc và rất khó chịu. </para>
+          <para id="id18761425">Vì vậy độ ồn là một tiêu chuẩn quan trọng không thể bỏ qua khi thiết kế một hệ thống điều hòa không khí. Đặc biệt các hệ thống điều hoà cho các đài phát thanh, truyền hình, các phòng studio, thu âm thu lời thì yêu cầu về độ ồn là quan trọng nhất.</para>
+        </section>
+      </section>
+      <section id="id-392256700921">
+        <title>Ảnh hưởng của môi trường đến sản xuất.</title>
+        <para id="id18761456">Con người là một yếu tố vô cùng quan trọng trong sản xuất. Các thông số khí hậu có ảnh hưởng nhiều tới con người có nghĩa cũng ảnh hưởng tới năng suất và chất lượng sản phẩm một cách gián tiếp.</para>
+        <para id="id18761470">Ngoài ra các yếu tố khí hậu cũng ảnh hưởng trực tiếp tới chất lượng sản phẩm. Trong phần này chúng ta chỉ nghiên cứu ở khía cạnh này.</para>
+        <section id="id-660366709604">
+          <title>Nhiệt độ</title>
+          <para id="id11533243">Nhiệt độ có ảnh hưởng đến nhiều loại sản phẩm. Một số quá trình sản xuất đòi hỏi nhiệt độ phải nằm trong một giới hạn nhất định. Ví dụ :</para>
+          <para id="id11533256">- Kẹo Sôcôla : 7 - 8 oC</para>
+          <para id="id11533268">- Kẹo cao su : 20oC</para>
+          <para id="id11533279">- Bảo quả rau quả : 10oC</para>
+          <para id="id11533290">- Đo lường chính xác : 20 - 24 oC</para>
+          <para id="id11533302">- Dệt: 20 - 32oC</para>
+          <para id="id11533315">- Chế biến thịt, thực phẩm : Nhiệt độ cao làm sản phẩm chóng bị thiu .</para>
+          <para id="id11533326">Bảng 2.2 dưới đây là tiêu chuẩn về nhiệt độ và độ ẩm của một số quá trình sản xuất thường gặp</para>
+          <para id="id11533335">Bảng 2.2 : Điều kiện công nghệ của một số quá trình</para>
+          <table id="id18842219" summary="">
+            <tgroup cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>Quá trình</entry>
+                  <entry>Công nghệ sản xuất</entry>
+                  <entry>Nhiệt độ, oC</entry>
+                  <entry>Độ ẩm, %</entry>
+                </row>
+                <row>
+                  <entry>Xưởng in</entry>
+                  <entry>- Đóng và gói sách- Phòng in ấn- Nơi lưu trữ giấy- Phòng làm bản kẽm</entry>
+                  <entry>21  2424  2720  3321  33</entry>
+                  <entry>4545  5050  6040  50</entry>
+                </row>
+                <row>
+                  <entry>Sản xuất bia</entry>
+                  <entry>- Nơi lên men- Xử lý malt- Ủ chín- Các nơi khác</entry>
+                  <entry>3  410  1518  2216  24</entry>
+                  <entry>50  7080  8550  6045  65</entry>
+                </row>
+                <row>
+                  <entry>Xưởng bánh</entry>
+                  <entry>- Nhào bột- Đóng gói- Lên men</entry>
+                  <entry>24  2718  2427</entry>
+                  <entry>45  5550  6570  80</entry>
+                </row>
+                <row>
+                  <entry>Chế biến thực phẩm</entry>
+                  <entry>- Chế biến bơ- Mayonaise- Macaloni</entry>
+                  <entry>162421  27</entry>
+                  <entry>6040  5038</entry>
+                </row>
+                <row>
+                  <entry>Công nghệ chính xác</entry>
+                  <entry>- Lắp ráp chính xác- Gia công khác</entry>
+                  <entry>20  2424</entry>
+                  <entry>40  5045  55</entry>
+                </row>
+                <row>
+                  <entry>Xưởng len</entry>
+                  <entry>- Chuẩn bị- Kéo sợi- Dệt</entry>
+                  <entry>27  2927  2927  29</entry>
+                  <entry>6050  6060  70</entry>
+                </row>
+                <row>
+                  <entry>Xưởng sợi bông</entry>
+                  <entry>- Chải sợi- Xe sợi- Dệt và điều tiết cho sợi</entry>
+                  <entry>22  2522  2522  25</entry>
+                  <entry>55  6560  7070  90 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section id="id-32033159863">
+          <title>Độ ẩm tương đối</title>
+          <para id="id18489028">Độ ẩm cũng có ảnh nhiều đến một số sản phẩm</para>
+          <para id="id18489033">- Khi độ ẩm cao có thể gây nấm mốc cho một số sản phẩm nông nghiệp và công nghiệp nhẹ.</para>
+          <para id="id17529947">- Khi độ ẩm thấp sản phẩm sẽ khô, giòn không tốt hoặc bay hơi làm giảm chất lượng sản phẩm hoặc hao hụt trọng lượng.</para>
+          <para id="id17529957">Ví dụ </para>
+          <para id="id18489039">- Sản xuất bánh kẹo : Khi độ ẩm cao thì kẹo chảy nước. Độ ẩm thích hợp cho sản xuất bánh kẹo là  = 50-65%</para>
+          <para id="id17529976">- Ngành vi điện tử , bán dẫn : Khi độ ẩm cao làm mất tính cách điện của các mạch điện</para>
+        </section>
+        <section id="id-570641651354">
+          <title>Vận tốc không khí .</title>
+          <para id="id17529994">Tốc độ không khí cũng có ảnh hưởng đến sản xuất nhưng ở một khía cạnh khác</para>
+          <para id="id17530003">- Khi tốc độ lớn : Trong nhà máy dệt, sản xuất giấy . . sản phẩm nhẹ sẽ bay khắp phòng hoặc làm rối sợi. Trong một số trường hợp thì sản phẩm bay hơi nước nhanh làm giảm chất lượng.</para>
+          <para id="id17530017">Vì vậy trong một số xí nghiệp sản xuất người ta cũng qui định tốc độ không khí không được vượt quá mức cho phép.</para>
+        </section>
+        <section id="id-222650281195">
+          <title>Độ trong sạch của không khí.</title>
+          <para id="id17530038">Có nhiều ngành sản xuất bắt buộc phải thực hiện trong phòng không khí cực kỳ trong sạch như sản xuất hàng điện tử bán dẫn, tráng phim, quang học. Một số ngành thực phẩm cũng đòi hỏi cao về độ trong sạch của không khí tránh làm bẩn các thực phẩm.</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-459776111581">
+      <title>PHÂN LOẠI CÁC HỆ THỐNG ĐIỀU HOÀ KHÔNG KHÍ</title>
+      <section id="id-487184264751">
+        <title>Định nghĩa </title>
+        <para id="id19105952">Điều hòa không khí còn gọi là điều tiết không khí là quá trình tạo ra và giữ ổn định các thông số trạng thái của không khí theo một chương trình định sẵn không phụ thuộc vào điều kiện bên ngoài.</para>
+        <para id="id19105961">Khác với thông gió, trong hệ thống điều hòa , không khí trước khi thổi vào phòng đã được xử lý về mặt nhiệt ẩm. Vì thế điều tiết không khí đạt đạt hiệu quả cao hơn thông gió.</para>
+      </section>
+      <section id="id-116583755798">
+        <title>Phân loại các hệ thống điều hoà không khí</title>
+        <para id="id19105988">Có rất nhiều cách phân loại các hệ thống điều hoà không khí. Dưới đây trình bày 2 cách phổ biến nhất :</para>
+        <para id="id19105998">- Theo mức độ quan trọng :</para>
+        <para id="id19106003">+ Hệ thống điều hòa không khí cấp I : Hệ thống điều hoà có khả năng duy trì các thông số tính toán trong nhà với mọi phạm vi thông số ngoài trời.</para>
+        <para id="id19106020">+ Hệ thống điều hòa không khí cấp II : Hệ thống điều hoà có khả năng duy trì các thông số tính toán trong nhà với sai số không qúa 200 giờ trong 1 năm.</para>
+        <para id="id19106037">+ Hệ thống điều hòa không khí cấp III : Hệ thống điều hoà có khả năng duy trì các thông số tính toán trong nhà với sai số không qúa 400 giờ trong 1 năm.</para>
+        <para id="id16763060">Khái niệm về mức độ quan trọng mang tính tương đối và không rõ ràng. Chọn mức độ quan trọng là theo yêu cầu của khách hàng và thực tế cụ thể của công trình. Tuy nhiên hầu hết các hệ thống điều hoà trên thực tế được chọn là hệ thống điều hoà cấp III.</para>
+        <para id="id16763074">- Theo chức năng :</para>
+        <para id="id16763079">+ Hệ thống điều hoà cục bộ : Là hệ thống nhỏ chỉ điều hòa không khí trong một không gian hẹp, thường là một phòng. Kiểu điều hoà cục bộ trên thực tế chủ yếu sử dụng các máy điều hoà dạng cửa sổ , máy điều hoà kiểu rời (2 mãnh) và máy điều hoà ghép. </para>
+        <para id="id16763102">+ Hệ thống điều hoà phân tán : Hệ thống điều hòa không khí mà khâu xử lý nhiệt ẩm phân tán nhiều nơi. Có thể ví dụ hệ thống điều hoà không khí kiểu khuyếch tán trên thực tế như hệ thống điều hoà kiểu VRV (Variable Refrigerant Volume ) , kiểu làm lạnh bằng nước (Water chiller) hoặc kết hợp nhiều kiểu máy khác nhau trong 1 công trình.</para>
+        <para id="id16763131">+ Hệ thống điều hoà trung tâm : Hệ thống điều hoà trung tâm là hệ thống mà khâu xử lý không khí thực hiện tại một trung tâm sau đó được dẫn theo hệ thống kênh dẫn gió đến các hộ tiêu thụ. Hệ thống điều hoà trung tâm trên thực tế là máy điều hoà dạng tủ, ở đó không khí được xử lý nhiệt ẩm tại tủ máy điều hoà rồi được dẫn theo hệ thống kênh dẫn đến các phòng.</para>
+      </section>
+    </section>
+    <section id="id-00776771072929">
+      <title>CHỌN THÔNG SỐ TÍNH TOÁN CÁC HỆ THỐNG ĐIỀU HOÀ KHÔNG KHÍ</title>
+      <para id="id16763173">Việc chọn các thông số tính toán bao gồm thông số tính toán trong nhà và ngoài trời. Đối với thông số tính toán trong nhà tuỳ thuộc vào mục đích của hệ thống điều hoà.</para>
+      <para id="id18596173">- Đối với hệ thống điều hoà dân dụng, tức là hệ thống điều hoà chỉ nhằm mục đích tạo điều kiện tiện nghi cho con người. Các thông số tính toán trong nhà được lựa chọn theo các tiêu chuẩn sẽ nêu ở bảng 2-3 dưới đây.</para>
+      <para id="id18596188">- Đối với hệ thống điều hoà công nghiệp , tức hệ thống điều hoà phục vụ công nghệ của một quá trình sản xuất cụ thể. Trong trường hợp này , người thiết kế phải lấy số liệu thực tế từ nhà sản xuất là chính xác và phù hợp nhất . Các thông số tính toán này có thể tham khảo ở bảng dữ liệu 1.2. </para>
+      <section id="id-468701153887">
+        <title>Chọn nhiệt độ và độ ẩm tính toán</title>
+        <section id="id-572862404731">
+          <title> Nhiệt độ và độ ẩm trong nhà </title>
+          <para id="id18596226">Nhiệt độ và độ ẩm trong nhà được chọn tuỳ thuộc vào chức năng của phòng. Có thể chọn nhiệt độ và độ ẩm trong nhà theo bảng 2.3:</para>
+          <para id="id18596240">Bảng 2.3 Nhiệt độ và độ ẩm tính toán trong phòng</para>
+          <table id="id18596247" summary="">
+            <tgroup cols="7">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <tbody>
+                <row>
+                  <entry>KHU VỰC</entry>
+                  <entrytbl namest="c2" nameend="c7" cols="6">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <colspec colnum="3" colname="c3"/>
+                    <colspec colnum="4" colname="c4"/>
+                    <colspec colnum="5" colname="c5"/>
+                    <colspec colnum="6" colname="c6"/>
+                    <tbody>
+                      <row>
+                        <entrytbl namest="c1" nameend="c4" cols="2">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <tbody>
+                            <row>
+                              <entry namest="c1" nameend="c2">MÙA HÈ</entry>
+                            </row>
+                            <row>
+                              <entry>Hạng sang</entry>
+                              <entry>Bình thường</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                        <entry namest="c5" nameend="c6">MÙA ĐÔNG</entry>
+                      </row>
+                      <row>
+                        <entry>tT, oC</entry>
+                        <entry>, %</entry>
+                        <entry>tT, oC</entry>
+                        <entry>, %</entry>
+                        <entry>tT, oC</entry>
+                        <entry>, %</entry>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>Khu công cộng : Chung cư, Nhà ở, Khách sạn, Văn phòng, Bệnh viện, trường học</entry>
+                  <entry>23  24</entry>
+                  <entry>45  50</entry>
+                  <entry>25  26</entry>
+                  <entry>45  50</entry>
+                  <entry>23  25</entry>
+                  <entry>30  35</entry>
+                </row>
+                <row>
+                  <entry>Cửa hàng, cửa hiệu : Ngân hàng, của hàng bánh kẹo, mỹ phẩm, siêu thị</entry>
+                  <entry>24  26</entry>
+                  <entry>45  50</entry>
+                  <entry>25  27</entry>
+                  <entry>45  50</entry>
+                  <entry>22  24</entry>
+                  <entry>30  35</entry>
+                </row>
+                <row>
+                  <entry>Phòng thu âm thu lời, Nhà thờ, Quán bar, nhà hàng, nhà bếp. . .</entry>
+                  <entry>24  26</entry>
+                  <entry>50  55</entry>
+                  <entry>26  27</entry>
+                  <entry>50  60</entry>
+                  <entry>22  24</entry>
+                  <entry>35  40</entry>
+                </row>
+                <row>
+                  <entry>Nhà máy, phân xưởng, xí nghiệp</entry>
+                  <entry>25  27</entry>
+                  <entry>45  55</entry>
+                  <entry>27  29</entry>
+                  <entry>50  60</entry>
+                  <entry>20  23</entry>
+                  <entry>30  35</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section id="id-86162251475">
+          <title>Nhiệt độ và độ ẩm ngoài trời</title>
+          <para id="id17947045">Thông số ngoài trời được sử dụng để tính toán tải nhiệt được căn cứ vào tầm quan trọng của công trình, tức là tùy thuộc vào cấp của hệ thống điều hòa không khí và lấy theo bảng 2-4 dưới đây:</para>
+          <para id="id17947060">Bảng 2.4 Nhiệt độ và độ ẩm tính toán ngoài trời</para>
+          <table id="id17947067" summary="">
+            <tgroup cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>Hệ thống</entry>
+                  <entry>Nhiệt độ tN , oC</entry>
+                  <entry>Độ ẩm N, %</entry>
+                </row>
+                <row>
+                  <entry>Hệ thống cấp I+ Mùa hè+ Mùa đông</entry>
+                  <entry>tmaxtmin</entry>
+                  <entry>(tmax)(tmin)</entry>
+                </row>
+                <row>
+                  <entry>Hệ thống cấp II+ Mùa hè+ Mùa đông</entry>
+                  <entry>0,5(tmax + ttbmax)0,5(tmin + ttbmin)</entry>
+                  <entry>0,5[ (tmax) + (ttbmax)]0,5[ (tmin) + (ttbmin)]</entry>
+                </row>
+                <row>
+                  <entry>Hệ thống cấp III+ Mùa hè+ Mùa đông</entry>
+                  <entry>ttbmaxttbmin</entry>
+                  <entry>(ttbmax)(ttbmin)</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id18242348">Trong đó :</para>
+          <para id="id18242353">tmax , tmin Nhiệt độ lớn nhất và nhỏ nhất tuyệt đối trong năm đo lúc 1315 giờ, tham khảo phụ lục PL-1</para>
+          <para id="id17930288">ttbmax , ttbmin Nhiệt độ của tháng nóng nhất trong năm, tham khảo phụ lục PL-2, và PL-3.</para>
+          <para id="id17930319">(tmax) , (tmin ) Độ ẩm ứng với nhiệt độ lớn nhất và nhỏ nhất tuyệt đối trong năm. Tuy nhiên do hiện nay các số liệu này ở Việt Nam chưa có nên có thể lấy bằng (ttbmax) và (ttbmin)</para>
+          <para id="id17930385">(ttbmax) , (ttbmin ) Độ ẩm trung bình ứng với tháng có nhiệt độ lớn nhất và nhỏ nhất trong năm, tham khảo phụ lục PL-4</para>
+        </section>
+      </section>
+      <section id="id-308925635988">
+        <title>Chọn tốc độ không khí tính toán trong phòng</title>
+        <para id="id18383835">Tốc độ không khí lưu động được lựa chọn theo nhiệt độ không khí trong phòng nêu ở bảng 2.5. Khi nhiệt độ phòng thấp cần chọn tốc độ gió nhỏ , nếu tốc độ quá lớn cơ thể mất nhiều nhiệt, sẽ ảnh hưởng sức khoẻ con người. </para>
+        <para id="id18383853">Để có được tốc độ hợp lý cần chọn loại miệng thổi phù hợp và bố trí hợp lý .</para>
+        <para id="id18383862">Bảng 2.5 Tốc độ tính toán của không khí trong phòng</para>
+        <table id="id18383868" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Nhiệt độ không khí, oC</entry>
+                <entry>Tốc độ k, m/s</entry>
+              </row>
+              <row>
+                <entry>16  2021  2324  2526  2728  30&gt; 30</entry>
+                <entry>&lt; 0,250,25  0,30,4  0,60,7  1,01,1  1,31,3  1,5</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-837983994899">
+        <title>Độ ồn cho phép trong phòng</title>
+        <para id="id17527993">Độ ồn có ảnh hưởng đến trạng thái và mức độ tập trung vào công việc của con người. Mức độ ảnh hưởng đó tuỳ thuộc vào công việc đang tham gia, hay nói cách khác là tuỳ thuộc vào tính năng của phòng.</para>
+        <para id="id17528002">Người ta đã qui định độ ồn cho phép cho từng khu vực điều hòa nhất định nêu ở bảng 2.6.</para>
+        <para id="id17528014">Đối với các máy công suất lớn, khi chọn cần xem xét độ ồn của máy có đảm bảo yêu cầu để lắp đặt vào vị trí hay không. Trong trường hợp độ ồn quá lớn cần có các biện pháp khử ồn cần thiết hoặc lắp đặt ở phòng máy riêng biệt. </para>
+        <para id="id17528030"/>
+        <para id="id17528034">Bảng 2.6 Độ ồn cho phép trong phòng</para>
+        <table id="id17528040" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Khu vực</entry>
+                <entry>Giờ trong ngày</entry>
+                <entrytbl namest="c3" nameend="c4" cols="2">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c2">Độ ồn cực đại cho phép, dB</entry>
+                    </row>
+                    <row>
+                      <entry>Cho phép</entry>
+                      <entry>Nên chọn</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>- Bệnh viện, Khu điều dưỡng</entry>
+                <entry>6 - 2222 - 6</entry>
+                <entry>3530</entry>
+                <entry>3030</entry>
+              </row>
+              <row>
+                <entry>- Giảng đường, lớp học</entry>
+                <entry/>
+                <entry>40</entry>
+                <entry>35</entry>
+              </row>
+              <row>
+                <entry>- Phòng máy vi tính</entry>
+                <entry/>
+                <entry>40</entry>
+                <entry>35</entry>
+              </row>
+              <row>
+                <entry>- Phòng làm việc</entry>
+                <entry/>
+                <entry>50</entry>
+                <entry>45</entry>
+              </row>
+              <row>
+                <entry>- Phân xưởng sản xuất</entry>
+                <entry/>
+                <entry>85</entry>
+                <entry>80</entry>
+              </row>
+              <row>
+                <entry>- Nhà hát, phòng hòa nhạc</entry>
+                <entry/>
+                <entry>30</entry>
+                <entry>30</entry>
+              </row>
+              <row>
+                <entry>- Phòng hội thảo, hội họp</entry>
+                <entry/>
+                <entry>55</entry>
+                <entry>50</entry>
+              </row>
+              <row>
+                <entry>- Rạp chiếu bóng</entry>
+                <entry/>
+                <entry>40</entry>
+                <entry>35</entry>
+              </row>
+              <row>
+                <entry>- Phòng ở</entry>
+                <entry>6 - 2222 - 6</entry>
+                <entry>4030</entry>
+                <entry>3030</entry>
+              </row>
+              <row>
+                <entry>- Khách sạn</entry>
+                <entry>6 - 2222 - 6</entry>
+                <entry>4540</entry>
+                <entry>3530</entry>
+              </row>
+              <row>
+                <entry>- Phòng ăn lớn, quán ăn lớn</entry>
+                <entry/>
+                <entry>50</entry>
+                <entry>45</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-711985901202">
+        <title>Nồng độ các chất độc hại.</title>
+        <para id="id18232519">Để đánh giá mức độ ô nhiểm người ta dựa vào nồng độ CO2 có trong không khí, vì CO2 là chất độc hại phổ biến nhất do con người thải ra trong quá trình sinh hoạt và sản xuất. </para>
+        <para id="id18232541">Lưu lượng không khí tươi cần thiết cung cấp cho 1 người trong 1 giờ được xác định như sau :</para>
+        <para id="id18232551">VK = VCO2 / (-a) (2-1)</para>
+        <para id="id18232577">Ở đây :</para>
+        <para id="id18232582">- VCO2 là lượng CO2 do con người thải ra : m3/h.người</para>
+        <para id="id18232605">-  Nồng độ CO2 cho phép, % thể tích. Thường chọn  = 0,15</para>
+        <para id="id4286147">- a Nồng độ CO2 trong không khí môi trường xung quanh, % thể tích. Thường chọn a=0,03%.</para>
+        <para id="id4286164">- VK Lưu lượng không khí cần cấp, m3/h.người</para>
+        <para id="id4286182">Lượng CO2 do 01 người thải ra phụ thuộc vào cường độ lao động, nên Vk cũng phụ thuộc vào cường độ lao động.</para>
+        <para id="id4286205">Bảng 2.7 : Lượng không khí tươi cần cấp</para>
+        <table id="id4286211" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Cường độ vận động</entry>
+                <entry>VCO2, m3/h.người</entry>
+                <entrytbl namest="c3" nameend="c4" cols="2">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c2">VK, m3/h.người</entry>
+                    </row>
+                    <row>
+                      <entry>=0,1</entry>
+                      <entry>=0,15</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>- Nghỉ ngơi</entry>
+                <entry>0,013</entry>
+                <entry>18,6</entry>
+                <entry>10,8</entry>
+              </row>
+              <row>
+                <entry>- Rất nhẹ</entry>
+                <entry>0,022</entry>
+                <entry>31,4</entry>
+                <entry>18,3</entry>
+              </row>
+              <row>
+                <entry>- Nhẹ</entry>
+                <entry>0,030</entry>
+                <entry>43,0</entry>
+                <entry>25,0</entry>
+              </row>
+              <row>
+                <entry>- Trung bình</entry>
+                <entry>0,046</entry>
+                <entry>65,7</entry>
+                <entry>38,3</entry>
+              </row>
+              <row>
+                <entry>- Nặng</entry>
+                <entry>0,074</entry>
+                <entry>106,0</entry>
+                <entry>61,7</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id16761570">Bảng 2.8 đưa ra nồng độ cho phép của một số chất độc hại khác. Căn cứ vào nồng độ cho phép này và phương trình (2-1) có thể xác định được lượng không khí tươi cần cung cấp để giảm nồng độ đến mức yêu cầu.</para>
+        <para id="id16761591">Bảng 2.8 : Nồng độ cho phép của một số chất </para>
+        <table id="id16761598" summary="">
+          <tgroup cols="6">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <tbody>
+              <row>
+                <entry>TT</entry>
+                <entry>Tên chất</entry>
+                <entry>Nồng độ cho phépmg/m3</entry>
+                <entry>TT</entry>
+                <entry>Tên chất</entry>
+                <entry>Nồng độ cho phépmg/m3</entry>
+              </row>
+              <row>
+                <entry>123456789101112131415161718</entry>
+                <entry>AcroleinAmoniacAncolmetylicAnilinAxetonAxit aceticAxit nitricAxit sunfuricBezenCacbon monooxitCacbon dioxitCloClodioxitClobenzenDầu hoảDầu thôngĐioxit sunfuaĐiclobezen</entry>
+                <entry>2250520055250301%o0,11503003002020</entry>
+                <entry>1920212223242526272829303132333435</entry>
+                <entry>ĐicloetanĐivininEte etylicEtylen oxitHidrosunfuaIotKẽm oxitMagie oxitMetylencloruaNaphtalenNicotinNitơ oxitÔzônPhênônBụi thuốc lá, chèBụi có SiO2Bụi xi măng, đất</entry>
+                <entry>101003001100151550200,550,15316</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id18658587">Trong trường hợp trong không gian điều hoà có hút thuốc lá, lượng không khí tươi cần cung cấp đòi hỏi nhiều hơn, để loại trừ ảnh hưởng của khói thuốc.</para>
+        <para id="id18658599">Bảng 2.9 : Lượng khí tươi cần cung cấp khi có hút thuốc </para>
+        <table id="id18658605" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Mức độ hút thuốc, điếu/h.người</entry>
+                <entry>Lượng không khí tươi cần cung cấp, m3/h.người</entry>
+              </row>
+              <row>
+                <entry>0,8  1,01,2  1,62,5  33  5,1</entry>
+                <entry>13  1720  2642  5151  85 </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id19131409">  </para>
+      </section>
+    </section>
+  </content>
+</document>

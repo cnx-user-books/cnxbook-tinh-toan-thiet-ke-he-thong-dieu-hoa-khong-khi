@@ -1,0 +1,2344 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thành lập và tính toán các sơ đồ điều hòa không khí</title>
+  <metadata>
+  <md:content-id>m30015</md:content-id><md:title>Thành lập và tính toán các sơ đồ điều hòa không khí</md:title>
+  <md:abstract>Thành lập sơ đồ điều hòa không khí là xác định các quá trình thay đổi trạng thái của không khí trên đồ thị I-d  nhằm mục đích xác định các khâu cần xử lý và năng suất của nó để đạt được trạng thái không khí cần thiết trước khi cho thổi vào phòng.</md:abstract>
+  <md:uuid>cbd5709a-cd9a-4e49-853e-5e4212691a43</md:uuid>
+</metadata>
+
+<content>
+    <para id="id18851437">Sơ đồ điều hòa không khí được thành lập trên cơ sở :</para>
+    <para id="id18851444">a) Điều kiện khí hậu địa phương nơi lắp đặt công trình :tN và N.</para>
+    <para id="id18851467">b) Yêu cầu về tiện nghi hoặc công nghệ : tT và T.</para>
+    <para id="id18851490">c) Các kết quả tính cân bằng nhiệt : QT, WT, </para>
+    <para id="id18851507">d) Thỏa mãn điều kiện vệ sinh:</para>
+    <para id="id18851512">1. Nhiệt độ không khí trước khi thổi vào phòng không được quá thấp so với nhiệt độ trong phòng nhằm tránh gây cảm lạnh cho người sử dụng, cụ thể như sau :</para>
+    <para id="id18851528">tV  tT - a(4-1)</para>
+    <para id="id18851559">- Đối với hệ thống điều hoà không khí thổi từ dưới lên (miệng thổi đặt trong vùng làm việc) : a = 7 oC</para>
+    <para id="id18851573">- Đối với hệ thống điều hoà không khí thổi từ trên xuống : a = 10oC</para>
+    <para id="id18851588">Nếu điều kiện vệ sinh không thỏa mãn thì phải tiến hành sấy nóng không khí tới nhiệt độ tV = tT - a thoả mãn điều kiện vệ sinh rồi cho thổi vào phòng.</para>
+    <para id="id18851614">2. Lượng khí tươi cấp vào phòng phải đảm bảo đủ cho người trong phòng.</para>
+    <para id="id18851622">LN = n.mk = n.k.Vk(4-2)</para>
+    <para id="id18844358">trong đó:</para>
+    <para id="id18844362">n - Số người trong phòng</para>
+    <para id="id18844369">mk- Khối lượng gió tươi cần thiết cung cấp cho 01 người trong một đơn vị thời gian, kg/người, giờ .</para>
+    <para id="id18844384">Vk - Lượng không khí tươi cần cung cấp cho một người trong một đơn vị thời gian, tra theo bảng 2-7, m3/người, giờ.</para>
+    <para id="id18844407"> - Khối lượng riêng của không khí,  = 1,2 kg/m3.</para>
+    <para id="id18844429">Tuy nhiên lưu lượng gió bổ sung không được nhỏ hơn 10% tổng lượng gió cung cấp cho phòng.</para>
+    <section id="id-282051630407">
+      <title>TÍNH TOÁN CÁC SƠ ĐỒ ĐIỀU HOÀ KHÔNG KHÍ THEO ĐỒ THỊ I-d</title>
+      <section id="id-498271726422">
+        <title>Phương trình tính năng suất gió</title>
+        <para id="id18844454">Từ các phương trình cân bằng nhiệt, ẩm và chất độc hại ta xác định được phương trình xác định năng suất gió.</para>
+        <para id="id18844465">- Năng suất gió để thải nhiệt :</para>
+        <para id="id18844472">Lq = QT/(IT -)(4-3)</para>
+        <para id="id18844516">- Năng suất gió để thải ẩm:</para>
+        <para id="id18844525">LW = WT/(dT - dV)(4-4)</para>
+        <para id="id18850227">- Năng suất gió để thải chất độc hại:</para>
+        <para id="id18850236">Lz = GT/(zT - zV)  GT/zT(4-5)</para>
+        <para id="id18850296">Trong các công thức trên T là trạng thái không khí trong phòng, V là trạng thái không khí trước khi thổi vào phòng.</para>
+        <para id="id18850306"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{V} } } } = {  {W rSub { size 8{T} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{V} } } } } {}</m:annotation></m:semantics></m:math>(4-6)Khi thiết kế hệ thống điều hoà thường phải đảm bảo 2 thông số nhiệt và ẩm không đổi theo yêu cầu , tức là phải thỏa mãn đồng thời 2 phương trình cân bằng nhiệt và ẩm. Hay nói cách khác ta có : LQ = Lw</para>
+        <para id="id18865221"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>Q</m:mi><m:mmultiscripts><m:mtext/><m:mprescripts/><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle><m:none/></m:mmultiscripts></m:mrow><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q"" lSub { size 8{T} } }  over  {W rSub { size 8{T} } } } = {  {I rSub { size 8{T} }  - I rSub { size 8{V} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{V} } } } } {}</m:annotation></m:semantics></m:math>(4-7)Suy ra </para>
+        <para id="id18865380"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi fontstyle="italic">ΔI</m:mi><m:mi fontstyle="italic">Δd</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>ε</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q rSub { size 8{T} } }  over  {W rSub { size 8{T} } } } = {  {ΔI}  over  {Δd} } =ε rSub { size 8{T} } } {}</m:annotation></m:semantics></m:math>(4-8)Hay</para>
+        <para id="id18868219">Đại lượng T gọi là hệ số góc tia của quá trình tự thay đổi trạng thái của không khí trong phòng do nhận nhiệt thừa và ẩm thừa.</para>
+        <para id="id18868238">Như vậy để trạng thái của không khí trong phòng không đổi thì trạng thái không khí thổi vào phòng V(tV, V) phải luôn luôn nằm trên đường T = QT/WT đi qua điểm T(tT, T) </para>
+      </section>
+      <section id="id-346321641556">
+        <title>Các sơ đồ điều hoà không khí mùa hè</title>
+        <section id="id-0902977211369">
+          <title>Sơ đồ thẳng</title>
+          <para id="id18868341">Sơ đồ thẳng là sơ đồ không có tái tuần hoàn không khí từ phòng về thiết bị xử lý không khí. Trong sơ đồ này toàn bộ không khí đưa vào thiết bị xử lý không khí là không khí tươi.</para>
+          <para id="id18868359">Sơ đồ thẳng được trình bày trên hình 4.1 </para>
+          <figure id="id18868370">
+            <media id="id1167992103143" alt=""><image src="../../media/graphics1-cef0.png" mime-type="image/png" height="185" width="556"/></media>
+          </figure>
+          <para id="id18868393">Hình 4.1 : Sơ đồ nguyên lý và biểu diễn sự thay đổi trạng thái không khí trên đồ thị I-d</para>
+          <para id="id18868402">* Nguyên lý làm việc: Không khí bên ngoài trời có trạng thái N(tN,N) qua cửa lấy gió có van điều chỉnh (1), được đưa vào buồng xử lý nhiệt ẩm (2), tại đây không khí được xử lý theo chương trình định sẵn đến một trạng thái O nhất định nào đó và được quạt (3) vận chuyển theo đường ống gió (4) vào phòng (6) qua các miệng thổi (5). Không khí tại miệng thổi (5) có trạng thái V sau khi vào phòng nhận nhiệt thừa và ẩm thừa và tự thay đổi đến trạng thái T(tT, T) theo tia quá trình T = QT/WT . Sau đó không khí được thải ra bên ngoài qua các cửa thải (7).</para>
+          <para id="id18844634">Sơ đồ thẳng được sử dụng trong các trường hợp sau: </para>
+          <para id="id18844641">- Khi kênh gió hồi quá lớn việc thực hiện hồi gió quá tốn kém hoặc không thực hiện được do không gian nhỏ hẹp .</para>
+          <para id="id18844653">- Khi trong không gian điều hòa có sinh ra nhiều chất độc hại, việc hồi gió không có lợi.</para>
+          <para id="id18844663">Mùa hè nước ta nhiệt độ và độ ẩm bên ngoài phòng thường cao hơn nhiệt độ và độ ẩm trong phòng. Vì thế điểm N thường nằm bên trên phải của điểm T.</para>
+          <para id="id18844675">* Xác định các các điểm nút :</para>
+          <para id="id18844683">Theo đồ thị biểu thị quá trình ta có:</para>
+          <para id="id18844690">- Quá trình NO là quá trình xử lý không khí diễn ra ở thiết bị xử lý không khí. Trạng thái O cuối quá trình xử lý không khí có độ ẩm o  95%.</para>
+          <para id="id18844716">- Quá trình OV là quá trình không khí nhận nhiệt khi dẫn qua hệ thống đường ống. Quá trình này không trao đổi ẩm, đó là quá trình gia nhiệt đẳng dung ẩm. Vì tất cả các đường ống dẫn không khí lạnh đều bọc cách nhiệt nên tổn thất này không đáng kể. Thực tế có thể coi VO</para>
+          <para id="id18844741">- Quá trình VT là quá trình không khí tự thay đổi trạng thái khi nhận nhiệt thừa và ẩm thừa nên có hệ số góc tia VT = T = QT/WT</para>
+          <para id="id18844780">Từ phân tích trên ta có thể xác định các điểm nút như sau:</para>
+          <para id="id18844788">- Xác định các điểm N(tN, N), T(tT, T) theo các thông số tính toán ban đầu.</para>
+          <para id="id18844826">- Qua điểm T kẻ đường  = T = QT/WT cắt đường o = 0,95 tại OV</para>
+          <para id="id18844874">- Nối NO ta có quá trình xử lý không khí</para>
+          <para id="id18844881">Cần lưu ý trạng thái thổi vào VO phải đảm bảo điều kiện vệ sinh là nhiệt độ không được quá thấp so với nhiệt độ trong phòng để tránh gây cảm lạnh cho người sử dụng.</para>
+          <para id="id5515207">tV  tT - a</para>
+          <para id="id5515227">Nếu không thỏa mãn điều kiện vệ sinh , thì phải gia nhiệt không khí từ trạng thái O lên trạng thái V thoả mãn điều kiện vệ sinh mới thổi vào phòng , tức là tV = tT - a (hình 4.2).</para>
+          <figure id="id5515253">
+            <media id="id7707660" alt=""><image src="../../media/graphics2-b641.png" mime-type="image/png" height="240" width="315"/></media>
+          </figure>
+          <para id="id5515277">Trong trường hợp này các điểm O và V xác định lại như sau :</para>
+          <para id="id5515285">- Điểm V là giao của đường  = T = QT/WT đí qua điểm T và đường t = tT - a .</para>
+          <para id="id5515327">- Điểm O là giao của đường thẳng đứng (đẳng dung ẩm) qua điểm V và đường o = 0,95.</para>
+          <para id="id5515346">* Các thiết bị chính của quá trình</para>
+          <para id="id5515351">Để thực hiện được sơ đồ thẳng mùa hè cần có các thiết bị chính sau : Thiết bị xử lý không khí, quạt cấp gió, bộ sấy cấp II, hệ thống kênh cấp gió, miệng thổi.</para>
+          <para id="id5515364">* Xác định năng suất các thiết bị</para>
+          <para id="id5515372"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{V} } } } = {  {W rSub { size 8{T} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{V} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>- Năng suất gió thổi vào phòng :</para>
+          <para id="id18358103"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{o} } =L "."  \( I rSub { size 8{N} }  - I rSub { size 8{o} }  \) =Q rSub { size 8{T} }  {  {I rSub { size 8{N} }  - I rSub { size 8{o} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{V} } } } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-10)(4-9)- Năng suất lạnh của thiết bị xử lý:</para>
+          <para id="id18358336"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=L "."  \( d rSub { size 8{N} }  - d rSub { size 8{o} }  \) =W rSub { size 8{T} }  {  {d rSub { size 8{N} }  - d rSub { size 8{o} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{V} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>(4-11)- Năng suất làm khô của thiết bị xử lý:</para>
+          <para id="id18845569"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SII</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{ ital "SII"} } =L "."  \( I rSub { size 8{V} }  - I rSub { size 8{o} }  \) =Q rSub { size 8{T} }  {  {I rSub { size 8{V} }  - I rSub { size 8{o} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{V} } } } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-12)- Công suất nhiệt của thiết bị sấy cấp II (nếu có) :</para>
+          <para id="id19238825">* Kết luận:</para>
+          <para id="id19238831">- Sơ đồ thẳng có ưu điểm là đơn giản, gọn nhẹ dễ lắp đặt. </para>
+          <para id="id19238839">- Không tận dụng nhiệt từ không khí thải nên hiệu quả thấp.</para>
+          <para id="id19238849">- Thường được sử dụng trong các hệ thống nơi có phát sinh các chất độc, hôi hoặc đường ống quá xa, cồng kềnh không kinh tế hoặc không thể thực hiện được.</para>
+        </section>
+        <section id="id-135058987696">
+          <title>Sơ đồ tuần hoàn không khí một cấp</title>
+          <para id="id19238885">Để tận dụng nhiệt của không khí thải người ta sử dụng sơ đồ tuần hoàn1 cấp.</para>
+          <para id="id19238895">Trên hình 4.3 là sơ đồ nguyên lý hệ thống tuần hoàn 1 cấp </para>
+          <list id="id19238902" list-type="bulleted">
+            <item>Nguyên lý làm việc: Không khí bên ngoài trời có trạng thái N(tN,N) với lưu lượng LN qua cửa lấy gió có van điều chỉnh (1), được đưa vào buồng hòa trộn (3) để hòa trộn với không khí hồi có trạng thái T(tT,T) với lưu lượng LT từ các miệng hồi gió (2). Hổn hợp hòa trộn có trạng thái C sẽ được đưa đến thiết bị xử lý (4), tại đây nó được xử lý theo một chương trình định sẵn đến một trạng thái O và được quạt (5) vận chuyển theo kênh gió (6) vào phòng (8) . Không khí sau khi ra khỏi miệng thổi (7) có trạng thái V vào phòng nhận nhiệt thừa QT và ẩm thừa WT và tự thay đổi trạng thái từ V đến T(tT, T). Sau đó một phần không khí được thải ra ngoài và một phần lớn được quạt hồi gió (11) hút về qua các miệng hút (9) theo kênh (10) . </item>
+          </list>
+          <figure id="id19239021">
+            <media id="id7006323" alt=""><image src="../../media/graphics3-654e.png" mime-type="image/png" height="195" width="474"/></media>
+          </figure>
+          <para id="id19239045">Hình 4.3 Sơ đồ tuần hoàn 1 cấp</para>
+          <para id="id19239051">* Xác định các điểm nút trên I-d </para>
+          <para id="id19239060">- Trạng thái C là trạng thái hoà trộn của dòng không khí tươi có lưu lượng LN và trạng thái N(tN, N) với dòng không khí tái tuần hoàn với lưu lượng LT và trạng thái T(tT, T) </para>
+          <para id="id19239114">- Quá trình VT là quá trình không khí tự thay đổi trạng thái khi nhận nhiệt thừa và ẩm thừa nên có hệ số góc tia  = T = QT/WT. Điểm OV có o  0,95 . </para>
+          <para id="id18849334">Từ phân tích trên ta có cách xác định các điểm nút như sau :</para>
+          <para id="id18849342">- Xác định các điểmN, T theo các thông số tính toán ban đầu.</para>
+          <para id="id18849350"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>TC</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CN</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>L</m:mi><m:mmultiscripts><m:mtext/><m:mprescripts/><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle><m:none/></m:mmultiscripts></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "TC"}  over  { ital "CN"} } = {  {L rSub { size 8{N} } }  over  {L"" lSub { size 8{T} } } } = {  {L rSub { size 8{N} } }  over  {L - L rSub { size 8{N} } } } } {}</m:annotation></m:semantics></m:math>- Xác định điểm hòa trộn C theo tỉ lệ hòa trộn</para>
+          <para id="id18849484">Ta có </para>
+          <para id="id18849491">trong đó :</para>
+          <para id="id18849496">LN - Lưu lượng gió tươi cần cung cấp được xác định theo điều kiện vệ sinh, kg/s.</para>
+          <para id="id18849509">L - Lưu lượng gió tổng tuần hoàn qua thiết bị xử lý không khí được xác định theo công thức (4-13), kg/s</para>
+          <para id="id18849522">- Điểm V O là giao nhau của đường  = T = QT/WT đi qua điểm T với đường o = 0,95. Nối CO ta có quá trình xử lý không khí.</para>
+          <figure id="id18849578">
+            <media id="id8392791" alt=""><image src="../../media/graphics4.png" mime-type="image/png" height="267" width="405"/></media>
+          </figure>
+          <para id="id18849601">Nếu nhiệt độ điểm O không phù hợp điều kiện vệ sinh thì phải tiến hành sấy không khí đến điểm V thoả mãn điều kiện vệ sinh tức là t = tT - a (xem hình 4-5). Khi đó các điểm V và O xác định như sau:</para>
+          <para id="id18849627">- Từ T kẻ đường  = T = QT/WT cắt t = tT - a tại V</para>
+          <para id="id18849666">- Từ V kể đường thẳng đứng cắt o = 0,95 tại O.</para>
+          <para id="id19196228">- Các điểm còn lại vẫn giữ nguyên vị trí.</para>
+          <para id="id19196235">* Các thiết bị chính : Để thực hiện sơ đồ điều hòa không khí một cấp ta phải có các thiết bị chính sau đây : Quạt cấp gió, quạt hồi gió, thiết bị xử lý không khí, thiết bị sấy cấp 2, hệ thống kênh cấp gió, hồi gió, miệng thổi và miệng hút</para>
+          <figure id="id19196262">
+            <media id="id1167993113044" alt=""><image src="../../media/graphics5.png" mime-type="image/png" height="254" width="367"/></media>
+          </figure>
+          <para id="id19196286">* Xác định năng suất các thiết bị</para>
+          <para id="id19196294"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{V} } } } = {  {W rSub { size 8{T} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{V} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>(4-13)- Năng suất gió :</para>
+          <para id="id19196473">- Lượng không khí bổ sung LN được xác định căn cứ vào số lượng người và lượng gió tươi cần cung cấp cho một người trong một đơn vị thời gian:</para>
+          <para id="id19196489">LN = n..Vk(4-14)</para>
+          <para id="id19196520">trong đó n - Tổng số người trong phòng, người</para>
+          <para id="id19196526">Vk - Lượng không khí tươi cần cung cấp cho một người trong một đơn vị thời gian, tra theo bảng 2.6</para>
+          <para id="id19196543">Tuy nhiên lưu lượng gió bổ sung không được nhỏ hơn 10%.L. Vì thế khi LN tính theo các công thức trên mà nhỏ hơn 10% thì lấy LN = 0,1.L</para>
+          <para id="id19225177">- Lưu lượng gió hồi : </para>
+          <para id="id19225182">LT = L - LN(4-15)</para>
+          <para id="id19225208"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{o} } =L "."  \( I rSub { size 8{C} }  - I rSub { size 8{O} }  \) =Q rSub { size 8{T} }  "."  {  {I rSub { size 8{C} }  - I rSub { size 8{O} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{V} } } } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-16)- Công suất lạnh của thiết bị xử lý không khí :</para>
+          <para id="id19225415"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{o} } =L "."  \( d rSub { size 8{C} }  - d rSub { size 8{O} }  \) =W rSub { size 8{T} }  "."  {  {d rSub { size 8{C} }  - d rSub { size 8{O} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{V} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>(4-17)- Năng suất làm khô của thiết bị xử lý:</para>
+          <para id="id5518359"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SII</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{ ital "SII"} } =L "."  \( I rSub { size 8{V} }  - I rSub { size 8{O} }  \) =Q rSub { size 8{T} }  "."  {  {I rSub { size 8{V} }  - I rSub { size 8{O} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{V} } } } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-18)- Công suất nhiệt của thiết bị sấy cấp II (nếu có)</para>
+          <para id="id5518572">* Kết luận:</para>
+          <para id="id5518578">- Do có tận dụng nhiệt của không khí tái tuần hoàn nên năng suất lạnh và năng suất làm khô giảm so với sơ đồ thẳng.</para>
+          <para id="id5518588">- Sơ đồ có tái tuần hoàn không khí nên chi phí đầu tư tăng.</para>
+          <para id="id5518599">- Hệ thống đòi hỏi phải có thiết bị sấy cấp 2 để sấy nóng không khí khi không thỏa mãn điều kiện vệ sinh và do đó không kinh tế.</para>
+        </section>
+        <section id="id-751705535994">
+          <title> Sơ đồ tuần hoàn không khí hai cấp</title>
+          <para id="id5518629">Để khắc phục nhược điểm của sơ đồ 1 cấp do phải có thiết bị sấy cấp 2 khi trạng thái V không thỏa mãn điều kiện vệ sinh, người ta sử dụng sơ đồ 2 cấp có thể điều chỉnh nhiệt độ không khí thổi vào phòng mà không cần có thiết bị sấy.</para>
+          <figure id="id19226016">
+            <media id="id7897905" alt=""><image src="../../media/graphics6.png" mime-type="image/png" height="172" width="477"/></media>
+          </figure>
+          <para id="id19226040">1. Sơ đồ điều chỉnh nhiệt độ thổi vào</para>
+          <para id="id19226047">* Sơ đồ nguyên lý :</para>
+          <para id="id19226053">Hình 4.6 : Sơ đồ tuần hoàn 2 cấp có điều chỉnh nhiệt độ</para>
+          <para id="id19226060">* Nguyên lý làm việc: Không khí bên ngoài trời với lưu lượng LN và trạng thái N(tN,N) được lấy qua cửa lấy gió có van điều chỉnh (1) vào buồng (3) hòa trộn với không khí hồi có lưu lượng LT1 và trạng thái T(tT,T) để đạt một trạng thái C1 nào đó. Hổn hợp hòa trộn C1 sẽ được đưa đến thiết bị xử lý (4) và được xử lý đến trạng thái O. Sau đó đến buồng hoà trộn (6) để hòa trộn với không khí hồi có lưu lượng LT2 và trạng thái T(tT,T) để đạt trạng thái C2 và được quạt (7) vận chuyển theo đường ống gió (8) vào phòng (10). Không khí sau khi ra khỏi miệng thổi (9) có trạng thái C2 vào phòng nhận nhiệt thừa và ẩm thừa và tự thay đổi trạng thái đến T(tT, T) . Cuối cùng một lượng được thải ra ngoài qua cửa thải 14, phần lớn còn lại được hồi về để tiếp tục xử lý.</para>
+          <para id="id19226209">* Xác định các điểm nút</para>
+          <para id="id19226215">- Các điểm nút N(tN, N), T(tT, T) được xác theo các thông số tính toán.</para>
+          <para id="id19226256">- Điểm hòa trộn C2 : Mục đích của việc hoà trộn là nhằm đảm bảo nhiệt độ không khí khi thổi vào phòng thoả mãn yêu cầu vệ sinh. Hay tC2 = tT - a. Như vậy điểm C2 là giao điểm của đường T = QT/WT đi qua T với tC2 = tT - a.</para>
+          <para id="id19226327">- Điểm O nằm trên đường o = 0,95 và đường kéo dài TC2.</para>
+          <para id="id19226349">- Điểm C1 được xác định theo tỉ số hòa trộn : LN/LT1 = TC1/C1N</para>
+          <para id="id19226382">* Các thiết bị chính</para>
+          <para id="id18358698">Để thực hiện sơ đồ điều hòa không khí hai cấp ta phải có các thiết bị chính sau đây : Quạt cấp gió, quạt hồi gió, thiết bị xử lý không khí , hệ thống kênh cấp gió, hồi gió và các miệng thổi, miệng hút.</para>
+          <figure id="id18358716">
+            <media id="id1167992283923" alt=""><image src="../../media/graphics7.png" mime-type="image/png" height="265" width="508"/></media>
+          </figure>
+          <para id="id18358740">* Xác định năng suất các thiết bị</para>
+          <para id="id18358748">(4-19)- Lưu lượng gió :</para>
+          <para id="id18358777"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">C2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">C2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{C2} } } } = {  {W rSub { size 8{T} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{C2} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>- Lượng không khí bổ sung LN được xác định theo điều kiện vệ sinh như sau :</para>
+          <para id="id18358946">LN = n..Vk kg/s(4-20)</para>
+          <para id="id18358980"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">T1</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">T2</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">T2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">T2</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>TC</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>O</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {L rSub { size 8{N} } +L rSub { size 8{T1} } }  over  {L rSub { size 8{T2} } } } = {  {L - L rSub { size 8{T2} } }  over  {L rSub { size 8{T2} } } } = {  { ital "TC" rSub { size 8{2} } }  over  {C rSub { size 8{2} } O} } } {}</m:annotation></m:semantics></m:math>(4-21)- Lưu lượng gió LT2 xác định theo phương pháp hình học dựa vào quá trình hòa trộn ở thiết bị hòa trộn (6):</para>
+          <para id="id18849884">Các điểm T, C2 và O đã được xác định nên có thể tính được LT2</para>
+          <para id="id18849902">- Lưu lượng gió LT1</para>
+          <para id="id18849911">LT1 = L - LN - LT2 (4-22)</para>
+          <para id="id18849941">- Năng suất lạnh của thiết bị xử lý:</para>
+          <para id="id18849947">Qo = (L-LT2).(IC1 - IO) , kW(4-23)</para>
+          <para id="id18849980">- Năng suất làm khô của thiết bị xử lý:</para>
+          <para id="id18849988">W = (L-LT2).(dC1 - dO) , kg/s(4-24)</para>
+          <para id="id18850017">* Kết luận:</para>
+          <para id="id18850023">Sơ đồ tuần hoàn 2 cấp có điều chỉnh nhiệt độ thổi vào có ưu điểm:</para>
+          <para id="id18850032">- Nhiệt độ thổi vào phòng có thể dễ dàng điều chỉnh được nhờ điều chỉnh lượng gió trích LT2 nhằm nâng nhiệt độ thổi vào phòng thoả mãn điều kiện vệ sinh. Do đó sơ đồ 2 cấp có điều chỉnh nhiệt độ không cần trang bị thiết bị sấy cấp II.</para>
+          <para id="id18850054">- Năng suất lạnh và năng suất làm khô yêu cầu của thiết bị xử lý giảm</para>
+          <para id="id18850065">+ Công suất lạnh giảm QO = LT2.(IC1 - IO)</para>
+          <para id="id18850102">+ Lưu lượng gió giảm L = LT2.(dC1 - dO)</para>
+          <para id="id18850134">Như vậy ta không cần phải đầu tư hệ thống xử lý không khí quá lớn, cồng kềnh.</para>
+          <para id="id18850144">- Phải có thêm buồng hòa trộn thứ 2 và hệ thống trích gió đến buồng hòa trộn này nên chi phí đầu tư và vận hành tăng.</para>
+          <figure id="id18850158">
+            <media id="id8118489" alt=""><image src="../../media/graphics8.png" mime-type="image/png" height="190" width="511"/></media>
+          </figure>
+          <para id="id18850182">2. Sơ đồ điều chỉnh nhiệt độ ẩm</para>
+          <para id="id18850191">* Sơ đồ nguyên lý :</para>
+          <para id="id18850197">Hình 4.8 :Sơ đồ tuần hoàn 2 cấp có điều chỉnh độ ẩm</para>
+          <para id="id18850203">* Nguyên lý làm việc : Không khí bên ngoài trời có lưu lượng LN và trạng thái N(tN,N) được lấy qua cửa lấy gió có van điều chỉnh (1), vào buồng (3) hòa trộn với không khí hồi có lưu lượng LT và trạng thái T(tT,T) để đạt một trạng thái C1 nào đó. Hổn hợp hòa trộn C1 được chia làm 2 dòng, một dòng có lưu lượng (LN + LT1) được đưa đến thiết bị xử lý không khí (4) và được xử lý đến một trạng thái O sau đó đưa đến buồng hoà trộn (6) hòa trộn với dòng thứ 2 có lưu lượng LT2 trạng thái C1 và đạt được trạng thái C2. Không khí có trạng thái C2 tiếp tục được quạt (7) thổi theo kênh cấp gió (8) vào phòng (10) qua các miệng thổi (9). Một phần gió được thải ra bên ngoài qua cửa thải gió (14), phần còn lại tiếp tục được hồi về và lặp lại chu trình mới.</para>
+          <para id="id18848029">* Xác định các điểm nút</para>
+          <para id="id18848036">- Các điểm nút N(tN, N), T(tT, T) được xác theo các thông số tính toán.</para>
+          <para id="id18848077">- Điểm C1 được xác định theo tỉ số hòa trộn : LN/LT = TC1/C1N</para>
+          <para id="id18848110">- Điểm hòa trộn C2 : Mục đích của việc hoà trộn là nhằm nâng nhiệt độ không khí thổi vào phòng đạt yêu cầu vệ sinh, hay tC2 = tT - a. Như vậy điểm C2 là giao điểm của đường T = QT/WT đi qua T với tC2 = tT - a.</para>
+          <para id="id18848180"><figure id="id18848184"><media id="id1167993763084" alt=""><image src="graphics9.wmf" mime-type="image/wmf" height="210" width="340"/></media></figure>- Điểm O là giao của C1C2 với đường o = 0,95 .</para>
+          <para id="id18848236">Hình 4.9 :Sơ đồ tuần hoàn 2 cấp có điều chỉnh độ ẩm trên I-d</para>
+          <para id="id18848243">* Xác định năng suất các thiết bị</para>
+          <para id="id18848251"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">C2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">C2</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{C2} } } } = {  {W rSub { size 8{T} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{C2} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>(4-25)- Năng suất gió :L = LT + LN = LT1 + LT2 + LN </para>
+          <para id="id19223260">- Lượng không khí bổ sung LN được xác định căn cứ vào số lượng người và lưu lượng gió tươi cần thiết cung cấp cho một người trong một đơn vị thời gian:</para>
+          <para id="id19223277">LN = n..Vk (4-26)</para>
+          <para id="id19223308">trong đó n - Tổng số người trong phòng, người</para>
+          <para id="id19223314">Vk - Lượng không khí tươi cần cung cấp cho một người trong một đơn vị thời gian, tra theo bảng 2.7</para>
+          <para id="id19223331">- Xác định lưu lượng LT1 và LT2 căn cứ vào hệ phương trình sau</para>
+          <para id="id19223350">+ Theo quá trình hoà trộn ở buồng hoà trộn (3)</para>
+          <para id="id19223356">TC1 / C1N = LN / LT </para>
+          <para id="id19223388">+ Theo quá trình hoà trộn ở buồng hoà trộn (6)</para>
+          <para id="id19223398">OC2/C2C1 = LT2 / (L-LT2)</para>
+          <para id="id19223429">Từ vị trí của các điểm trên đồ thị I-d ta xác định được các tỉ lệ tương ứng.</para>
+          <para id="id19223437">- Năng suất lạnh của thiết bị xử lý:</para>
+          <para id="id19223443">Qo = (L-LT2).(IC1 - IO) , kW(4-27)</para>
+          <para id="id19223474">- Năng suất làm khô của thiết bị xử lý:</para>
+          <para id="id19223481">W = (L-LT2).(dC1 - dO) , kg/s(4-28)</para>
+          <para id="id19223508">* Kết luận:</para>
+          <para id="id19223514">Sơ đồ tuần hoàn 2 cấp có điều chỉnh độ ẩm có ưu điểm:</para>
+          <para id="id19223523">- Nhiệt độ và độ ẩm không khí thổi vào phòng có thể điều chỉnh để thỏa mãn điều kiện vệ sinh do đó không cần thiết bị sấy cấp II.</para>
+          <para id="id19223535">- Năng suất lạnh và năng suất làm khô yêu cầu của thiết bị xử lý giảm so với sơ đồ 1 cấp tương tự.</para>
+        </section>
+        <section id="id-871281963413">
+          <title>Sơ đồ có phun ẩm bổ sung</title>
+          <para id="id18359170">Sơ đồ này được sử dụng nhằm tiết kiệm năng lượng trong trường hợp cần tăng độ ẩm của không khí trong phòng nhưng vẫn tiết kiệm năng lượng.</para>
+          <figure id="id18359185">
+            <media id="id1167995343417" alt=""><image src="../../media/graphics10.png" mime-type="image/png" height="257" width="436"/></media>
+          </figure>
+          <para id="id18359209">Để không khí trong phòng đạt được trạng thái T(tT,T) ta có thể thực hiện bằng 2 cách:</para>
+          <para id="id18359235">* Cách 1 : Xử lý không khí đến trạng thái O nhất định nào đó và thổi vào phòng cho tự thay đổi trạng thái đến T(tT,T) theo quá trình OT (T = QT/WT )</para>
+          <para id="id18359288"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{1} } = {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{O} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>Theo cách này ta có :</para>
+          <para id="id18359410">(4-29)- Năng suất gió :</para>
+          <para id="id18359440"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{"01"} } =L rSub { size 8{1} }  "."  \( I rSub { size 8{C} }  - I rSub { size 8{O} }  \) =Q rSub { size 8{T} }  {  {I rSub { size 8{C} }  - I rSub { size 8{O} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{O} } } } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-30)- Năng suất lạnh :</para>
+          <para id="id19233359">* Cách 2 : Xử lý không khí đến trạng thái O' với tO' &lt; tO. Sau đó thổi không khí vào phòng cho không khí tự thay đổi trạng thái theo quá trình T đến T' , sau đó phun ẩm bổ sung để không khí thay đổi trạng thái đến T.</para>
+          <para id="id19233402"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>T</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{2} } = {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T'} }  - I rSub { size 8{O'} } } } = {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{O'} } } } &lt;L rSub { size 8{1} } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>(4-31)- Năng suất gió :</para>
+          <para id="id19233618"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>02</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>O</m:mi><m:mi>'</m:mi></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>01</m:mtext></m:mrow></m:mstyle></m:msub></m:mrow><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{"02"} } =L rSub { size 8{2} }  "."  \( I rSub { size 8{C} }  - I rSub { size 8{O'} }  \) =Q rSub { size 8{T} }  {  {I rSub { size 8{C} }  - I rSub { size 8{O'} } }  over  {I rSub { size 8{T} }  - I rSub { size 8{O'} } } } &lt;Q rSub { size 8{"01"} } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-32)- Năng suất lạnh :</para>
+          <para id="id19234568">Vì IO’ &lt; IO nên dễ dàng suy ra Qo2 &lt; Qo1</para>
+          <para id="id19234596">* Kết luận :</para>
+          <para id="id19234601">- Việc phun ẩm bổ sung có thể áp dụng cho bất cứ sơ đồ nào và đem lại hiệu quả nhiệt cao hơn. Năng suất gió và lạnh đều giảm.</para>
+          <para id="id19234612">- Tuy nhiên phải có bố trí thêm thiết bị phun ẩm bổ sung trong phòng nên phải có chi phí bổ sung. Thực tế nó chỉ có thể áp dụng cho các phòng nhỏ và có yêu cầu đặc biệt về độ ẩm.</para>
+        </section>
+      </section>
+      <section id="id-362696730373">
+        <title>Các sơ đồ điều hoà không khí mùa Đông</title>
+        <para id="id19234640">Khi nói đến sơ đồ mùa đông là nói đến sơ đồ dùng cho những ngày mà nhiệt độ không khí ngoài trời nhỏ hơn nhiệt độ không khí trong nhà. Để duy trì nhiệt độ trong nhà chúng ta phải tiến hành cấp nhiệt. Sơ đồ này thường chỉ sử dụng cho các tỉnh phía Bắc từ Thừa Thiên Huế trở ra. Các tỉnh thành từ Đà Nẵng trở vào không cần sơ đồ mùa đông vì mùa đông ở các tỉnh phía Nam nhiệt độ không thấp. Vì thế chúng ta không ngạc nhiên khi các hệ thống điều hoà có cấp nhiệt mùa đông chỉ được thiết kế và lắp đặt ở các tỉnh phía Bắc.</para>
+        <para id="id19234666">Các nguồn nhiệt và thiết bị thường được sử dụng để sưởi ấm mùa đông:</para>
+        <para id="id19234674">- Điện trở : Trong nhiều trường hợp người ta dùng điện trở để sấy nóng không khí trước khi thổi vào phòng nhằm duy trì nhiệt độ phòng nằm ở mức cho phép. Phương pháp dùng điện đơn giản, nhưng không kinh tế do giá điện năng tương đối cao và không an toàn về phòng cháy.</para>
+        <para id="id19234690">- Hơi nước : Hơi từ các lò hơi nhỏ hoặc trung tâm nhiệt điện được đưa đến các bộ trao đổi nhiệt kiểu bề mặt để trao đổi nhiệt với không khí trước khi thổi vào phòng. Các dàn này có thể đặt độc lập hoặc đặt đồng bộ cùng cụm dàn lạnh máy lạnh mùa hè.</para>
+        <para id="id19234705">- Bơm nhiệt : Một số công trình có trang bị máy lạnh 2 chiều, mùa đông máy hoạt động theo chế độ bơm nhiệt nhờ hệ thống van đảo chiều: dàn nóng bên trong phòng, dàn lạnh ngoài phòng. </para>
+        <section id="id-54558275466">
+          <title>Sơ đồ thẳng mùa đông</title>
+          <para id="id19234730">* Sơ đồ nguyên lý :</para>
+          <para id="id19234740">Trên hình 4-11 là sơ đồ nguyên lý xử lý không khí mùa đông. Sơ đồ này tương tự sơ đồ mùa hè. Điểm khác duy nhất trong sơ đồ mùa đông thay vì sử dụng thiết bị xử lý lạnh không khí (2) ở đây sử dụng thiết bị sưởi .</para>
+          <para id="id19234755">* Nguyên lý hoạt động : Không khí bên ngoài có trạng thái N(tN,N) được lấy qua cửa lấy gió có van điều chỉnh (1) vào bộ sưởi nóng không khí . Bộ sưởi nóng không khí có thể là bộ điện trở hoặc bộ trao đổi nhiệt kiểu bề mặt sử dụng hơi bão hoà, hay ga nóng. Không khí được gia nhiệt đẳng dung ẩm đến trạng thái O . Sau đó không khí được quạt (3) thổi vào phòng (6) theo hệ thống kênh gió (4) và miệng thổi (5). Ở trong phòng không khí nhả nhiệt, hấp thụ ẩm thừa và tự thay đổi trạng thái đến trạng thái T(tT,T). Cuối cùng không khí được thải ra bên ngoài qua cửa thải (7).</para>
+          <para id="id19234820">* Xác định các điểm nút :</para>
+          <para id="id18850720">- Các điểm N(tN,N), T(tT,T) được xác định theo các thông số tính toán.</para>
+          <para id="id18850757">- Điểm O là giao của đường  = T = QT/WT đi qua T với đường đẳng dung ẩm qua điểm N. Cần lưu ý rằng đối với sơ đồ mùa đông thì QT &lt; 0 và WT &gt; 0 vì vậy quá trình OT là quá trình tăng ẩm, giảm nhiệt.</para>
+          <figure id="id18850810">
+            <media id="id1167998906187" alt=""><image src="../../media/graphics11.png" mime-type="image/png" height="178" width="410"/></media>
+          </figure>
+          <para id="id18850833">* Các thiết bị : Đối với hệ thống hoạt động theo sơ đồ mùa đông cần các thiết bị chính sau : Thiết bị sấy cấp I, quạt cấp gió, hệ thống kênh gió miệng thổi</para>
+          <figure id="id18850854">
+            <media id="id1265133" alt=""><image src="../../media/graphics12.png" mime-type="image/png" height="241" width="407"/></media>
+          </figure>
+          <para id="id18850878"><m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mrow/><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">/</m:mo><m:mrow/></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{L= {  {/Q rSub { size 8{T} } /}  over  {I rSub { size 8{O} }  - I rSub { size 8{T} } } } = {  {W rSub { size 8{T} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{O} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>* Xác định năng suất các thiết bị chính</para>
+          <para id="id18851048">(4-33)- Năng suất gió</para>
+          <para id="id18851077"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SI</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">/</m:mo><m:mtext>.</m:mtext></m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{ ital "SI"} } =L "."  \( I rSub { size 8{O} }  - I rSub { size 8{N} }  \) =/Q rSub { size 8{T} } / "."  {  {I rSub { size 8{O} }  - I rSub { size 8{N} } }  over  {I rSub { size 8{O} }  - I rSub { size 8{T} } } } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-34)- Công suất bộ sưởi :</para>
+          <para id="id18845146">* Kết luận :</para>
+          <para id="id18845152">- Sơ đồ thẳng tuy đơn giản nhưng không tận dụng được nhiệt của gió thải nên không kinh tế.</para>
+          <para id="id18845163">- Sơ đồ thẳng chỉ sử dụng trong trường hợp việc xây dựng kênh hồi gió không kinh tế hoặc không thể thực hiện được. Khi trong không gian điều hoà sinh nhiều chất độc hại thì cũng nên sử dụng sơ đồ thẳng</para>
+          <para id="id18845178"><figure id="id18845181"><media id="id1168004792026" alt=""><image src="graphics13.wmf" mime-type="image/wmf" height="268" width="524"/></media></figure>Sơ đồ tuần hoàn một cấp mùa đông</para>
+          <para id="id18845224">* Sơ đồ nguyên lý :</para>
+          <para id="id18845234">Hình 4.13: Sơ đồ tuần hoàn 1 cấp mùa đông</para>
+          <para id="id18845240">* Nguyên lý hoạt động : Không khí bên ngoài có trạng thái N(tN,N) được lấy qua cửa lấy gió có van điều chỉnh (1) được vào buồng hoà trộn (3) . Ở đây nó được hoà trộn với không khí hồi có trạng thái T(tT,T) để được trạng thái C. Hổn hợp hoà trộn được đưa vào bộ sấy không khí cấp I để sấy lên trạng thái O . Sau đó không khí được quạt (5) thổi vào phòng (8) theo hệ thống kênh gió (6) và miệng thổi (7). Ở trong phòng không khí nhả nhiệt, hấp thụ ẩm thừa và tự thay đổi trạng thái đến trạng thái T(tT,T). Cuối cùng một phần không khí được thải ra bên ngoài qua cửa thải (12) phần lớn được hồi lại.</para>
+          <para id="id18845322">* Xác định các điểm nút :</para>
+          <para id="id18845331"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CT</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CN</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "CT"}  over  { ital "CN"} } = {  {L rSub { size 8{N} } }  over  {L rSub { size 8{T} } } } = {  {L rSub { size 8{N} } }  over  {L - L rSub { size 8{N} } } } } {}</m:annotation></m:semantics></m:math>- Các điểm N(tN,N), T(tT,T) được xác định theo các thông số tính toán.</para>
+          <para id="id19195170">- Điểm C được xác định theo tỷ lệ hoà trộn</para>
+          <para id="id19195177">- Điểm O là giao của đường  = T = QT/WT đi qua T với đường đẳng dung ẩm qua điểm C. </para>
+          <para id="id19195210">* Các thiết bị : Đối với hệ thống hoạt động theo sơ đồ mùa đông cần các thiết bị chính sau : Buồng hoà trộn, Thiết bị sấy cấp I, quạt cấp gió, hệ thống kênh gió miệng thổi</para>
+          <figure id="id19195232">
+            <media id="id8451540" alt=""><image src="../../media/graphics14.png" mime-type="image/png" height="216" width="267"/></media>
+          </figure>
+          <para id="id19195256">Hình 4.14 : Biểu diễn sơ đồ tuần hoàn 1 cấp mùa đông trên đồ thị I-d</para>
+          <para id="id19195263"><m:math><m:semantics><m:mtable><m:mtr><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mrow/><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">/</m:mo><m:mrow/></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mstyle fontsize="12pt"><m:mrow><m:mrow/></m:mrow></m:mstyle></m:mtr></m:mtable><m:annotation encoding="StarMath 5.0"> size 12{L= {  {/Q rSub { size 8{T} } /}  over  {I rSub { size 8{O} }  - I rSub { size 8{T} } } } = {  {W rSub { size 8{T} } }  over  {d rSub { size 8{T} }  - d rSub { size 8{O} } } } , ital "kg"/s} {}</m:annotation></m:semantics></m:math>* Xác định năng suất các thiết bị chính</para>
+          <para id="id19195434">(4-35)- Năng suất gió</para>
+          <para id="id19195463"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SI</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">/</m:mo><m:mtext>.</m:mtext></m:mrow><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>C</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>O</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kW</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{ ital "SI"} } =L "."  \( I rSub { size 8{O} }  - I rSub { size 8{C} }  \) =/Q rSub { size 8{T} } / "."  {  {I rSub { size 8{O} }  - I rSub { size 8{C} } }  over  {I rSub { size 8{O} }  - I rSub { size 8{T} } } } , ital "kW"} {}</m:annotation></m:semantics></m:math>(4-36)- Công suất bộ sấy cấp I</para>
+          <para id="id18356870">* Kết luận :</para>
+          <para id="id18356876">- Sơ đồ tuần hoàn một cấp tận dụng được nhiệt của gió thải nên kinh tế hơn sơ đồ thẳng.</para>
+          <para id="id18356887">- Đây là sơ đồ thường hay được sử dụng trên thực tế.</para>
+        </section>
+      </section>
+    </section>
+    <section id="id-724750175117">
+      <title>TÍNH TOÁN CÁC SƠ ĐỒ ĐIỀU HOÀ KHÔNG KHÍ THEO ĐỒ THỊ d-t</title>
+      <para id="id18356908">Tính toán các sơ đồ điều hoà không khí theo đồ thị t-d được các nước tư bản phương Tây áp dụng rất phổ biến. Về mặt bản chất, việc xác định các sơ đồ theo đồ thị t-d cũng tương tự như đồ thị I-d.</para>
+      <section id="id-104104061269">
+        <title>Các sơ đồ điều hoà trên đồ thị d-t</title>
+        <section id="id-676376230991">
+          <title>Sơ đồ thẳng</title>
+          <para id="id18356939">Không khí bên ngoài trời có trạng thái N(tN,N) đi qua thiết bị xử lý không khí để biến đổi trạng thái đến trạng thái O, sau đó qua quạt cấp gió hấp thụ một phần nhiệt dưới dạng nhiệt hiện và biến đổi đến trạng thái đến Q, trên đường ống không khí hấp thụ một lượng nhiệt từ môi trường dưới dạng nhiệt hiện và thay đổi đến trạng thái V. Sau đó được thổi vào phòng nhận nhiệt ẩn và nhiệt hiện để thay đổi trạng thái đến T(tT,T).</para>
+          <para id="id18356986">- Công suất lạnh thiết bị xử lý không khí</para>
+          <para id="id18356993">Q = G.(IN - IO)</para>
+          <para id="id18357008">- Nhiệt do không khí hấp thụ qua quạt</para>
+          <para id="id18357015">Q1 = G.(IQ-IO)</para>
+          <para id="id18357035">- Nhiệt do không khí nhận từ môi trường qua đường ống</para>
+          <para id="id18357043">Q2 = G.(IV-IQ)</para>
+          <para id="id18357063">- Nhiệt thừa do không khí nhận trong phòng Q3</para>
+          <para id="id18357074">+ Nhiệt hiện:</para>
+          <para id="id18357084">Q31 = G.(IL-IV)</para>
+          <para id="id18357104">+ Nhiệt ẩn</para>
+          <para id="id18357111">Q32 = G.(IT-IL)</para>
+          <para id="id18357131">- Nhiệt do không khí tươi nhả ra để biến đổi trạng thái từ N(tN,N) đến trạng thái T(tT,T)</para>
+          <para id="id18357169">Q4 = G.(IN-IT)</para>
+          <para id="id18357189">Ta có</para>
+          <para id="id18357195">Q = Q1 + Q2 + Q3 + Q4</para>
+          <para id="id18357220">Nếu bỏ qua tổn thất nhiệt từ quạt cấp gió và đường ống (Q1=Q2=0) thì:</para>
+          <para id="id18357239">Q = Q3 + Q4</para>
+          <para id="id18357253">Như vậy : Phụ tải lạnh của thiết bị xử lý không khí Q không phải là nhiệt thừa Q3 , mà thực tế có giá trí lớn hơn.</para>
+          <para id="id19235180"/>
+          <figure id="id19235187">
+            <media id="id8092702" alt=""><image src="../../media/graphics15.png" mime-type="image/png" height="291" width="293"/></media>
+          </figure>
+        </section>
+        <section id="id-00297251148901">
+          <title>Sơ đồ tuần hoàn 1 cấp</title>
+          <para id="id19235221">Không khí bên ngoài trời có trạng thái N(tN,N) hoà trộn với không khí hồi được trạng thái hoà trộn là C. Không khí ở trạng thái C đi qua thiết bị xử lý không khí để biến đổi đến trạng thái O, sau đó qua quạt cấp gió và đường ống gió hấp thụ một phần nhiệt dưới dạng nhiệt hiện và biến đổi đến trạng thái đến Q và V. Gió tiếp tục được thổi vào phòng nhận hiệt ẩn và nhiệt hiện để thay đổi trạng thái đến T(tT,T).</para>
+          <para id="id19235274">- Công suất lạnh thiết bị xử lý không khí</para>
+          <para id="id19235282">Q = G.(IC - IO)</para>
+          <para id="id19235297">- Nhiệt do không khí hấp thụ qua quạt</para>
+          <para id="id19235304">Q1 = G.(IQ-IO)</para>
+          <para id="id19235324">- Nhiệt do không khí nhận từ môi trường qua đường ống</para>
+          <para id="id19235331">Q2 = G.(IV-IQ)</para>
+          <para id="id19235351">- Nhiệt thừa do không khí nhận trong phòng Q3</para>
+          <para id="id19235363">+ Nhiệt hiện:</para>
+          <para id="id19235372">Q31 = G.(IL-IV)</para>
+          <para id="id19235392">+ Nhiệt ẩn</para>
+          <para id="id19235399">Q32 = G.(IT-IL)</para>
+          <para id="id19235419">- Nhiệt do không khí tươi nhả ra để biến đổi trạng thái từ N(tN,N) đến trạng thái T(tT,T)</para>
+          <para id="id19235457">Q4 = G’.(IN-IT)</para>
+          <para id="id19235478">trong đó G’ là lưu lượng khí tươi.</para>
+          <para id="id19235485">Ta có</para>
+          <para id="id19235490">Q = Q1 + Q2 + Q3 + Q4</para>
+          <para id="id19235515">Nếu bỏ qua tổn thất nhiệt từ quạt cấp gió và đường ống (Q1=Q2=0) thì:</para>
+          <para id="id19235534">Q = Q3 + Q4</para>
+          <figure id="id19235551">
+            <media id="id1167994998715" alt=""><image src="../../media/graphics16.png" mime-type="image/png" height="265" width="329"/></media>
+          </figure>
+        </section>
+      </section>
+      <section id="id-500354431813">
+        <title>Các đặc trưng của sơ đồ điều hoà</title>
+        <section id="id-327072403354">
+          <title>Hệ số nhiệt hiện SHF</title>
+          <para id="id19235595">Giả sử có một quá trình thay đổi trạng thái không khí từ trạng thái 1 đến trạng thái 2</para>
+          <para id="id19235604">(4-37)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>SHF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>w</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mi>Q</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1,</m:mn><m:mtext>024</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "SHF"= {  {Q rSub { size 8{h} } }  over  {Q rSub { size 8{h} } +Q rSub { size 8{w} } } } = {  {Q rSub { size 8{h} } }  over  {Q} } = {  {1,"024" \( t rSub { size 8{2} }  - t rSub { size 8{1} }  \) }  over  {I rSub { size 8{2} }  - I rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math>Hệ số nhiệt hiện SHF (Sensible heat factor) là tỷ số giữa tổng nhiệt hiện trên tổng nhiệt hiện và nhiệt ẩn:</para>
+          <para id="id19133463">Qh - Nhiệt hiện.</para>
+          <para id="id19133473">Qw - Nhiệt ẩn.</para>
+          <para id="id19133484">Q = Qh + Qw - Nhiệt tổng.</para>
+          <para id="id19133501">t1, t2 - Nhiệt độ không khí đầu và cuối quá trình, oC</para>
+          <para id="id19133524">I1, I2 - Entanpi của không khí đầu và cuối quá trình, kJ/kg</para>
+        </section>
+        <section id="id-623495907895">
+          <title>Hệ số nhiệt hiện của phòng </title>
+          <para id="id19133553"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>RSHF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hf</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hf</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>wf</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hf</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "RSHF"= {  {Q rSub { size 8{ ital "hf"} } }  over  {Q rSub { size 8{ ital "hf"} } +Q rSub { size 8{ ital "wf"} } } } = {  {Q rSub { size 8{ ital "hf"} } }  over  {Q rSub { size 8{f} } } } } {}</m:annotation></m:semantics></m:math>* Hệ số nhiệt hiện của phòng RSHF (Room sensible heat factor) được định nghĩa như sau :</para>
+          <para id="id19133706">(4-38)trong đó:</para>
+          <para id="id19133735">Qhf - Tổng nhiệt hiện do bức xạ, truyền nhiệt qua kết cấu bao che và nhiệt do các nguồn nhiệt bên trong phòng tỏa ra, kW</para>
+          <para id="id19133751">Qwf - Tổng nhiệt ẩn toả ra từ phòng, kW</para>
+          <para id="id19133764">Qf - Tổng nhiệt ẩn và nhiệt hiện từ do bức xạ, truyền nhiệt qua kết cấu bao che và do các nguồn nhiệt tỏa ra từ phòng, đây chính là tổng nhiệt thừa của phòng; kW</para>
+          <para id="id5506366">Trên đồ thị d-t , các điểm V và T lần lượt là trạng thái không khí cấp vào phòng và không khí trong phòng. Đường VT biểu thị quá trình không khí sau khi vào phòng nhận nhiệt thừa và ẩm thừa và tự thay đổi trạng thái. Đường này được gọi là đường hệ số nhiệt hiện của phòng RSHF.</para>
+          <para id="id5506382">Trong các tính toán thường điểm T đã biết trước, vì thế đường VT có thể dễ dàng xác định khi biết phương của nó. Cách xác định theo các bước sau:</para>
+          <para id="id5506397">Quan sát đồ thị d-t ta thấy có điểm G được đánh dấu tròn tại vị trí t = 24oC và  = 50%, điểm này gọi là điểm cơ sở. Mặt khác song song với trục d có đường biểu thị các giá trị khác nhau của hệ số nhiệt hiện RSHF. Đường VT sẽ song song với đường thẳng nối điểm G với điểm xác định giá trị RSHF trên đường biểu thị đó (hình 4-17).</para>
+          <figure id="id5506433">
+            <media id="id1167998837550" alt=""><image src="../../media/graphics17.png" mime-type="image/png" height="278" width="317"/></media>
+          </figure>
+        </section>
+        <section id="id-584088872603">
+          <title>Hệ số nhiệt hiện tổng GSHF (Grand sensible heat factor)</title>
+          <para id="id5506471">(4-39)Giả sử điểm C và O lần lượt là trạng thái không khí đầu vào và đầu ra thiết bị xử lý không khí . Khi đi qua thiết bị xử lý , không khí thải nhiệt hiện Qh và nhiệt ẩn Qw để biến đổi trạng thái từ C đến O.</para>
+          <para id="id5506524"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GSHF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>w</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>h</m:mi></m:mrow></m:mstyle></m:msub><m:mi>Q</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "GSHF"= {  {Q rSub { size 8{h} } }  over  {Q rSub { size 8{h} } +Q rSub { size 8{w} } } } = {  {Q rSub { size 8{h} } }  over  {Q} } } {}</m:annotation></m:semantics></m:math>Hệ số nhiệt hiện tổng được xác định theo công thức :</para>
+          <para id="id5506649">trong đó:</para>
+          <para id="id5506654">Qh và Qw - Nhiệt hiện và nhiệt ẩn mà không khí thải ra ở thiết bị xử lý không khí</para>
+          <para id="id5506676">Đường thẳng CO biểu thị sự thay đổi trạng thái của không khí khi qua thiết bị xử lý không khí gọi là đường GSHF. Cách xác định phương đường thẳng CO cũng tương tự như cách xác định đường RSHF, nghĩa là song song với đường G-GSHF</para>
+        </section>
+        <section id="id-00969818660681">
+          <title>Hệ số đi vòng BF</title>
+          <para id="id5506702">Khi không khí đi qua dàn lạnh, nếu quá trình tiếp xúc tốt, thời gian tiếp xúc đủ lớn thì trạng thái không khí đầu ra là trạng thái bão hoà =100%. Tuy nhiên thực tế trạng thái đầu ra thường không đạt trạng thái bão hoà, mà nằm trong khoảng  = 90  95%. Trạng thái đó được coi như là hỗn hợp của 2 trạng thái: trạng thái ban đầu C và trạng thái bão hoà S. Như vậy lượng không khí xử lý coi như được phân thành 2 dòng : một dòng đi qua dàn lạnh và trao đổi nhiệt ẩm và đạt trạng thái bão hoà, dòng thứ 2 đi vòng qua dàn và không trao đổi nhiệt ẩm.</para>
+          <para id="id5506748">(4-40)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mi>G</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "BF"= {  {G rSub { size 8{c} } }  over  {G rSub { size 8{c} } +G rSub { size 8{s} } } } = {  {G rSub { size 8{c} } }  over  {G} } } {}</m:annotation></m:semantics></m:math>Hệ số đi vòng BF (Bypass factor) là tỉ số giữa lượng không khí đi qua dàn lạnh nhưng không trao đổi nhiệt ẩm so với tổng lượng không khí qua dàn.</para>
+          <para id="id18853072">trong đó:</para>
+          <para id="id18853076">GC - Lưu lượng không khí qua dàn lạnh nhưng không trao dổi nhiệt ẩm, kg/s</para>
+          <para id="id18853090">GS - Lưu lượng không khí có trao đổi nhiệt ẩm, kg/s</para>
+          <para id="id18853103">G - Tổng lưu lượng gió qua dàn, kg/s</para>
+          <figure id="id18853115">
+            <media id="id1167995102226" alt=""><image src="../../media/graphics18.png" mime-type="image/png" height="236" width="250"/></media>
+          </figure>
+          <para id="id18853139">Hình 4-18</para>
+          <para id="id18853144">Nếu viết phương trình cân bằng năng lượng ta có :</para>
+          <para id="id18853151">G.Io = Gc.Ic + GS.IS</para>
+          <para id="id18853181">Sử dụng công thức xác định BF ta có :</para>
+          <para id="id18853188">G.Io = G.BF.Ic + G.(1-BF).IS</para>
+          <para id="id18853208">Hay:</para>
+          <para id="id18853213"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "BF"= {  {I rSub { size 8{o} }  - I rSub { size 8{s} } }  over  {I rSub { size 8{c} }  - I rSub { size 8{s} } } } } {}</m:annotation></m:semantics></m:math>Io = BF.Ic + (1-BF).IS</para>
+          <para id="id18853344"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "BF"= {  {d rSub { size 8{o} }  - d rSub { size 8{s} } }  over  {d rSub { size 8{c} }  - d rSub { size 8{s} } } } } {}</m:annotation></m:semantics></m:math>Rút ra :</para>
+          <para id="id18853461">Tương tự có thể rút ra:</para>
+          <para id="id18853467"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "BF"= {  {t rSub { size 8{o} }  - t rSub { size 8{s} } }  over  {t rSub { size 8{c} }  - t rSub { size 8{s} } } } } {}</m:annotation></m:semantics></m:math>và</para>
+          <para id="id18848611">Hệ số đi vòng BF phụ thuộc vào diện tích, cấu tạo và tốc độ không khí qua dàn</para>
+          <para id="id18848620">Bảng 4-1 dưới đây trình bày giá trị của hệ số BF trong một số trường hợp dùng để tham khảo khi tính phụ tải lạnh.</para>
+          <para id="id18848629">Bảng 4-1 </para>
+          <table id="id18848640" summary="">
+            <tgroup cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>Trị số BF</entry>
+                  <entry>Trường hợp áp dụng</entry>
+                  <entry>Ví dụ</entry>
+                </row>
+                <row>
+                  <entry>0,3  0,5</entry>
+                  <entry>Tải nhiệt nhỏ hoặc tải nhiệt tương đối lớn nhưng nhiệt hiện nhỏ</entry>
+                  <entry>Nhà ở</entry>
+                </row>
+                <row>
+                  <entry>0,2  0,3</entry>
+                  <entry>Tải nhiệt tương đối nhỏ hoặc tải nhiệt tương đối lớn với nhiệt hiện nhỏ</entry>
+                  <entry>Nhà ở, cửa hàng, phân xưởng sản xuất</entry>
+                </row>
+                <row>
+                  <entry>0,1  0,2</entry>
+                  <entry>Ứng dụng cho điều hoà không khí bình thường</entry>
+                  <entry>Cửa hàng lớn, ngân hàng, phân xưởng</entry>
+                </row>
+                <row>
+                  <entry>0,05  0,1</entry>
+                  <entry>Ứng dụng khi lượng nhiệt hiện lớn hoặc cần lượng không khí tươi nhiều</entry>
+                  <entry>Văn phòng làm việc, cửa hàng, nhà hàng, phân xưởng</entry>
+                </row>
+                <row>
+                  <entry>0  0,1</entry>
+                  <entry>Chỉ sử dụng không khí tươi (không có tái tuần hoàn)</entry>
+                  <entry>Bệnh viện, phòng thở, phân xưởng</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id18848903">Bảng 4-2 trình bày giá trị hệ số đi vòng BF của một số dàn lạnh kiểu tiếp xúc theo số hàng ống dọc theo chiều chuyển động của không khí và mật độ cánh trao đổi nhiệt.</para>
+          <para id="id18848915">Bảng 4-2</para>
+          <table id="id18848923" summary="">
+            <tgroup cols="3">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <tbody>
+                <row>
+                  <entry>Số hàng ống</entry>
+                  <entrytbl namest="c2" nameend="c3" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry namest="c1" nameend="c2">Hệ số BF</entry>
+                      </row>
+                      <row>
+                        <entry>315 cánh/m</entry>
+                        <entry>550 cánh/m</entry>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>234568</entry>
+                  <entry>0,42  0,550,27  0,400,12  0,280,08  0,220,05  0,150,02  0,08</entry>
+                  <entry>0,22  0,380,10  0,230,04  0,140,02  0,090,01  0,050  0,02</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id18356074">Trường hợp thiết bị xử lý không khí kiểu ướt (buồng phun) giá trị BF phụ thuộc vào tốc độ chuyển động của không khí, áp suất nước tại lổ phun, kích thước lổ phun, lưu lượng nước phun, số hàng bố trí lổ phun và số lổ phun trên 01 hàng. Ngoài ra chiều chuyển động tương đối giữa không khí và nước cũng ảnh hưởng tới giá trị BF. </para>
+          <para id="id18356090">Bảng 4.3 trình bày các giá trị của BF trong một số trường hợp dùng tham khảo.</para>
+          <para id="id18356097">Bảng 4-3</para>
+          <table id="id18356105" summary="">
+            <tgroup cols="6">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <tbody>
+                <row>
+                  <entry>Số hàng lổ phun</entry>
+                  <entry>Hướng phun nước</entry>
+                  <entry namest="c3" nameend="c4">Lổ phun có d=6mm,p=170 kPa, G= 2 Lít/s.m2</entry>
+                  <entry namest="c5" nameend="c6">Lổ phun có d=3mm,p=210 kPa, G= 1,7 Lít/s.m2</entry>
+                </row>
+                <row>
+                  <entry namest="c1" nameend="c2">Tốc độ không khí , m/s</entry>
+                  <entry>1,5</entry>
+                  <entry>3,5</entry>
+                  <entry>1,5</entry>
+                  <entry>3,5</entry>
+                </row>
+                <row>
+                  <entry>1</entry>
+                  <entry>- Song song- Hỗn hợp</entry>
+                  <entry>0,700,75</entry>
+                  <entry>0,500,65</entry>
+                  <entry>0,800,82</entry>
+                  <entry>0,600,70</entry>
+                </row>
+                <row>
+                  <entry>2</entry>
+                  <entry>- Song song- Ngược chiều- Hỗn hợp</entry>
+                  <entry>0,900,980,99</entry>
+                  <entry>0,850,920,93</entry>
+                  <entry>0,920,980,99</entry>
+                  <entry>0,870,930,94</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+        <section id="id-201517590612">
+          <title>Hệ số nhiệt hiện hiệu dụng ESHF</title>
+          <para id="id18356461">(4-41)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ESHF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hef</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ef</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hef</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hef</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>wef</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "ESHF"= {  {Q rSub { size 8{ ital "hef"} } }  over  {Q rSub { size 8{ ital "ef"} } } } = {  {Q rSub { size 8{ ital "hef"} } }  over  {Q rSub { size 8{ ital "hef"} } +Q rSub { size 8{ ital "wef"} } } } } {}</m:annotation></m:semantics></m:math>Hệ số nhiệt hiện hiệu dụng ESHF (Effective sensible heat factor) là tỷ số giữa nhiệt hiện hiệu dụng Qhef và tổng nhiệt hiệu dụng Qef</para>
+          <para id="id18357299">ở đây:</para>
+          <para id="id18357304">Qhef = Qhf + BF.Q4h- Nhiệt hiện hiệu dụng của phòng</para>
+          <para id="id18357328">Qwef = Qwf + BF.Q4w - Nhiệt ẩn hiệu dụng của phòng</para>
+          <para id="id18357351">Qhf, Qwf- Nhiệt hiện và nhiệt ẩn thừa của phòng</para>
+          <para id="id18357371">Q4h, Q4w - Nhiệt hiện và nhiệt ẩn của không khí tươi cần nhả ra để đạt được trạng thái trong phòng.</para>
+          <para id="id18357392">Trên đồ thị d-t đường biểu thị mối quan hệ giữa các hệ số RSHF, GSHF, ESHF và nhiệt độ động sương </para>
+          <figure id="id18357405">
+            <media id="id7728257" alt=""><image src="../../media/graphics19.png" mime-type="image/png" height="228" width="247"/></media>
+          </figure>
+          <para id="id18357429">Hình 4-19</para>
+          <para id="id18357434">Các trạng thái lần lượt là:</para>
+          <para id="id18357440">C- Trạng thái không khí đã được hoà trộn trước khi vào dàn lạnh</para>
+          <para id="id18357448">O  V Trạng thái sau dàn lạnh và thổi vào phòng</para>
+          <para id="id18357463">T - Trạng thái không khí trong phòng</para>
+          <para id="id18357470">N - Trạng thái không khí ngoài trời</para>
+          <para id="id18357477">S - Trạng thái không khí bão hoà, phần không khí tiếp xức dàn lạnh, nhiệt độ điểm K là nhiệt động đọng sương ts</para>
+          <para id="id18357491">(4-42)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ESHF</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>45</m:mtext><m:mfenced open="[" close="]"><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mfenced></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "ESHF"= {  {1}  over  {1+2,"45" left [ {  {d rSub { size 8{T} }  - d rSub { size 8{s} } }  over  {t rSub { size 8{T} }  - t rSub { size 8{s} } } }  right ]} } } {}</m:annotation></m:semantics></m:math>Giữa hệ số nhiệt hiện hữu dụng và và nhiệt độ đọng sương của dàn lạnh có mối quan hệ như sau :</para>
+          <para id="id18357662">trong đó:</para>
+          <para id="id18357668">dT, dS - Độ chứa hơi của không khí trong không gian điều hoà và ở trạng thái đọng sương của dàn lạnh, g/kg</para>
+          <para id="id18357692">tT, tS - Nhiệt độ của không khí trong không gian điều hoà và ở trạng thái đọng sương của dàn lạnh, oC</para>
+          <para id="id18357720">Bảng 4-4</para>
+          <table id="id18357728" summary="">
+            <tgroup cols="4">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <tbody>
+                <row>
+                  <entry>tT, oC</entry>
+                  <entry>T, %</entry>
+                  <entry/>
+                  <entry>Giá trị</entry>
+                </row>
+                <row>
+                  <entry>20</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,97</entry>
+                              <entry>0,88</entry>
+                              <entry>0,83</entry>
+                              <entry>0,73</entry>
+                              <entry>0,72</entry>
+                              <entry>0,70</entry>
+                              <entry>0,68</entry>
+                              <entry/>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>9,3</entry>
+                              <entry>9,0</entry>
+                              <entry>8,0</entry>
+                              <entry>7,0</entry>
+                              <entry>5,0</entry>
+                              <entry>3,0</entry>
+                              <entry>0</entry>
+                              <entry>-5,5</entry>
+                              <entry/>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,97</entry>
+                              <entry>0,92</entry>
+                              <entry>0,83</entry>
+                              <entry>0,78</entry>
+                              <entry>0,71</entry>
+                              <entry>0,67</entry>
+                              <entry>0,65</entry>
+                              <entry/>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>10,8</entry>
+                              <entry>10,5</entry>
+                              <entry>10,0</entry>
+                              <entry>9,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>3,0</entry>
+                              <entry>-4,5</entry>
+                              <entry/>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,92</entry>
+                              <entry>0,85</entry>
+                              <entry>0,78</entry>
+                              <entry>0,73</entry>
+                              <entry>0,67</entry>
+                              <entry>0,64</entry>
+                              <entry>0,62</entry>
+                              <entry>0,61</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>12,1</entry>
+                              <entry>11,5</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>9,0</entry>
+                              <entry>7,0</entry>
+                              <entry>5,0</entry>
+                              <entry>3,0</entry>
+                              <entry>-3,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,87</entry>
+                              <entry>0,82</entry>
+                              <entry>0,73</entry>
+                              <entry>0,69</entry>
+                              <entry>0,63</entry>
+                              <entry>0,60</entry>
+                              <entry>0,59</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>13,3</entry>
+                              <entry>13,0</entry>
+                              <entry>12,5</entry>
+                              <entry>12,0</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>5,0</entry>
+                              <entry>0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,89</entry>
+                              <entry>0,81</entry>
+                              <entry>0,76</entry>
+                              <entry>0,69</entry>
+                              <entry>0,64</entry>
+                              <entry>0,61</entry>
+                              <entry>0,58</entry>
+                              <entry>0,56</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,5</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>2,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>21</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,98</entry>
+                              <entry>0,89</entry>
+                              <entry>0,83</entry>
+                              <entry>0,76</entry>
+                              <entry>0,72</entry>
+                              <entry>0,69</entry>
+                              <entry>0,68</entry>
+                              <entry>0,67</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>10,2</entry>
+                              <entry>10,0</entry>
+                              <entry>9,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>4,0</entry>
+                              <entry>1,0</entry>
+                              <entry>0</entry>
+                              <entry>-5,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,91</entry>
+                              <entry>0,87</entry>
+                              <entry>0,83</entry>
+                              <entry>0,77</entry>
+                              <entry>0,74</entry>
+                              <entry>0,69</entry>
+                              <entry>0,65</entry>
+                              <entry>0,64</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>11,7</entry>
+                              <entry>11,0</entry>
+                              <entry>10,5</entry>
+                              <entry>10,0</entry>
+                              <entry>9,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>3,0</entry>
+                              <entry>-3,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,93</entry>
+                              <entry>0,86</entry>
+                              <entry>0,78</entry>
+                              <entry>0,72</entry>
+                              <entry>0,66</entry>
+                              <entry>0,63</entry>
+                              <entry>0,61</entry>
+                              <entry>0,60</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>13,0</entry>
+                              <entry>12,5</entry>
+                              <entry>12,0</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>3,0</entry>
+                              <entry>-1,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,86</entry>
+                              <entry>0,81</entry>
+                              <entry>0,73</entry>
+                              <entry>0,68</entry>
+                              <entry>0,62</entry>
+                              <entry>0,59</entry>
+                              <entry>0,57</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>14,2</entry>
+                              <entry>14,0</entry>
+                              <entry>13,5</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>11,0</entry>
+                              <entry>9,0</entry>
+                              <entry>7,0</entry>
+                              <entry>1,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,89</entry>
+                              <entry>0,81</entry>
+                              <entry>0,75</entry>
+                              <entry>0,67</entry>
+                              <entry>0,63</entry>
+                              <entry>0,58</entry>
+                              <entry>0,55</entry>
+                              <entry>0,54</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>15,4</entry>
+                              <entry>15,0</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>7,0</entry>
+                              <entry>3,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>22</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,88</entry>
+                              <entry>0,83</entry>
+                              <entry>0,75</entry>
+                              <entry>0,71</entry>
+                              <entry>0,68</entry>
+                              <entry>0,66</entry>
+                              <entry>0,65</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>11,1</entry>
+                              <entry>10,5</entry>
+                              <entry>10,0</entry>
+                              <entry>9,0</entry>
+                              <entry>7,0</entry>
+                              <entry>5,0</entry>
+                              <entry>2,0</entry>
+                              <entry>-1,0</entry>
+                              <entry>-5,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,93</entry>
+                              <entry>0,88</entry>
+                              <entry>0,83</entry>
+                              <entry>0,77</entry>
+                              <entry>0,70</entry>
+                              <entry>0,67</entry>
+                              <entry>0,64</entry>
+                              <entry>0,62</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>12,5</entry>
+                              <entry>12,0</entry>
+                              <entry>11,5</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>3,0</entry>
+                              <entry>-3,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,93</entry>
+                              <entry>0,88</entry>
+                              <entry>0,78</entry>
+                              <entry>0,72</entry>
+                              <entry>0,66</entry>
+                              <entry>0,62</entry>
+                              <entry>0,60</entry>
+                              <entry>0,59</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>13,8</entry>
+                              <entry>13,5</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>11,0</entry>
+                              <entry>9,0</entry>
+                              <entry>7,0</entry>
+                              <entry>4,0</entry>
+                              <entry>0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,95</entry>
+                              <entry>0,87</entry>
+                              <entry>0,80</entry>
+                              <entry>0,72</entry>
+                              <entry>0,68</entry>
+                              <entry>0,61</entry>
+                              <entry>0,57</entry>
+                              <entry>0,56</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>15,2</entry>
+                              <entry>15,0</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>7,0</entry>
+                              <entry>2,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,89</entry>
+                              <entry>0,81</entry>
+                              <entry>0,73</entry>
+                              <entry>0,66</entry>
+                              <entry>0,62</entry>
+                              <entry>0,56</entry>
+                              <entry>0,54</entry>
+                              <entry>0,53</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>16,4</entry>
+                              <entry>16,0</entry>
+                              <entry>15,5</entry>
+                              <entry>15,0</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>11,0</entry>
+                              <entry>9,0</entry>
+                              <entry>4,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>23</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,88</entry>
+                              <entry>0,82</entry>
+                              <entry>0,74</entry>
+                              <entry>0,70</entry>
+                              <entry>0,66</entry>
+                              <entry>0,65</entry>
+                              <entry>0,64</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>12,1</entry>
+                              <entry>11,5</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>3,0</entry>
+                              <entry>0</entry>
+                              <entry>-4,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,88</entry>
+                              <entry>0,83</entry>
+                              <entry>0,77</entry>
+                              <entry>0,70</entry>
+                              <entry>0,66</entry>
+                              <entry>0,62</entry>
+                              <entry>0,61</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>13,5</entry>
+                              <entry>13,0</entry>
+                              <entry>12,5</entry>
+                              <entry>12,0</entry>
+                              <entry>11,0</entry>
+                              <entry>9,0</entry>
+                              <entry>7,0</entry>
+                              <entry>4,0</entry>
+                              <entry>-2,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,95</entry>
+                              <entry>0,87</entry>
+                              <entry>0,78</entry>
+                              <entry>0,72</entry>
+                              <entry>0,65</entry>
+                              <entry>0,62</entry>
+                              <entry>0,59</entry>
+                              <entry>0,58</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>14,9</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>5,0</entry>
+                              <entry>1,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,88</entry>
+                              <entry>0,80</entry>
+                              <entry>0,75</entry>
+                              <entry>0,71</entry>
+                              <entry>0,66</entry>
+                              <entry>0,60</entry>
+                              <entry>0,56</entry>
+                              <entry>0,55</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>16,1</entry>
+                              <entry>15,5</entry>
+                              <entry>15,0</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>11,0</entry>
+                              <entry>8,0</entry>
+                              <entry>3,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,91</entry>
+                              <entry>0,81</entry>
+                              <entry>0,74</entry>
+                              <entry>0,66</entry>
+                              <entry>0,61</entry>
+                              <entry>0,56</entry>
+                              <entry>0,53</entry>
+                              <entry>0,51</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>17,3</entry>
+                              <entry>17,0</entry>
+                              <entry>16,5</entry>
+                              <entry>16,0</entry>
+                              <entry>15,0</entry>
+                              <entry>14,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>5,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>24</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,89</entry>
+                              <entry>0,82</entry>
+                              <entry>0,74</entry>
+                              <entry>0,69</entry>
+                              <entry>0,65</entry>
+                              <entry>0,64</entry>
+                              <entry>0,63</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>13,0</entry>
+                              <entry>12,5</entry>
+                              <entry>12,0</entry>
+                              <entry>11,0</entry>
+                              <entry>9,0</entry>
+                              <entry>7,0</entry>
+                              <entry>4,0</entry>
+                              <entry>1,0</entry>
+                              <entry>-3,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,93</entry>
+                              <entry>0,87</entry>
+                              <entry>0,82</entry>
+                              <entry>0,76</entry>
+                              <entry>0,69</entry>
+                              <entry>0,64</entry>
+                              <entry>0,61</entry>
+                              <entry>0,60</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,5</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>5,0</entry>
+                              <entry>-1,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,95</entry>
+                              <entry>0,87</entry>
+                              <entry>0,77</entry>
+                              <entry>0,71</entry>
+                              <entry>0,64</entry>
+                              <entry>0,60</entry>
+                              <entry>0,58</entry>
+                              <entry>0,57</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>15,8</entry>
+                              <entry>15,5</entry>
+                              <entry>15,0</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>11,0</entry>
+                              <entry>9,0</entry>
+                              <entry>6,0</entry>
+                              <entry>2,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,88</entry>
+                              <entry>0,81</entry>
+                              <entry>0,71</entry>
+                              <entry>0,65</entry>
+                              <entry>0,59</entry>
+                              <entry>0,56</entry>
+                              <entry>0,55</entry>
+                              <entry>0,54</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>17,0</entry>
+                              <entry>16,5</entry>
+                              <entry>16,0</entry>
+                              <entry>15,0</entry>
+                              <entry>14,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>9,0</entry>
+                              <entry>4,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,92</entry>
+                              <entry>0,82</entry>
+                              <entry>0,73</entry>
+                              <entry>0,65</entry>
+                              <entry>0,56</entry>
+                              <entry>0,52</entry>
+                              <entry>0,51</entry>
+                              <entry>0,50</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>18,3</entry>
+                              <entry>18,0</entry>
+                              <entry>17,5</entry>
+                              <entry>17,0</entry>
+                              <entry>16,0</entry>
+                              <entry>14,0</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>6,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>25</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,89</entry>
+                              <entry>0,82</entry>
+                              <entry>0,73</entry>
+                              <entry>0,68</entry>
+                              <entry>0,64</entry>
+                              <entry>0,63</entry>
+                              <entry>0,62</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>14,0</entry>
+                              <entry>13,5</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>5,0</entry>
+                              <entry>3,0</entry>
+                              <entry>-3,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,94</entry>
+                              <entry>0,88</entry>
+                              <entry>0,83</entry>
+                              <entry>0,76</entry>
+                              <entry>0,68</entry>
+                              <entry>0,62</entry>
+                              <entry>0,60</entry>
+                              <entry>0,59</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>15,4</entry>
+                              <entry>15,0</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>11,0</entry>
+                              <entry>8,0</entry>
+                              <entry>5,0</entry>
+                              <entry>0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,96</entry>
+                              <entry>0,86</entry>
+                              <entry>0,76</entry>
+                              <entry>0,70</entry>
+                              <entry>0,63</entry>
+                              <entry>0,59</entry>
+                              <entry>0,57</entry>
+                              <entry>0,56</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>16,7</entry>
+                              <entry>16,5</entry>
+                              <entry>16,0</entry>
+                              <entry>15,0</entry>
+                              <entry>14,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>2,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,88</entry>
+                              <entry>0,79</entry>
+                              <entry>0,69</entry>
+                              <entry>0,64</entry>
+                              <entry>0,58</entry>
+                              <entry>0,54</entry>
+                              <entry>0,53</entry>
+                              <entry>0,52</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>18,0</entry>
+                              <entry>17,5</entry>
+                              <entry>17,0</entry>
+                              <entry>16,0</entry>
+                              <entry>15,0</entry>
+                              <entry>13,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>5,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,92</entry>
+                              <entry>0,81</entry>
+                              <entry>0,73</entry>
+                              <entry>0,63</entry>
+                              <entry>0,58</entry>
+                              <entry>0,53</entry>
+                              <entry>0,50</entry>
+                              <entry>0,49</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>19,2</entry>
+                              <entry>19,0</entry>
+                              <entry>18,5</entry>
+                              <entry>18,0</entry>
+                              <entry>17,0</entry>
+                              <entry>16,0</entry>
+                              <entry>14,0</entry>
+                              <entry>11,0</entry>
+                              <entry>6,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>26</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,96</entry>
+                              <entry>0,90</entry>
+                              <entry>0,81</entry>
+                              <entry>0,76</entry>
+                              <entry>0,69</entry>
+                              <entry>0,66</entry>
+                              <entry>0,63</entry>
+                              <entry>0,61</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>14,9</entry>
+                              <entry>14,5</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>-2,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,95</entry>
+                              <entry>0,86</entry>
+                              <entry>0,82</entry>
+                              <entry>0,75</entry>
+                              <entry>0,67</entry>
+                              <entry>0,63</entry>
+                              <entry>0,59</entry>
+                              <entry>0,57</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>16,3</entry>
+                              <entry>16,0</entry>
+                              <entry>15,5</entry>
+                              <entry>15,0</entry>
+                              <entry>14,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>7,0</entry>
+                              <entry>2,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,88</entry>
+                              <entry>0,82</entry>
+                              <entry>0,76</entry>
+                              <entry>0,69</entry>
+                              <entry>0,62</entry>
+                              <entry>0,57</entry>
+                              <entry>0,55</entry>
+                              <entry>0,54</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>17,6</entry>
+                              <entry>17,0</entry>
+                              <entry>16,5</entry>
+                              <entry>16,0</entry>
+                              <entry>15,0</entry>
+                              <entry>13,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                              <entry>3,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,90</entry>
+                              <entry>0,80</entry>
+                              <entry>0,70</entry>
+                              <entry>0,63</entry>
+                              <entry>0,57</entry>
+                              <entry>0,53</entry>
+                              <entry>0,52</entry>
+                              <entry>0,51</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>19,0</entry>
+                              <entry>18,5</entry>
+                              <entry>18,0</entry>
+                              <entry>17,0</entry>
+                              <entry>16,0</entry>
+                              <entry>14,0</entry>
+                              <entry>11,0</entry>
+                              <entry>10,0</entry>
+                              <entry>5,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,83</entry>
+                              <entry>0,73</entry>
+                              <entry>0,64</entry>
+                              <entry>0,54</entry>
+                              <entry>0,50</entry>
+                              <entry>0,49</entry>
+                              <entry>0,48</entry>
+                              <entry>0,47</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>20,1</entry>
+                              <entry>19,5</entry>
+                              <entry>19,0</entry>
+                              <entry>18,0</entry>
+                              <entry>16,0</entry>
+                              <entry>14,0</entry>
+                              <entry>12,0</entry>
+                              <entry>10,0</entry>
+                              <entry>8,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+                <row>
+                  <entry>27</entry>
+                  <entrytbl namest="c2" nameend="c4" cols="2">
+                    <colspec colnum="1" colname="c1"/>
+                    <colspec colnum="2" colname="c2"/>
+                    <tbody>
+                      <row>
+                        <entry>50</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,97</entry>
+                              <entry>0,90</entry>
+                              <entry>0,82</entry>
+                              <entry>0,76</entry>
+                              <entry>0,69</entry>
+                              <entry>0,65</entry>
+                              <entry>0,61</entry>
+                              <entry>0,60</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>15,8</entry>
+                              <entry>15,5</entry>
+                              <entry>15,0</entry>
+                              <entry>14,0</entry>
+                              <entry>13,0</entry>
+                              <entry>11,0</entry>
+                              <entry>9,0</entry>
+                              <entry>6,0</entry>
+                              <entry>-0,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>55</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,88</entry>
+                              <entry>0,82</entry>
+                              <entry>0,75</entry>
+                              <entry>0,66</entry>
+                              <entry>0,61</entry>
+                              <entry>0,58</entry>
+                              <entry>0,57</entry>
+                              <entry>0,56</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>17,2</entry>
+                              <entry>16,5</entry>
+                              <entry>16,0</entry>
+                              <entry>15,0</entry>
+                              <entry>13,0</entry>
+                              <entry>11,0</entry>
+                              <entry>8,0</entry>
+                              <entry>6,0</entry>
+                              <entry>2,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>60</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,90</entry>
+                              <entry>0,82</entry>
+                              <entry>0,77</entry>
+                              <entry>0,69</entry>
+                              <entry>0,64</entry>
+                              <entry>0,59</entry>
+                              <entry>0,55</entry>
+                              <entry>0,53</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>18,6</entry>
+                              <entry>18,0</entry>
+                              <entry>17,5</entry>
+                              <entry>17,0</entry>
+                              <entry>16,0</entry>
+                              <entry>15,0</entry>
+                              <entry>13,0</entry>
+                              <entry>10,0</entry>
+                              <entry>4,5</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>65</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,90</entry>
+                              <entry>0,80</entry>
+                              <entry>0,75</entry>
+                              <entry>0,69</entry>
+                              <entry>0,58</entry>
+                              <entry>0,52</entry>
+                              <entry>0,50</entry>
+                              <entry>0,49</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>19,8</entry>
+                              <entry>19,5</entry>
+                              <entry>19,0</entry>
+                              <entry>18,5</entry>
+                              <entry>18,0</entry>
+                              <entry>16,0</entry>
+                              <entry>13,0</entry>
+                              <entry>10,0</entry>
+                              <entry>6,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                      <row>
+                        <entry>70</entry>
+                        <entrytbl cols="10">
+                          <colspec colnum="1" colname="c1"/>
+                          <colspec colnum="2" colname="c2"/>
+                          <colspec colnum="3" colname="c3"/>
+                          <colspec colnum="4" colname="c4"/>
+                          <colspec colnum="5" colname="c5"/>
+                          <colspec colnum="6" colname="c6"/>
+                          <colspec colnum="7" colname="c7"/>
+                          <colspec colnum="8" colname="c8"/>
+                          <colspec colnum="9" colname="c9"/>
+                          <colspec colnum="10" colname="c10"/>
+                          <tbody>
+                            <row>
+                              <entry>ESHF</entry>
+                              <entry>1,00</entry>
+                              <entry>0,84</entry>
+                              <entry>0,74</entry>
+                              <entry>0,68</entry>
+                              <entry>0,63</entry>
+                              <entry>0,57</entry>
+                              <entry>0,53</entry>
+                              <entry>0,49</entry>
+                              <entry>0,46</entry>
+                            </row>
+                            <row>
+                              <entry>tS</entry>
+                              <entry>21,0</entry>
+                              <entry>20,5</entry>
+                              <entry>20,0</entry>
+                              <entry>19,5</entry>
+                              <entry>19,0</entry>
+                              <entry>18,0</entry>
+                              <entry>17,0</entry>
+                              <entry>15,0</entry>
+                              <entry>8,0</entry>
+                            </row>
+                          </tbody>
+                        </entrytbl>
+                      </row>
+                    </tbody>
+                  </entrytbl>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+      </section>
+      <section id="id-303956629705">
+        <title>Xác định năng suất lạnh, lưu lượng không khí của dàn lạnh </title>
+        <para id="id18866179">Trước hết để xác định năng suất lạnh, lưu lượng không khí thổi vào dàn lạnh và nhiệt độ thổi vào chúng ta phải có các thông số tính toán ban đầu </para>
+        <para id="id18866190">Các bước xác định</para>
+        <para id="id18866196">Bước 1 :</para>
+        <para id="id18866200">- Xác định RSHF, GSHF và ESHF</para>
+        <para id="id18866207">- Xác định các điểm N(tN, N) , T(tT, T), G(24oC, 50%)</para>
+        <para id="id18866249">Bước 2 :</para>
+        <para id="id18866253">- Kẻ đường TS song song với đường G-ESHF cắt =100% tại S</para>
+        <para id="id18866266">- Kẻ đường TH song song với đường G-RSHF</para>
+        <para id="id18866273">Bước 3 :</para>
+        <para id="id18866277">- Qua S kẻ đường SC song song với đường G-GSHF cắt TH ở điểm OV</para>
+        <para id="id18866291"> Xác định các thông số t, d và I tại điểm C trước khi vào dàn lạnh, điểm V trước khi vào phòng.</para>
+        <para id="id18866307">Bước 4 : </para>
+        <para id="id18866311">Kiểm tra điều kiện vệ sinh của trạng thái không khí thổi vào phòng</para>
+        <para id="id18866319">tV &gt; tT - a</para>
+        <para id="id18866340">+ a = 10oC nếu miệng thổi bố trí trên cao</para>
+        <para id="id18866352">+ a = 7oC nếu miệng thổi bố trí ở dưới thấp.</para>
+        <para id="id18866365">Nếu điều kiện vệ sinh thoả mãn thì xác định </para>
+        <para id="id18866372"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hef</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>1,2</m:mn><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BF</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{ ital "hef"} } }  over  {1,2 "."  \( t rSub { size 8{T} }  - t rSub { size 8{s} }  \)  "."  \( 1 -  ital "BF" \) } } ,L/s} {}</m:annotation></m:semantics></m:math>- Lưu lượng gió qua dàn lạnh</para>
+        <para id="id18866527">Lưu lượng khối lượng</para>
+        <para id="id18866539">G = 0,0012.L; Kg/s</para>
+        <para id="id18866544">- Năng suất lạnh của thiết bị xử lý không khí</para>
+        <para id="id18866551">Qo = G.(IC-IO), kW</para>
+        <para id="id18866572">- Lưu lượng không khí tái tuần hoàn; l/s</para>
+        <para id="id18866579">LT = L - LN</para>
+        <para id="id18866592"> LN - Lưu lượng không khí tươi, l/s</para>
+        <figure id="id18866607">
+          <media id="id7013034" alt=""><image src="../../media/graphics20.png" mime-type="image/png" height="265" width="313"/></media>
+        </figure>
+      </section>
+      <section id="id-972574284072">
+        <title>Tính toán sơ đồ tuần hoàn 2 cấp </title>
+        <para id="id18866640">Trong trường hợp điều kiện vệ sinh không thỏa mãn thì người ta sử dụng sơ đồ tuần hoàn 2 cấp. Có 2 kiểu tuần hoàn 2 cấp: Sơ đồ 2 cấp điều chỉnh nhiệt độ và sơ đồ 2 cấp điều chỉnh độ ẩm.</para>
+        <section id="id-853270558686">
+          <title>Sơ đồ điều chỉnh nhiệt độ</title>
+          <para id="id18866665">Trên hình 4-21 biểu diễn sơ đồ nguyên lý thiết bị và sự thay đổi trạng thái của không khí trên đồ thị d-t</para>
+          <para id="id18866675">Theo sơ đồ lượng không khí tái tuần hoàn LT trước khi đến dàn lạnh được tách làm 2 dòng : LT1 đi qua dàn lạnh và LT2 đi vòng qua dàn lạnh. Lượng không khí đi qua dàn lạnh LT1 trước khi vào dàn lạnh được hoà trộn với lượng gió tươi LN</para>
+          <figure id="id18866723">
+            <media id="id1168003993816" alt=""><image src="graphics21.wmf" mime-type="image/wmf" height="220" width="500"/></media>
+          </figure>
+          <para id="id18866752">Hình 4-21</para>
+          <para id="id18866757">Các điểm nút N, T, S, O và C được xác định giống như sơ đồ 1 cấp. Điểm V có nhiệt độ tV = tT - a.</para>
+          <para id="id18866780"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hef</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>1,2</m:mn><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>s</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BF</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{ ital "hef"} } }  over  {1,2 "."  \( t rSub { size 8{T} }  - t rSub { size 8{s} }  \)  "."  \( 1 -  ital "BF" \) } } } {}</m:annotation></m:semantics></m:math> - Lưu lượng gió cấp vào phòng:</para>
+          <para id="id17479810"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OV</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>VT</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">T2</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">T2</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi fontstyle="italic">T1</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "OV"}  over  { ital "VT"} } = {  {L rSub { size 8{T2} } }  over  {L rSub { size 8{1} } } } = {  {L rSub { size 8{T2} } }  over  {L rSub { size 8{T1} } +L rSub { size 8{N} } } } } {}</m:annotation></m:semantics></m:math>và LT = LT1 + LT2 = L - LN- Lưu lượng gió LT1 và LT2 được xác định dựa vào hệ phương trình: </para>
+          <para id="id17480023">- Năng suất lạnh Qo của dàn lạnh:</para>
+          <para id="id17480036">Qo = G1.(IC-IO), kW</para>
+          <para id="id17480062">trong đó G1 = 0,012.L1 , Kg/s</para>
+        </section>
+        <section id="id-607569473921">
+          <title>Sơ đồ điều chỉnh độ ẩm</title>
+          <para id="id17480091">Trên hình 4-22 biểu diễn sơ đồ nguyên lý thiết bị và sự thay đổi trạng thái của không khí trên đồ thị d-t</para>
+          <para id="id17480101">Theo sơ đồ lượng không khí tái tuần hoàn LT được đem hoà trộn với lượng gió tươi LN được trạng thái C và lưu lượng tổng L, được tách thành 2 : L1 đi qua dàn lạnh và L2 đi vòng qua dàn lạnh . </para>
+          <para id="id17480137">Lượng không khí L1 qua dàn lạnh biến đổi đến trạng thái O và hoà trộn với L2 để đạt trạng thái V thoả mãn điều kiện vệ sinh trước khi thổi vào phòng tV=tT-a.</para>
+          <figure id="id17480172">
+            <media id="id1168004675877" alt=""><image src="../../media/graphics22.png" mime-type="image/png" height="255" width="513"/></media>
+          </figure>
+          <para id="id17480196">* Xác định lưu lượng gió</para>
+          <para id="id17480207">Để xác định lưu lượng gió trước hết cần phải xác định các điểm nút S, O, C và V tương tự như sơ đồ 1 cấp. Đối với điểm V , nhiệt độ tV phải thoả mãn điều kiện vệ sinh và được chọn tV = tT - a.</para>
+          <para id="id17480236"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Qhef</m:mtext></m:mrow></m:mstyle><m:mrow><m:mn>1,2</m:mn><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>tT</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ts</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BF</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  { ital "Qhef"}  over  {1,2 "."  \(  ital "tT" -  ital "ts" \)  "."  \( 1 -  ital "BF" \) } } ,L/s} {}</m:annotation></m:semantics></m:math> - Lưu lượng gió cấp vào phòng:</para>
+          <para id="id17480378">và L = L1 + L2 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>OV</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>VC</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { ital "OV"}  over  { ital "VC"} } = {  {L rSub { size 8{2} } }  over  {L rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math>- Lưu lượng gió L1 và L2 được xác định dựa vào hệ phương trình: </para>
+          <para id="id17480532">- Năng suất lạnh Qo của dàn lạnh:</para>
+          <para id="id17480540">Qo = G1.(IC-IO), kW</para>
+          <para id="id17480565">trong đó G1 = 0,012.L1 , Kg/s</para>
+          <para id="id17480583">* * *</para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

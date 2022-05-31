@@ -1,0 +1,313 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Thông gió</title>
+  <metadata>
+  <md:content-id>m30016</md:content-id><md:title>Thông gió</md:title>
+  <md:abstract>Trong quá trình sản xuất và sinh hoạt của con người thường sinh ra các chất độc hại và thải vào trong phòng.
+	Do đó một yêu cầu không thể thiếu được là phải thực hiện thông gió. Quá trình thông gió thực chất là quá trình thay đổi không khí trong phòng đã ô nhiễm bằng không khí mới bên ngoài trời.</md:abstract>
+  <md:uuid>c9bcc86b-91ee-4db6-9516-8529d3bf31ac</md:uuid>
+</metadata>
+
+<content>
+    <para id="id21786543">Module 8:THÔNG GIÓ </para>
+    <section id="id-997109752544">
+      <title>Tk:</title>
+      <para id="id21786204">Thông gió</para>
+      <para id="id21786210">TT</para>
+      <para id="id21786215">Trong quá trình sản xuất và sinh hoạt của con người thường sinh ra các chất độc hại và thải vào trong phòng.</para>
+      <para id="id21785271">Do đó một yêu cầu không thể thiếu được là phải thực hiện thông gió. Quá trình thông gió thực chất là quá trình thay đổi không khí trong phòng đã ô nhiễm bằng không khí mới bên ngoài trời.</para>
+      <section id="id-149816155023">
+        <title>Phân loại</title>
+        <para id="id21786295">Khái niệm</para>
+        <para id="id21786301">Trong quá trình sản xuất và sinh hoạt của con người thường sinh ra các chất độc hại và thải vào trong phòng.</para>
+        <para id="id21056136">Do đó một yêu cầu không thể thiếu được là phải thực hiện thông gió. Quá trình thông gió thực chất là quá trình thay đổi không khí trong phòng đã ô nhiễm bằng không khí mới bên ngoài trời.</para>
+        <para id="id21056149">Phân loại</para>
+        <para id="id21056155">1. Theo hướng chuyển động của gió </para>
+        <para id="id21753094">Người ta chia ra các loại sau :</para>
+        <list id="id21753100" list-type="bulleted">
+          <item>Thông gió kiểu thổi : Thổi không khí sạch vào phòng và không khí trong phòng thải ra bên ngoài qua các khe hở của phòng nhờ chênh lệch cột áp</item>
+          <item>Thông gió kiểu hút : Hút xả không khí bị ô nhiễm ra khỏi phòng và không khí bên ngoài ràn vào phòng theo các khe hở nhờ chênh lệch cột áp.</item>
+          <item>Thông gió kết hợp : Kết hợp cả hút xả lẫn thổi vào phòng, đây là phương pháp hiệu quả nhất.</item>
+        </list>
+        <para id="id22297864">2. Theo động lực tạo ra thông gió</para>
+        <list id="id22297870" list-type="bulleted">
+          <item>Thông gió tự nhiên : Là hiện tượng trao đổi không khí trong nhà và ngoài trời nhờ chênh lệch cột áp. Thường cột áp chênh lệch do nhiệt độ khác nhau là phổ biến nhất.</item>
+          <item>Thông gió cưỡng bức : Quá trình thông gió thực hiện bằng quạt.</item>
+        </list>
+        <para id="id22331477">3. Theo phương pháp tổ chức</para>
+        <list id="id22331482" list-type="bulleted">
+          <item>Thông gió tổng thể : Thông gió tổng thể cho toàn bộ phòng hay công trình</item>
+          <item>Thông gió cục bộ : Thông gió cho một khu vực nhỏ đặc biệt trong phòng hay các phòng có sinh các chất độc hại lớn.</item>
+        </list>
+      </section>
+      <section id="id-112567497303">
+        <title>Lưu lượng thông gió</title>
+        <para id="id21682122">Lưu lượng gió sử dụng để thông gió được tính phụ thuộc vào mục đích thông gió. Mục đích đó có thể là khử các chất độc hại, thải nhiệt thừa, ẩm thừa phát sinh trong phòng, khử bụi...vv. </para>
+        <para id="id21682137">(8-1)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>G</m:mi><m:mrow><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:mi>h</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {G}  over  {y rSub { size 8{c} }  - y rSub { size 8{o} } } } ,m rSup { size 8{3} } /h} {}</m:annotation></m:semantics></m:math>Lưu lượng thông gió khử khí độc</para>
+        <para id="id21092371">trong đó </para>
+        <para id="id21752142">G - Lượng chất độc hại tỏa ra phòng , g/h</para>
+        <para id="id21752149">yc - Nồng độ cho phép của chất độc hại (tham khảo bảng 2.8), g/m3</para>
+        <para id="id22080171">yo - Nồng độ chất độc hại trong không khí thổi vào, g/m3</para>
+        <para id="id22080188">(8-2)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hn</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>max</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>h</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {G rSub { size 8{ ital "hn"} } }  over  {d rSub { size 8{"max"} }  - d rSub { size 8{o} } } } , ital "kg"/h} {}</m:annotation></m:semantics></m:math> Lưu lượng thông gió khử hơi nước thừa</para>
+        <para id="id21786177">Ghn - Lượng hơi nước toả ra phòng , kg/h</para>
+        <para id="id21786188">dmax - Dung ẩm cực đại cho phép của không khí trong phòng, g/kg</para>
+        <para id="id22331186">do - Dung ẩm của không khí thổi vào phòng, g/kg</para>
+        <para id="id22331198">(8-3)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>G</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>S</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>c</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>S</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>o</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:mi>h</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {G rSub { size 8{b} } }  over  {S rSub { size 8{c} }  - S rSub { size 8{o} } } } ,m rSup { size 8{3} } /h} {}</m:annotation></m:semantics></m:math> Lưu lượng thông gió khử bụi</para>
+        <para id="id21682638">trong đó:</para>
+        <para id="id21685571">Gb - Lượng bụi thải ra phòng, g/h</para>
+        <para id="id21685583">Sc - Nồng độ bụi cho phép trong không khí, g/m3</para>
+        <para id="id21685534">So - Nồng độ bụi trong không khí thổi vào, g/m3</para>
+        <para id="id21685550">(8-4)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>r</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>v</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>h</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{T} } }  over  {I rSub { size 8{r} }  - I rSub { size 8{v} } } } , ital "kg"/h} {}</m:annotation></m:semantics></m:math> Lưu lượng thông gió khử nhiệt thừa</para>
+        <para id="id21682023">QT- Lượng nhiệt thừa trong phòng, kCal/h</para>
+        <para id="id22297577">Ir, Iv - Entanpi của không khí thổi vào và hút ra phòng, KCal/kg.</para>
+        <para id="id22297594">(8-5)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mn>0,</m:mn><m:mtext>24</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>r</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>v</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>h</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {Q rSub { size 8{T} } }  over  {0,"24" \( t rSub { size 8{r} }  - t rSub { size 8{v} }  \) } } , ital "kg"/h} {}</m:annotation></m:semantics></m:math>Trong trường hợp không khí trong phòng chỉ toả nhiệt mà không tỏa hơi ẩm thì có thể áp dụng công thức :</para>
+        <para id="id22080310">tr, tv - Nhiệt độ của không khí thổi vào và hút ra phòng, oC</para>
+        <para id="id22080330">Nhiệt dung riêng của không khí Ck = 0,24 kCal/kg.oC</para>
+        <para id="id22015674">Khi tính toán cần lưu ý</para>
+        <para id="id22015679">- Nhiệt độ không khí trong phòng lấy theo yêu cầu vệ sinh và công nghệ của quá trình sản xuất.</para>
+        <para id="id22015688">- Nhiệt độ không khí vào phải thoả mãn điều kiện vệ sinh tv &gt; tT - a . Giá trị a tuỳ thuộc vị trí lắp đặt miệng thổi nêu ở chương 4.</para>
+        <para id="id21685308">- Nhiệt độ không khí ra : Có thể lấy bằng nhiệt độ không khí trong phòng. Nếu miệng hút đặt cao thì tính theo công thức sau :</para>
+        <para id="id22298286">tR = tT + (H-Z)(8-6)</para>
+        <para id="id21786242">H - Khoảng cách từ mặt sàn đến miệng hút, m</para>
+        <para id="id21786248">Z - Chiều cao vùng làm việc, m</para>
+        <para id="id21786253"> - Gradien nhiệt độ theo chiều cao.</para>
+        <para id="id21746988">+ Thông thường :  = 0,2  1,5 oC/m</para>
+        <para id="id21747014">+ Đối với rạp hát, rạp chiếu bóng :  = 0,2  0,3</para>
+        <para id="id21684672">+ Đối với xưởng nguội:  = 0,4  1,0</para>
+        <para id="id22077300">+ Đối với xưởng nóng:  = 1  1,5</para>
+      </section>
+      <section id="id-1246360862">
+        <title>Bội số tuần hoàn</title>
+        <para id="id22078302">Khi thông gió theo yêu cầu điều kiện vệ sinh nói chung mà không vì một mục đích cụ thể nào đó thì người ta tính lưu lượng gió thông gió dựa vào bội số tuần hoàn.</para>
+        <para id="id22078313">Bội số tuần hoàn là số lần thay đổi không khí trong phòng trong một đơn vị thời gian.</para>
+        <para id="id22078321">K = Vkk/Vgm (8-7)</para>
+        <para id="id22081493">trong đó</para>
+        <para id="id22081497">K - Bội số tuần hoàn</para>
+        <para id="id21753768">Vkk - Lưu lượng không khí cấp vào phòng, m3/h</para>
+        <para id="id21753785">Vgm - Thể tích gian máy, m3</para>
+        <para id="id21684909">Bảng 8-1 : Bội số tuần hoàn và lưu lượng gió thông gió, m3/h</para>
+        <table id="id21684931" summary="">
+          <tgroup cols="5">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <tbody>
+              <row>
+                <entry>TT</entry>
+                <entry>Khu vực thông gió</entry>
+                <entry>Nhiệt độ tT, oC</entry>
+                <entry namest="c4" nameend="c5">Bội số tuần hoàn hoặc lưu lượng gió tuần hoàn (m3/h)</entry>
+              </row>
+              <row>
+                <entry>123456789101112131415161718192021222324252627282930</entry>
+                <entry>Nhà ởPhòng ở hộ gia đình (tính cho 1m2 diện tích sàn)Nhà bếpPhòng tắmPhòng vệ sinh (xí, tiểu)Phòng vệ sinh : Tắm và xí tiểuPhòng vệ sinh chungPhòng sinh hoạt tập thể trong ký túc xá, phòng học chungKhách sạnPhòng ngủ (tính cho 1 người)Khu vệ sinh riêng- Phòng 1 giường- Phòng 2 giườngKhu vệ sinh chung- Cho 1 chậu xí- Cho 1 chậu tiểuBệnh xá, trạm xáPhòng bệnh nhân (tính cho 1 giường)Phòng phụPhòng cho trẻ sơ sinh búPhòng bác sĩPhòng X quang, chiếu xạPhòng chuẩn bị dụng cụ mổ, khử trùngPhòng vật lý trị liệu, răng hàm mặtNhà xácCông trình thể thaoPhòng tập luyện, thi đấu- Cho 1 vận động viên- Cho khán giảBể bơi trong nhàPhòng thay quần áo cạnh bể bơiPhòng nghỉ của VĐ viên, lớp họcKhu vệ sinhRạp hát, rạp chiếu bóng, câu lạc bộPhòng khán giảHành langCăng tinPhòng hút thuốcPhòng vệ sinh (tính cho 1 chậu xí hoặc chậu tiểu)Phòng nghỉ của nhạc côngPhòng máy chiếu phim</entry>
+                <entry>18  20152516251618202525161620252220201820215152620182316161816161816</entry>
+                <entry>(3)(60)(25)(25)(50)(50)6(30)(50)(60)(50)(25)2214333---22(100)Theo tính toán510(100)53</entry>
+                <entry>------------(40)1,51,51312-(80)(20)(20)-22--33</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </section>
+    <section id="id-744518997561">
+      <title>Thông gió tự nhiên</title>
+      <para id="id21681610">Thông gió tự nhiên là hiện tượng trao đổi không khí trong nhà và ngoài trời do chênh lệch mật độ không khí. Thông gió tự nhiên được thực hiện nhờ gió, nhiệt hoặc tổng hợp cả hai.</para>
+      <para id="id21681624">Thông gió tự nhiên bao gồm :</para>
+      <list id="id21681630" list-type="bulleted">
+        <item>Thông gió do thẩm lọt</item>
+        <item>Thông gió do khí áp : nhiệt áp và áp suất gió</item>
+        <item>Thông gió nhờ hệ thống kênh dẫn</item>
+      </list>
+      <section id="id-827737297029">
+        <title>Thông gió tự nhiên dưới tác dụng của nhiệt thừa</title>
+        <para id="id21684305">Khi nhiệt độ trong phòng lớn hơn nhiệt độ bên ngoài thì giữa chúng có sự chênh lệch áp suất và do đó có sự trao đổi không khí bên ngoài với bên trong. </para>
+        <para id="id21656170">Các phần tử không khí trong phòng có nhiệt độ cao, khối lượng riêng nhẹ nên bốc lên cao, tạo ra vùng chân không phía dưới phòng và không khí bên ngoài sẽ tràn vào thế chổ. Ở phía trên các phần tử không khí bị dồn ép và có áp suất lớn hơn không khí bên ngoài và thoát ra ngoài theo các cửa gió phía trên. Như vậy ở một độ cao nhất định nào đó áp suất trong phòng bằng áp suất bên ngoài, vị trí đó gọi là vùng trung hoà</para>
+        <figure id="id21656195">
+          <media id="id8086571" alt=""><image src="../../media/graphics1-729b.png" mime-type="image/png" height="281" width="400"/></media>
+        </figure>
+        <para id="id22078369">Hình 8-1 : Nguyên lý thông gió do nhiệt áp</para>
+        <para id="id22078375">Trên hình 8-1 biểu thị sự phân bố chênh lệch cột áp trong nhà và ngoài trời.</para>
+        <para id="id22078385">- Cột áp tạo nên sự chuyển động đối lưu không khí là:</para>
+        <para id="id22298510">H = g.h.(N - T )(8-8)</para>
+        <para id="id21015707">h = h1 + h2 - Là khoảng cách giữa các cửa cấp gió và cửa thải, m</para>
+        <para id="id21015727">- Cột áp tạo ra sự chuyển động của không khí vào phòng:</para>
+        <para id="id21015734">H1 = g.h1.(N - T )(8-9)</para>
+        <para id="id22297641">- Cột áp xả khí ra khỏi phòng:</para>
+        <para id="id22297646">H2 = g.h2.(N - T )(8-10)</para>
+        <para id="id21752129">(8-11)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>ω</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>gh</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω rSub { size 8{1} } = sqrt { {  {2 "." H rSub { size 8{1} } }  over  {ρ rSub { size 8{N} } } } } = sqrt { {  {2 ital "gh" rSub { size 8{1} }  \( ρ rSub { size 8{N} }  - ρ rSub { size 8{T} }  \) }  over  {ρ rSub { size 8{N} } } } } } {}</m:annotation></m:semantics></m:math>Tốc độ không khí chuyển động qua các cửa vào và cửa thải :</para>
+        <para id="id21753845">(8-12)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>ω</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msub><m:mi>H</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>gh</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω rSub { size 8{2} } = sqrt { {  {2 "." H rSub { size 8{2} } }  over  {ρ rSub { size 8{T} } } } } = sqrt { {  {2 ital "gh" rSub { size 8{2} }  \( ρ rSub { size 8{N} }  - ρ rSub { size 8{T} }  \) }  over  {ρ rSub { size 8{T} } } } } } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id22079524">- Lưu lượng không khí qua các cửa là :</para>
+        <para id="id22079530">L1 = F1.1.1 (8-13)</para>
+        <para id="id22076661">L2 = F2.2.2 (8-14)</para>
+        <para id="id22080667">F1, F2 : Diện tích cửa vào và cửa thải, m2</para>
+        <para id="id22080688">1, 2 : Hệ số lưu lượng của cửa vào và cửa thải.</para>
+        <para id="id21656145">(8-15)Thay vào ta có:</para>
+        <para id="id22080826">(8-16)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>gh</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{2} } =F rSub { size 8{2} }  "." μ rSub { size 8{2} }  "."  sqrt { {  {2 ital "gh" rSub { size 8{2} }  \( ρ rSub { size 8{N} }  - ρ rSub { size 8{T} }  \) }  over  {ρ rSub { size 8{T} } } } } } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>gh</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{1} } =F rSub { size 8{1} }  "." μ rSub { size 8{1} }  "."  sqrt { {  {2 ital "gh" rSub { size 8{1} }  \( ρ rSub { size 8{N} }  - ρ rSub { size 8{T} }  \) }  over  {ρ rSub { size 8{N} } } } } } {}</m:annotation></m:semantics></m:math>Ở chế độ ổn định ta có L1 = L2 hay:</para>
+        <para id="id21684824">F1.1.1 = F2.2.2 (8-17)</para>
+        <para id="id21685130"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mrow><m:msqrt><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:msqrt><m:mo stretchy="false">=</m:mo><m:mi>α</m:mi></m:mrow><m:mtext>.</m:mtext><m:msqrt><m:mfrac><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {F rSub { size 8{1} } }  over  {F rSub { size 8{2} } } } = {  {μ rSub { size 8{2} } }  over  {μ rSub { size 8{1} } } }  "."  sqrt { {  {h rSub { size 8{2} }  "." ρ rSub { size 8{N} } }  over  {h rSub { size 8{1} }  "." ρ rSub { size 8{T} } } } } =α "."  sqrt { {  {h rSub { size 8{2} } }  over  {h rSub { size 8{1} } } } } } {}</m:annotation></m:semantics></m:math>Từ đây ta rút ra :</para>
+        <para id="id21655003">(8-18)Giải hệ phương trình </para>
+        <para id="id21656350"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mrow><m:msqrt><m:mfrac><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:msqrt><m:mo stretchy="false">=</m:mo><m:mi>α</m:mi></m:mrow><m:mtext>.</m:mtext><m:msqrt><m:mfrac><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {F rSub { size 8{1} } }  over  {F rSub { size 8{2} } } } = {  {μ rSub { size 8{2} } }  over  {μ rSub { size 8{1} } } }  "."  sqrt { {  {h rSub { size 8{2} }  "." ρ rSub { size 8{N} } }  over  {h rSub { size 8{1} }  "." ρ rSub { size 8{T} } } } } =α "."  sqrt { {  {h rSub { size 8{2} } }  over  {h rSub { size 8{1} } } } } } {}</m:annotation></m:semantics></m:math>h = h1 + h2</para>
+        <para id="id21680760">(8-19)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:msub><m:mrow/><m:mstyle fontsize="6pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:msub><m:mrow/><m:mstyle fontsize="6pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:msub></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mstyle></m:mrow><m:mrow><m:mfrac><m:msub><m:mi>ρ</m:mi><m:msub><m:mrow/><m:mstyle fontsize="6pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mfrac><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:msub><m:mi>ρ</m:mi><m:msub><m:mrow/><m:mstyle fontsize="6pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>F</m:mi><m:mn>2</m:mn></m:msub><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>μ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt { {  {2 ital "gh" \( ρ rSub { size 8{ {} rSub { size 6{N} } } }  - ρ rSub { {} rSub { size 6{T} } }  size 12{ \) }}  over  { {  {ρ rSub { {} rSub { size 6{N} } } }  over  { size 12{ \( F rSub {1}  size 12{μ rSub {1} } size 12{ \)  rSup {2} }} } }  size 12{+ {  {ρ rSub { {} rSub { size 6{T} } } }  over  { size 12{ \( F rSub {2}  size 12{μ rSub {2} } size 12{ \)  rSup {2} }} } } }} } } } {}</m:annotation></m:semantics></m:math>Và thay vào phương trình tính lưu lượng ta có lưu lượng không khí trao đổi trong trường hợp này là :</para>
+        <para id="id22079573">Lưu lượng không khí trao đổi phụ thuộc vào độ cao h và độ chênh mật độ giữa bên trong và ngoài.</para>
+        <para id="id22079584">(8-20)Trường hợp đặc biệt khi F1 = F2 và 1 = 2</para>
+        <para id="id21752435"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mi>F</m:mi></m:mrow><m:mtext>.</m:mtext><m:mi>μ</m:mi><m:mtext>.</m:mtext><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mi>g</m:mi><m:mtext>.</m:mtext><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=F "." μ "."  sqrt { {  {2 "." g "." h \( ρ rSub { size 8{N} }  - ρ rSub { size 8{T} }  \) }  over  {ρ rSub { size 8{N} } +ρ rSub { size 8{T} } } } } } {}</m:annotation></m:semantics></m:math>Thông gió tự nhiên dưới tác dụng áp suất gió.</para>
+        <para id="id22080871">Người ta nhận thấy khi một luồng gió đi qua một kết cấu bao che thì có thể tạo ra độ chênh cột áp 2 phía của kết cấu :</para>
+        <para id="id22080884">- Ở phía trước ngọn gió : Khi gặp kết kết cấu bao che tốc độ dòng không khí giảm đột ngột nên áp suất tĩnh cao, có tác dụng đẩy không khí vào gian máy.</para>
+        <para id="id22080898">- Ngược lại phía sau công trình có dòng không khí xoáy quẩn nên áp suất giảm xuống tạo nên vùng chân không, có tác dụng hút không khí ra khỏi gian máy.</para>
+        <para id="id22297898">Cột áp (hay độ chân không) do gió tạo ra có giá trị:</para>
+        <para id="id22080906">Hg = Kkd. N.2g / 2= Kkđ.2g / 2g(8-21)</para>
+        <para id="id22076546">Kkđ - Hệ số khí động</para>
+        <para id="id22076558">g - Tốc độ gió , m/s</para>
+        <para id="id21683476">N - Khối lượng riêng của không khí bên ngoài trời, kg/m3</para>
+        <para id="id21683495">Hệ số Kkđ được xác định bằng thực nghiệm, người ta tạo ra những luồng gió gió thổi vào các mô hình các công trình đó rồi đo áp suất phân bố trên các điểm cần xét trên mô hình rồi dựa vào lý thuyết tương tự suy ra áp suất trên công trình thực.</para>
+        <para id="id21683517">Hệ số Kkđ được lấy như sau :</para>
+        <para id="id21013428">- Phía đầu gió : Kmax = 0,8 thường lấy k = 0,5  0,6</para>
+        <para id="id21013446">- Phía khuất gió : Kmin = - 0,75 thường lấy k = - 0,3</para>
+        <para id="id21013460">Hệ số Kkđ không phụ thuộc vào tốc độ mà phụ thuộc vào góc thổi của không khí vào so với nhà , hình dạng nhà và vị trí tương đối giữa các nhà với nhau</para>
+        <para id="id22298175">(8-22)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msub><m:mi>μ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mo stretchy="false">[</m:mo><m:mrow><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mi>g</m:mi><m:mtext>.</m:mtext><m:msub><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:msub><m:mi>ρ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:msqrt><m:mo stretchy="false">+</m:mo><m:msub><m:mi>ω</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>g</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>.</m:mtext><m:msqrt><m:msub><m:mi>K</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:msqrt><m:mo stretchy="false">]</m:mo><m:mi>,</m:mi><m:mrow><m:msup><m:mi>m</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:mi>s</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{1} } =F rSub { size 8{1} }  "." μ rSub { size 8{1} }  "."  \[  sqrt { {  {2 "." g "." h rSub { size 8{1} }  \( ρ rSub { size 8{N} }  - ρ rSub { size 8{T} }  \) }  over  {ρ rSub { size 8{N} } } } } +ω rSub { size 8{g} }  "."  sqrt {K rSub { size 8{ ital "kd"} } }  \] ,m rSup { size 8{3} } /s} {}</m:annotation></m:semantics></m:math>Nếu tính ảnh hưởng của nhiệt áp và khí áp ta có lưu lượng không khí trao đổi là</para>
+        <para id="id22297848">Sử dụng thông gió tự nhiên do khí áp cần phải khéo léo bố trí các cửa vào và cửa thải mới đem lại hiệu quả cao.</para>
+        <para id="id21752291">- Về mùa hè độ chênh nhiệt độ trong phòng vào ngoài trời thấp nên việc thông gió do khí áp chủ yếu nhờ áp suất gió.</para>
+        <para id="id21752301">- Về mùa Đông độ chênh lớn nên việc thông gió do khí áp tăng, nhưng lưu lượng không khí trao đổi cần ít do nhiệt thừa giảm, vì thế nên khép các cửa thông gió lại một phần.</para>
+        <para id="id21752315">+ Việc sử dụng thông gió tự nhiên đối với các phòng lớn rất kinh tế và hiệu quả vì hầu như không có chi phí vận hành.</para>
+        <para id="id21752325">+ Tuy nhiên có nhược điểm là phân phối gió không đều, không chủ động đưa được tới nơi yêu cầu</para>
+      </section>
+      <section id="id-648558044133">
+        <title>Thông gió tự nhiên theo kênh dẫn gió</title>
+        <para id="id21752334">Việc thông gió do nhiệt áp có nhược điểm là khi kết cấu công trình xây dựng không kín thì có rất nhiều cửa gió vào và ra . Kết quả chênh lệch độ cao giữa các cửa hút và thải nhỏ nên lưu lượng không khí trao đổi sẽ giảm.</para>
+        <para id="id21752363">Mặt khác nhiều công trình phức tạp có nhiều tầng, muốn thải gió lên trên nhờ thông gió tự nhiên không dễ dàng thực hiện được. </para>
+        <para id="id21752374">Vì thế người ta sử dụng các kênh dẫn gió để đưa gió lên cao và hút những nơi cần thiết trong công trình. </para>
+        <para id="id21752384">Các kênh gió thường được bố trí kín bên trong các kết cấu xây dựng. Ở phía đỉnh của kênh gió thường có các nón để chắn mưa, nắng. Để tránh hiện tượng quẩn gió các ống thông gió cần nhô lên cao hẳn so với mái nhà 0,5m. </para>
+        <para id="id21754191">Cột áp do kênh gió tạo nên là:</para>
+        <para id="id21754197">H = g.h. (N - T ), N/m2</para>
+        <para id="id21754225">Cột áp do kênh tạo nên cũng phụ thuộc mùa và có giá trị lớn về mùa đông.</para>
+        <para id="id21754234">Về phía bên trong người ta sử dụng các miệng hút có tính chất trang trí kết hợp . Với hệ thống này không cần phải thực hiện thổi gió vào phòng mà nhờ thông gió thẩm lọt để bù lại lượng gió thoát ra.</para>
+        <para id="id23319456">Việc tính độ cao kênh gió được thực hiện như sau:</para>
+        <para id="id23319469">- Căn cứ vào lưu lượng thông gió yêu cầu, tiết diện kênh gió ta xác định được tốc độ gió : </para>
+        <para id="id23319480"> = L/F , m/s</para>
+        <para id="id23319489">- Trên cơ sở tốc độ và tiết diện xác định tổng trở lực</para>
+        <para id="id22021024">p = pcb + pms</para>
+        <para id="id22021054">- Chiều cao h phải đủ lớn để khắc phục trở lực đường ống , hay :</para>
+        <para id="id22021064">H = g.h. (N - T ) &gt; pcb + pms</para>
+      </section>
+    </section>
+    <section id="id-269374644209">
+      <title>Thông gió cưỡng bức</title>
+      <para id="id21684323">Thông gió nhờ quạt gọi là thông gió cưỡng bức</para>
+      <section id="id-0880738845224">
+        <title>Phân loại các hệ thống thông gió cưỡng bức</title>
+        <para id="id21684340">Các quạt thông gió sử dụng cho các công trình thường có 2 loại chủ yếu :</para>
+        <para id="id21684350">- Thông gió cục bô : Là thông gió cho một khu vực nhỏ hẹp. </para>
+        <para id="id21684364">Trong công nghiệp để thực hiện thông gió cục bộ người ta thường sử dụng 2 cách : Thông gió thổi cục bộ và thông gió hút cục bộ. </para>
+        <para id="id22080454">Trong các công trình dân dụng khi thông gió cục bộ người ta sử dụng các quạt gắn tường, gắn trần và hút trực tiếp không khí từ bên trong phòng thổi ra bên ngoài . Ngoài ra để thông gió người ta có thể thổi không khí bên ngoài vào phòng, tuy nhiên nếu phòng có sinh ra nhiều chất độc hại thì không được làm theo cách này vì như vậy các khí độc có thể tràn ra các phòng xung quanh .</para>
+        <para id="id22080474">- Thông gió tổng thể : Thông gió tổng thể là thông gió cho một vùng rộng hoặc một tập hợp gồm nhiều phòng. Để thực hiện được thông gió tổng thể cần thiết phải có hệ thống kênh gió. Quạt thông gió thường đặt trên laphông và có lưu lượng lớn. Thông gió tổng thể có thể kết hợp với hệ thống điều hoà trung tâm với chức năng cung cấp khí tươi cho hệ thống.</para>
+      </section>
+      <section id="id-277675358089">
+        <title>Thông gió cục bộ</title>
+        <section id="id-184416842617">
+          <title>Thông gió cục bộ trong công nghiệp</title>
+          <para id="id21015079">* Thông gió thổi cục bô : Khi cần thông gió cho một khu vực nhỏ ví dụ như khu vực nhiệt độ cao và có nhiều chất độc hại người ta bố trí các miệng thổi gió tại vị trí người đang làm việc . Các miệng thổi thường có dạng hoa sen </para>
+          <para id="id21015103">Trong một số trường hợp khác người ta sử dụng thiết bị làm mát kiểu di động . Thiết bị này gồm bơm, quạt và một tủ đứng bên trong có bố trí các vòi phun nước, lớp lọc chắn nước. Không khí trong phòng được quạt hút vào thiết bị , đi qua ngăn phun nước trao đổi nhiệt ẩm và hạ nhiệt độ trước khi thổi ra làm mát .</para>
+          <para id="id21785206">* Thông gió hút cục bộ :</para>
+          <para id="id21785223">- Chụp hút : Chụp hút là dạng hút cục bộ đơn giản và phổ biến , thường được sử dụng để hút thải gió nóng , bụi, khí độc có tính chất nhẹ hơn không khí </para>
+          <para id="id21785239">Nếu chụp có dạng chữ nhật thì kích thước của chụp được xác định như sau:</para>
+          <para id="id21785247">A = a + 0,8 Za , m</para>
+          <para id="id21785260">B = b + 0,8 Za , m</para>
+          <para id="id21785471">trong đó a, b là kích thước các cạnh của vật sinh chất độc hại</para>
+          <para id="id21785478">A, B Kích thước chụp chữ nhật</para>
+          <para id="id21785487">Za - Khoảng cách từ chụp tới chụp hút</para>
+          <para id="id21785496">Nếu chụp hút dạng tròn thì đường kính của miệng chụp xác định như sau</para>
+          <para id="id21785503">D = dH + 0,8 Za</para>
+          <para id="id21014986">trong đó dH là đường kính của vật phát sinh chất độc hại</para>
+          <para id="id21015000">Góc loe của chụp  thường được lấy là 60o, hs = 0,1  0,3m</para>
+          <para id="id21015028">- Tủ hút : Tủ hút dùng để hút thải các loại khí độc bên trong tủ để thải ra ngoài. Khác với chụp hút, tủ hút là nơi người công nhân thực hiện các thao tác công việc.</para>
+          <para id="id21683390">- Phểu hút : Phểu hút được sử dụng để thải các loại bụi, hơi độc ở các thiết bị công nghệ như máy móc gia công cơ khí, máy dệt ..vv</para>
+        </section>
+        <section id="id-18304142436">
+          <title>Trong dân dụng</title>
+          <para id="id21683411">Để thực hiện thông gió cho các phòng nhỏ và tiếp xúc với không khí ngoài trời người ta thường lắp đặt các quạt gắn tường. Tuỳ từng trường hợp mà có thể chọn giải pháp hút thải không khí trong phòng hay thổi cấp khí tươi vào phòng.</para>
+          <figure id="id21683430">
+            <media id="id1167763186900" alt=""><image src="../../media/graphics2-473c.png" mime-type="image/png" height="277" width="478"/></media>
+          </figure>
+          <para id="id21753721">Trên hình 8-2 trình bày 2 kiểu quạt thông gió hay được sử dụng. Quạt khung nhựa hình thức phù hợp các công trình dân dụng, quạt khung sắt thuồng được sử dụng trong các xí nghiệp công nghiệp.</para>
+          <para id="id21753735">Cách lắp đặt quạt thông gió kiểu gắn tường đơn giãn. Tuy nhiên không phải phòng nào cũng lắp đặt được. Đối với các phòng nằm sâu trong công trình người ta sử dụng quạt thông gió đặt trên laphông cùng hệ thống kênh thông gió, miệng hút, miệng thổi.</para>
+          <para id="id21753754">Hình 8-3 : Quạt thông gió gắn tường GENUIN</para>
+          <para id="id21753760">Trên hình 8-3 là quạt thông gió của hãng GENUIN thường hay được sử dụng để thông gió cục bộ . Quạt này có thể gắn tường hoặc trần với các thông số kỹ thuật và mỹ thuật rất tốt. Các đặc tính kỹ thuật của quạt trình bày trên bảng 8-2.</para>
+          <para id="id21015183">Bảng 8-2 : các thông số quạt gắn tường GENUIN</para>
+          <table id="id21015189" summary="">
+            <tgroup cols="11">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <colspec colnum="3" colname="c3"/>
+              <colspec colnum="4" colname="c4"/>
+              <colspec colnum="5" colname="c5"/>
+              <colspec colnum="6" colname="c6"/>
+              <colspec colnum="7" colname="c7"/>
+              <colspec colnum="8" colname="c8"/>
+              <colspec colnum="9" colname="c9"/>
+              <colspec colnum="10" colname="c10"/>
+              <colspec colnum="11" colname="c11"/>
+              <tbody>
+                <row>
+                  <entry>MODEL</entry>
+                  <entry>Điện áp</entry>
+                  <entry>Công suất, W</entry>
+                  <entry>L m3/phút</entry>
+                  <entry>Độ ồndB</entry>
+                  <entry namest="c6" nameend="c11">Kích thước, mm</entry>
+                </row>
+                <row>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry/>
+                  <entry>A</entry>
+                  <entry>B</entry>
+                  <entry>E</entry>
+                  <entry>G</entry>
+                  <entry>H</entry>
+                  <entry>F</entry>
+                </row>
+                <row>
+                  <entry>APB 15APB 20APB 25APB 30</entry>
+                  <entry>220 V220 V220 V220 V</entry>
+                  <entry>24283648</entry>
+                  <entry>4,88,112,618</entry>
+                  <entry>37404348</entry>
+                  <entry>150200250300</entry>
+                  <entry>250303350400</entry>
+                  <entry>190240290340</entry>
+                  <entry>88718090</entry>
+                  <entry>53835887</entry>
+                  <entry>53505044</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </section>
+      </section>
+      <section id="id-435428893949">
+        <title>Thông gió tổng thể</title>
+        <figure id="id22332363">
+          <media id="id1167765871646" alt=""><image src="../../media/graphics3-0fad.png" mime-type="image/png" height="286" width="483"/></media>
+        </figure>
+        <para id="id22332386"/>
+        <para id="id22332391">Trên hình 8-4 là một ví dụ về thông gió tổng thể. Quạt sử dụng thông gió tổng thể thường là quạt dạng ống hoặc các quạt ly tâm..</para>
+        <para id="id22332404">Để thông gió cho các phòng lớn hoặc nhiều phòng một lúc người ta sử dụng thông gió kiểu tổng thể.</para>
+        <para id="id21010663">* * *</para>
+      </section>
+    </section>
+  </content>
+</document>

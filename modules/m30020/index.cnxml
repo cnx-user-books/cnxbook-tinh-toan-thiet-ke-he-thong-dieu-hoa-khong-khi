@@ -1,0 +1,1210 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tiêu âm và lọc bụi</title>
+  <metadata>
+  <md:content-id>m30020</md:content-id><md:title>Tiêu âm và lọc bụi</md:title>
+  <md:abstract>Tiêu âm và lọc bụi</md:abstract>
+  <md:uuid>964b5f73-99ad-4f0d-b67b-267a255341cc</md:uuid>
+</metadata>
+
+<content>
+    <para id="id21656702">Tiêu âm</para>
+    <section id="id-766251957412">
+      <title>Khái niệm.</title>
+      <para id="id21656734">Tiếng ồn là tập hợp những âm thanh có cường độ và tần số khác nhau sắp xếp không có trật tự, gây khó chịu cho người nghe, cản trở con người làm việc và nghỉ ngơi.</para>
+      <section id="id-765640590684">
+        <title>Các đặc trưng cơ bản của âm thanh</title>
+        <para id="id21604220">a. Tần số âm thanh</para>
+        <para id="id21604227">Đơn vị đo là Hz. Mỗi âm thanh được đặc trưng bởi một tần số dao động của sóng âm. Bình thường tai người cảm thụ được các âm thanh có tần số từ 16  20.000 Hz</para>
+        <para id="id21604241">b. Ngưỡng nghe và ngưỡng chói tai</para>
+        <para id="id21604248">Âm thanh là những dao động cơ học được lan truyền dưới hình thức sóng trong môi trường đàn hồi, nhưng không phải bất cứ sóng nào đến tai cũng gây ra cảm giác âm thanh như nhau. Cường độ âm thanh nhỏ nhất ở một sóng âm xác định mà tai người nghe thấy được gọi là ngưỡng nghe. Âm thanh có tần số khác nhau giá trị ngưỡng nghe cũng khác nhau. Cường độ âm thanh lớn nhất mà tai người có thể chịu được gọi là ngưỡng chói tai.</para>
+        <para id="id17918184">c. Mức cường độ âm L (dB)</para>
+        <para id="id17918190">Mức cường độ âm thanh được xác định theo công thức :</para>
+        <para id="id17918199">L = 10 lg (I / Io), dB(9-1)</para>
+        <para id="id17918218">I - Cường độ âm thanh đang xét, W/m2</para>
+        <para id="id17918228">Io - Cường độ âm thanh ở ngưỡng nghe : Io = 10-12 W/m2</para>
+        <para id="id18485451">d. Mức áp suất âm (dB)</para>
+        <para id="id18485457">Mức áp suất âm thanh được xác định theo công thức :</para>
+        <para id="id18485465">Lp = 10 lg ( p/po ), dB(9-2)</para>
+        <para id="id18485489">p - Áp suất âm thanh , Pa</para>
+        <para id="id18485497">po - Áp suất âm thanh ở ngưỡng nghe: po = 2.10-5 Pa</para>
+        <para id="id21723752">e. Mức to của âm (Fôn)</para>
+        <para id="id21723759">Mức to của âm là sức mạnh cảm giác do âm thanh gây nên trong tai người, nó không những phụ thuộc vào áp suất âm mà còn phụ thuộc vào tần số âm thanh. Tần số càng thấp thì tai người càng khó nhận thấy.</para>
+        <para id="id21723774">Người ta xác định được rằng mức to của âm thanh bất kỳ đo băng Fôn , có giá trị bằng mức áp suất âm của âm chuẩn có cùng mức to với âm đó. Đối với âm chuẩn , mức to ở ngưỡng nghe là 0 Fôn , ngưỡng chói tai là 120 Fôn. Các âm có cùng giá trị áp suất âm nếu tần số càng cao thì mức to càng lớn.</para>
+        <para id="id21723790">f. Dải tần số âm thanh</para>
+        <para id="id21604454">Cơ quan cảm giác của con người không phản ứng với độ tăng tuyệt đối của tần số âm thanh mà theo mức tăng tương đối của nó. Khi tần số tăng gấp đôi thì độ cao của âm tăng lên 1 tông , gọi là 1 ốcta tần số.</para>
+        <para id="id21604475">Người ta chia tần số âm thanh ra thành nhiều dải, trong đó giới hạn trên của lớn gấp đôi giới hạn dưới. Toàn bộ dải tần số âm thanh mà tai người nghe được chia ra làm 11 ốcta tần số và có giá trị trung bình là 31,5; 63; 125; 250; 500; 1000; 2000; 4000; 8000; 16.000</para>
+        <para id="id21604491">Tiêu chuẩn vệ sinh và mức cho phép của tiếng ồn được quy định ở 8 ốcta : 63; 125; 250; 500; 100; 200; 400; 800</para>
+        <para id="id21604502">Bảng 9-1</para>
+        <table id="id21604507" summary="">
+          <tgroup cols="9">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <tbody>
+              <row>
+                <entry>Tần số (Hz)</entry>
+                <entrytbl namest="c2" nameend="c9" cols="8">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <colspec colnum="8" colname="c8"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c8">Số thức tự ốcta</entry>
+                    </row>
+                    <row>
+                      <entry>1</entry>
+                      <entry>2</entry>
+                      <entry>3</entry>
+                      <entry>4</entry>
+                      <entry>5</entry>
+                      <entry>6</entry>
+                      <entry>7</entry>
+                      <entry>8</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>Giới hạn trênTrung bìnhGiới hạn dưới</entry>
+                <entry>4531,522,4</entry>
+                <entry>906345</entry>
+                <entry>18012590</entry>
+                <entry>335250180</entry>
+                <entry>14001000710</entry>
+                <entry>280020001400</entry>
+                <entry>560040002800</entry>
+                <entry>1120080005600</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id23243495">Các máy đo độ ồn , đo mức to của âm đơn vị là đềxibenA (dBA) là mức cường độ âm chung của tất cả các dải ốcta tần số đã qui định về tần số 1000 Hz. Ta gọi âm thanh đó là dBA là âm thanh tương đương. Khi dùng dBA để chỉ âm thanh ta không cần nói âm thanh đó ở tần số bao nhiêu. Trị số dBA giúp ta đánh giá sơ bộ xem độ ồn có vượt quá mức cho phép hay không.</para>
+      </section>
+      <section id="id-441506989461">
+        <title>Ảnh hưởng của độ ồn</title>
+        <para id="id23136210">Tiếng ồn có ảnh hưởng nhiều đến sức khoẻ con người. Mức độ ảnh hưởng tuỳ thuộc vào giá trị của độ ồn. Bảng 9-2 dưới đây đưa ra các số liệu về mức độ ảnh hưởng của độ ồn tới sức khoẻ của con người.</para>
+        <para id="id23136225"> Bảng 9-2</para>
+        <table id="id21043234" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Mức ồn, (dBA)</entry>
+                <entry>Tác dụng lên người nghe</entry>
+              </row>
+              <row>
+                <entry>0100110120130  135140150160190</entry>
+                <entry>- Ngưỡng nghe thấy- Bắt đầu làm biến đổi nhịp tim- Kích thích mạnh màng nhĩ- Ngưỡng chói tai- Gây bệnh thần kinh, nôn mửa làm yếu xúc giác và cơ bắp- Đau chói tai, gây bệnh mất trí, điên- Nếu nghe lâu sẽ thủng màng tai- Nếu nghe lâu sẽ nguy hiểm- Chỉ nghe trong thời gian ngắn đã nguy hiểm</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-221226643199">
+        <title>Độ ồn cho phép đối với các công trình</title>
+        <para id="id21782751">Bằng thực nghiệm người ta đã lập được họ các đường cong thể hiện mức ồn cho phép của tiếng ồn dải rộng ở các ốcta tần số. Những đường này gọi là đường NC (Noise Criteria Curves), thể hiện mức ồn cho phép của tiếng ồn dải rộng ở các ốcta tần số</para>
+        <para id="id21782767">Hình 9-1 : Mức ồn cho phép của tiếng ồn dải rộng ở các ốcta tần số</para>
+        <para id="id21709354">Trên bảng 9-3 trình bày các tiêu chuẩn NC của các công trình</para>
+        <table id="id21709362" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Khu vực</entry>
+                <entry>Tiêu chuẩn Nc</entry>
+              </row>
+              <row>
+                <entry>1. Tư dinh2. Nhà cho thuê, chung cư3. Hotel, motela. Phòng riêng, phòng ngủb. Phòng Hội họp, phòng tiệcc. Phòng khánh tiết, hành langd. Khu vực phục vụ, giúp đỡ4. Cơ quana. Phòng điều hànhb. Phòng họpc. Phòng riêngd. Diện tích mởe. Phòng máy vi tínhf. Phòng luân chuyển công cộng5. Bệnh viện, nhà điều dưỡnga. Phòng riêngb. Phòng điều trịc. Phòng mổd. Hành lange. Khu vực công cộng6. Nhà thờ7. Trường họca. Phòng giảng, lớp họcb. Phòng học mặt bằng mở8. Phòng thí nghiệm9. Phòng hoà nhạc10. Nhà hát 11. Phòng thu âm12. Rạp chiếu bóng13. Phòng thí nghiệm</entry>
+                <entry>25  3025  3030  3525  3035  4040  4525  3025  3030  3535  4040  4540  4525  3030  3535  4035  4025  3025  3030  3535  4020  2530  35</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+    </section>
+    <section id="id-288903171912">
+      <title>Tính toán độ ồn</title>
+      <section id="id-990529897842">
+        <title>Nguồn gây ồn và cách khắc phục</title>
+        <para id="id17918125">1. Các nguồn gây ồn :</para>
+        <para id="id21604605">Nguồn ồn gây ra cho không gian điều hòa có các nguồn gốc sau:</para>
+        <para id="id21604614">- Nguồn ồn do các động cơ quạt, động cơ, máy lạnh đặt trong phòng gây ra</para>
+        <para id="id21604623">- Nguồn ồn do khí động của dòng không khí .</para>
+        <para id="id21604631">- Nguồn ồn từ bên ngoài truyền vào phòng </para>
+        <para id="id21604640">+ Theo kết cấu xây dựng</para>
+        <para id="id21604648">+ Theo đường ống dẫn không khí</para>
+        <para id="id21604657">+ Theo dòng không khí </para>
+        <para id="id21604665">+ Theo khe hở vào phòng</para>
+        <para id="id21578170">- Nguồn ồn do không khí ra miệng thổi</para>
+        <para id="id21578178">2. Cách khắc phục</para>
+        <para id="id21578186">a. Nguồn ồn do các động cơ, thiết bị trong phòng.</para>
+        <para id="id21578196">- Chọn thiết bị có độ ồn nhỏ : Khi chọn các máy điều hoà, các dàn lạnh, FCU, AHU cần lưu ý độ ồn của nó, tránh sử dụng thiết bị có độ ồn lớn.</para>
+        <para id="id21578209">- Bọc tiêu âm cụm thiết bị : Trong nhiều trường hợp người ta chọn giải pháp bọc tiêu âm cụm thiết bị. Chẳng hạn các FCU, AHU và quạt thông gió công suất lớn khi lắp đặt trên laphông sẽ gây ồn khu vực đó nên người ta thường bọc cách âm cụm thiết bị này.</para>
+        <para id="id21578225">- Thường xuyên bôi trơn các cơ cấu chuyển động để giảm ma sát giảm độ ồn</para>
+        <para id="id18930046">- Đặt thiết bị bên ngoài phòng</para>
+        <para id="id18930054">b. Nguồn ồn do khí động của dòng không khí </para>
+        <para id="id18930063">Dòng không khí chuyển động với tốc độ cao sẽ tạo ra tiếng ồn. Vì thế khi thiết kế phải chọn tốc độ hợp lý.</para>
+        <para id="id18930074">c. Nguồn ồn truyền qua kết cấu xây dựng</para>
+        <para id="id18930082">- Đối với các phòng đặc biệt, người thiết kế xây dựng phải tính toán về cấu trúc sao cho các nguồn ồn không được truyền theo kết cấu xây dựng vào phòng, bằng cách tạo ra các khe lún, không xây liền dầm, liền trục với các phòng có thể tạo ra chấn động.</para>
+        <para id="id18930097">- Một trong những trường hợp hay gặp là các động cơ, bơm và máy lạnh đặt trên sàn cao. Để khử các rung động do các động cơ tạo ra lan truyền theo kết cấu xây dựng làm ảnh hưởng tới các phòng dưới, người ta đặt các cụm thiết bị đó lên các bệ quán tính đặt trên các bộ lò xo giảm chấn. Quán tính của vật nặng và sức căng của lò xo sẽ khử hết các chấn động do các động cơ gây ra. </para>
+        <para id="id21605183">- Đối với các FCU, AHU và quạt dạng treo , thường người ta treo trên các giá có đệm cao su hoặc lò xo. </para>
+        <para id="id21605191">d. Nguồn ồn truyền theo các ống dẫn gió, dẫn nước vào phòng</para>
+        <para id="id21605199">Các ống dẫn gió, dẫn nước được nối với quạt và bơm là các cơ cấu chuyển động cần lưu ý tới việc khử các chấn động lan truyền từ động cơ theo đường ống. Trong quá trình hoạt động các chấn động từ các thiết bị đó có thể truyền vào phòng và tạo ra độ ồn nhất định. Để khử các chấn động truyền theo đường này người ta thường sử dụng các đoạn ống nối mềm bằng cao su </para>
+        <para id="id21605218">e. Nguồn ồn do truyền theo dòng không khí trong ống dẫn.</para>
+        <para id="id21605226">Do kênh dẫn gió dẫn trực tiếp từ phòng máy đến các phòng, nên âm thanh có thể truyền từ gian máy tới các phòng, hoặc từ phòng này đến phòng kia. Để khử độ ồn truyền theo dòng không khí người ta sử dụng các hộp tiêu âm, hoặc đoạn ống tiêu âm.</para>
+        <para id="id18604198">Trong kỹ thuật điều hoà người ta có giải pháp bọc cách nhiệt bên trong đường ống. Lớp cách nhiệt lúc đó ngoài chức năng cách nhiệt còn có chức năng khử âm.</para>
+        <para id="id18604213">f. Nguồn ồn bên ngoài truyền theo khe hở vào phòng</para>
+        <para id="id18604221">Để ngăn ngừa phải làm phòng kín, đặc biệt các phòng yêu cầu về độ ồn khắt khe.</para>
+        <para id="id18604228">g. Nguồn ồn do không khí ra miệng thổi</para>
+        <para id="id18604234">Khi tốc độ không khí ra miệng thổi lớn, có thể gây ồn. Vì vậy phải chon tốc độ không khí ra miệng thổi hợp lý.</para>
+      </section>
+      <section id="id-886544647184">
+        <title>Tính toán các nguồn ồn .</title>
+        <para id="id21715204">- Nếu có nhiều nguồn ồn với mức âm là L1, L2, ... Ln thì mức âm tổng được tính theo công thức :</para>
+        <para id="id21715226">L = 10.lg.100,1Li(9-3)</para>
+        <para id="id21715251">- Nếu các nguồn ồn có mức âm giống nhau thì</para>
+        <para id="id21762207">L = L1 + 10lgn (9-4)</para>
+        <para id="id21762229">Dưới đây chỉ ra mức ồn của một số thiết bị:</para>
+        <para id="id21762236">1. Độ ồn của quạt</para>
+        <para id="id21762241">Tiếng ồn do quạt gây ra phụ thuộc vào nhiều yếu tố, như chủng loại quạt, vận tốc, hãng quạt, chế độ làm việc, trở lực hệ thống, bản chất môi trường...vv</para>
+        <para id="id21762255">Độ ồn do quạt gây ra được xác định theo công thức :</para>
+        <para id="id21762262">L = KW + 10.lgV + 20.lgH + C, dB(9-5)</para>
+        <para id="id22080396">KW - Mức cường độ âm riêng (dB) phụ thuộc loại quạt và xác định theo bảng 9-4 dưới đây.</para>
+        <para id="id22080414">V - Lưu lượng thể tích của qụat, CFM (1 m3/s  2120 cfm)</para>
+        <para id="id22080434">H - Cột áp toàn phần của quạt, in.WG</para>
+        <para id="id22080442">C - Hệ số hiệu chỉnh lấy theo bảng 9-3 dưới đây :</para>
+        <para id="id21787029">Bảng 9-3 : Hệ số hiệu chỉnh C (dB)</para>
+        <table id="id21787035" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Tỷ lệ % với hiệu suất lớn nhất</entry>
+                <entry>Hệ số hiệu chỉnh CdB</entry>
+              </row>
+              <row>
+                <entry>90  10085  8975  8465  7455  6450  54</entry>
+                <entry>03691215</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21038912">Bảng 9-4 : Trị số Kw của các loại quạt</para>
+        <table id="id21038929" summary="">
+          <tgroup cols="10">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <colspec colnum="10" colname="c10"/>
+            <tbody>
+              <row>
+                <entry>Loại quạt</entry>
+                <entrytbl namest="c2" nameend="c10" cols="9">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <colspec colnum="8" colname="c8"/>
+                  <colspec colnum="9" colname="c9"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c9">Tần số trung tâm, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1K</entry>
+                      <entry>2K</entry>
+                      <entry>4K</entry>
+                      <entry>8K</entry>
+                      <entry>BF1</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>a. Quạt ly tâm: AF, BC và BI- Đường kính guồng cánh D trên 900mm- Đường kính guồng cánh dưới 900mm- Cánh hướng tiền, D bất kỳ- Cánh hướng kính, hạ áp- Cánh hướng kính, trung áp- Cánh hướng kính, cao ápb. Quạt dọc trục- Loại có cánh hướng+ Tỷ số rh từ 0,3  0,4+ Tỷ số rh từ 0,4  0,6+ Tỷ số rh từ 0,6  0,8- Loại dạng ống+ Đường kính guồng cánh trên 1000mm+ Đường kính guồng cánh dưới 1000mm- Loại dạng chân vịt thông gió</entry>
+                <entry>404553565861494953514848</entry>
+                <entry>404553475458434352464751</entry>
+                <entry>394343434553534651474958</entry>
+                <entry>343936394248484351495356</entry>
+                <entry>303436373846474149475255</entry>
+                <entry>232831323344453647465152</entry>
+                <entry>192426292941383043394346</entry>
+                <entry>171921262638342840374042</entry>
+                <entry>332788666775</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21662088">Ghi chú : </para>
+        <para id="id23234097">AF - Quạt ly tâm cánh rỗng profile khí động</para>
+        <para id="id23234105">BC - Quạt ly tâm có cánh hướng bầu cong</para>
+        <para id="id23234111">BI - Quạt ly tâm có cánh hướng bầu xiên</para>
+        <para id="id23234117">BFI - Độ tăng tiếng ồn (dB) do tần số dao động của cánh fc ( fc = số cánh x số vòng quay của quạt trong 1 giây)</para>
+        <para id="id23234126">2. Độ ồn phát ra từ máy nén và bơm</para>
+        <para id="id23234132">Nếu có catalogue của thiết bị có thể tra được độ ồn của nó. Trong trường hợp không có các số liệu về độ ồn của thiết bị do nhà sản xuất cung cấp, ta có thể tính theo công suất cụ thể như sau:</para>
+        <para id="id23234148">- Đối với máy nén ly tâm </para>
+        <para id="id23234154">LpA = 60 + 11.lg(USTR), dBA(9-6)</para>
+        <para id="id21605744">trong đó :</para>
+        <para id="id21605750">USTR - Tôn lạnh Mỹ : 1 USTR = 3024 kCal/h</para>
+        <para id="id21605757"> - Đối với máy nén píttông</para>
+        <para id="id21605763">LPA = 71 + 9.lg(USTR), dBA(9-7)</para>
+        <para id="id21605792">Khi máy làm việc non tải thì tăng từ 5 đến 13 dB ở các dải tần khác nhau.</para>
+        <para id="id21782028">Nếu cần tính mức áp suất âm thanh Lp ở các tần số trung tâm thì cộng thêm ở công thức tính LPA (9-7) các giá trị ở bảng dưới đây :</para>
+        <para id="id21782046">Bảng 9-5</para>
+        <table id="id21782051" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>Tần số trung tâm</entry>
+                <entry>63</entry>
+                <entry>125</entry>
+                <entry>250</entry>
+                <entry>500</entry>
+                <entry>1000</entry>
+                <entry>2000</entry>
+                <entry>4000</entry>
+              </row>
+              <row>
+                <entry>- Máy chiller ly tâm</entry>
+                <entry>-8</entry>
+                <entry>-5</entry>
+                <entry>-6</entry>
+                <entry>-7</entry>
+                <entry>-8</entry>
+                <entry>-5</entry>
+                <entry>-8</entry>
+              </row>
+              <row>
+                <entry>- Máy chiller píttông</entry>
+                <entry>-19</entry>
+                <entry>-11</entry>
+                <entry>-7</entry>
+                <entry>-1</entry>
+                <entry>-4</entry>
+                <entry>-9</entry>
+                <entry>-14</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id18324415">- Đối với bơm nước tuần hoàn</para>
+        <para id="id18324420">LPA = 77 + 10.lgHP, dBA(9-8)</para>
+        <para id="id18324451">HP - Công suất của bơm, HP</para>
+        <para id="id18324456">Lưu ý : Tất cả các giá trị tính ở trên là ở khoảng cách 1m từ nguồn âm.</para>
+        <para id="id18324464">3. Tiếng ồn của dòng không khí chuyển động</para>
+        <para id="id21707215">Tiếng ồn do dòng không khí chuyển động sinh ra do tốc độ dòng quá lớn , do qua các đoạn chi tiết đặc biệt của đường ống và ở các đầu vào ra quạt.</para>
+        <para id="id21707226">Tiếng ồn của dòng không khí chuyển động là kết quả của hiệu ứng xoáy quanh vật cản, gây ra sự thay đổi về vận tốc, biến dạng đột ngột về dòng chảy và do đó tạo ra sức ép động lực cục bộ của không khí.</para>
+        <para id="id21707240">Có các dạng gây ồn của dòng không khí chuyển động như sau :</para>
+        <para id="id21707248">a. Tiếng ồn của dòng không khí thổi thẳng</para>
+        <para id="id21707257">Trong đoạn ống thẳng , khi tốc độ quá lớn thì độ ồn sẽ có giá trị đáng kể. Tuy nhiên khi thiết kế tốc độ gió đã được chọn và đảm bảo yêu cầu. Thường khi tốc độ trên đường ống  &lt; 10 m/s thì độ ồn này không đáng kể.</para>
+        <para id="id21707278">b. Độ ồn tại các vị trí đặc biệt của đường ống</para>
+        <para id="id22332014">Tại các vị trí đặc biệt như : Rẻ dòng, co thắt dòng, vị trí lắp đặt van ... độ ồn có giá trị đáng kể ngay cả khi tốc độ dòng không khí không cao. Đó là do hiện tượng xoáy tạo nên. Độ ồn tại các vị trí đó được tính như sau :</para>
+        <para id="id22332029">Laf = Ks + 50lgVcon + 10.lgS + 10.lgD + 10.lgf + K , dB(9-9)</para>
+        <para id="id22332053">trong đó</para>
+        <para id="id22332058">Laf - Mức cường độ âm phát sinh ra , dB</para>
+        <para id="id22332077">Ks - Thông số riêng của kết cấu đường ống;</para>
+        <para id="id22013231">- Với van điều chỉnh : Ks = -107</para>
+        <para id="id22013244">- Cút cong có cánh hướng : KS = -107 + 10.lgn với n là số cánh hướng dòng</para>
+        <para id="id22013261">- Chổ ống chia nhánh : Ks = -107 + L1 + L2</para>
+        <para id="id22013294">+ L1 - Hệ số hiệu chỉnh độ cong rẻ nhánh, dB. Hệ số này phụ thuộc tỷ số giữa bán kính cong r của chổ chia nhánh với đường kính ống nhánh d</para>
+        <para id="id21746938">Nếu r/d  0 lấy L1 = 46 dB</para>
+        <para id="id21746974">Nếu r/d  0,15 lấy L1 = 0</para>
+        <para id="id21042136">+ L2 - Hệ số hiệu chỉnh độ rối, dB. Bình thường lấy L2 = 0. Nếu ở vị trí đầu nguồn cách vị trí đang xét 5 lần đường kính ống có lắp đặt van điều chỉnh thì người ta mới xét tới đại lượng này. Trong trường hợp này lấy L2 = 1  5 dB tuỳ theo mức độ rối loạn của dòng khí đầu nguồn..</para>
+        <para id="id18931249"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>con</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:mrow><m:mi>S</m:mi><m:mtext>.</m:mtext><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>TL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{ ital "con"} } = {  {V}  over  {S "." F rSub { size 8{ ital "TL"} } } } } {}</m:annotation></m:semantics></m:math>Vcon- Tốc độ không khí tại chổ thắt , hoặc tại ống nhánh, FPM;</para>
+        <para id="id18968780">V - Lưu lượng không khí qua ống, cfm</para>
+        <para id="id18968788">FTL - hệ số cản trở</para>
+        <para id="id18968801"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>TL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msqrt><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PRE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PRE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "TL"} } = {  { sqrt {C rSub { size 8{ ital "PRE"} }  - 1} }  over  {C rSub { size 8{ ital "PRE"} }  - 1} } } {}</m:annotation></m:semantics></m:math>Đối với van điều chỉnh nhiều cánh : FTL = 1 nếu hệ số tổn hao áp suất Cpre = 1. Nếu Cpre  1 thì :</para>
+        <para id="id21547706"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PRE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>15</m:mtext><m:mi>,</m:mi><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>10</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:msub><m:mi fontstyle="italic">ΔP</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:msup><m:mfenced open="" close=""><m:mfrac><m:mi>V</m:mi><m:mi>S</m:mi></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{ ital "PRE"} } = {  {"15",9 "." "10" rSup { size 8{6} }  "." ΔP rSub { size 8{t} } }  over  { left ( {  {V}  over  {S} }  right ) rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>trong đó : CPRE - Là hệ số tổn hao áp suất, là đại lượng không thứ nguyên và được tính theo công thức :</para>
+        <para id="id21781912">Đối với van điều chỉnh chỉ có 1 cánh :</para>
+        <para id="id21781917">Nếu CPRE &lt; 4 thì FTL tính như đối với van nhiều cánh</para>
+        <para id="id21781935">Nếu CPRE &gt; 4 thì FTL = 0,68.C-0,15PRE - 0,22</para>
+        <para id="id21013497">S- Diện tích tiết diện ống nơi thắt có lắp đặt van điều chỉnh, của cút hoặc của ống nhánh, ft2</para>
+        <para id="id21013513">D - Chiều cao của ống hoặc cút cong, ft</para>
+        <para id="id21013520">f - Tần số trung bình của dải ốcta, Hz</para>
+        <para id="id21013527">K - hệ số tra theo đường tuyến tính của kết cấu đường ống, dB (hình 9-1)</para>
+        <para id="id21013536">Trị số đặc tính K của kết cấu được xác định dựa vào chuẩn số Strouhal :</para>
+        <para id="id21722706">St = 60D.con = 60.D.f / Vbr</para>
+        <para id="id21722724">Vbr - Tốc độ không khí trong nhánh, fpm</para>
+        <para id="id21722737">- Đối với van điều chỉnh :</para>
+        <para id="id21722745">K = -36,3 - 10,7 lg.St nếu St &lt; 25</para>
+        <para id="id21722766">K = -1,1 - 35,9.lg.St nếu St &gt; 25</para>
+        <para id="id22082375">- Đối với cút cong có cánh hướng dòng</para>
+        <para id="id22082383">K = -47,5 - 7,69 (lg.St)2.5</para>
+        <para id="id22082398">- Đối với chổ chia nhánh giá trị K được xác định theo đồ thị hình 9-1 với Vma là tốc độ dòng khí tạ đường ống chính (fpm)</para>
+        <para id="id22082415">Hình 9-1 : Quan hệ giữa hệ số K với số St và tỷ số Vma/Vbr tại chổ chia nhánh</para>
+        <para id="id22082443">c. Tiếng ồn ở đầu vào và đầu ra của quạt :</para>
+        <para id="id23287740">Tiếng ồn sinh ra trong quạt do nhiều nguyên nhân . Tuy nhiên chủ yếu vẫn là do thay đổi hướng đột ngột và đi qua chổ thu hẹp. Tiếng ồn do quạt gây ra thường lớn và khó khắc phục.</para>
+        <para id="id23287753">4. Tiếng ồn do không khí thoát ra miệng thổi. </para>
+        <para id="id23287765">Tiếng ồn do dòng không khí ra miệng thổi phụ thuộc vào tốc độ của dòng không khí khi ra miệng thổi và kết cấu của nó. </para>
+        <para id="id23287776">Trong các catalogue của các miệng thổi đều có dẫn ra độ ồn của nó tương ứng với tốc độ đầu ra nào đó. Vì thế khi thiết kế cần lưu ý không được chọn tốc độ quá lớn</para>
+      </section>
+      <section id="id-418848683127">
+        <title>Tổn thất âm trên đường truyền dọc trong lòng ống dẫn.</title>
+        <para id="id23287799">1. Tổn thất trong ống dẫn :</para>
+        <para id="id23287804">Sự giảm âm là sự giảm cường độ âm tính bằng Watt trên một đơn vị diện tích khi âm đi từ nơi phát tới nơi thu. Sự giảm âm do các nguyên nhân chính sau :</para>
+        <para id="id23232878">- Nhờ vật liệu hút âm hấp thụ năng lượng sóng âm </para>
+        <para id="id23287811">- Do phản hồi sóng âm trên bề mặt hút âm</para>
+        <para id="id23232887">- Quá trình truyền âm dưới dạng sóng lan truyền trong không khí dưới dàn tắt dần do ma sát.</para>
+        <para id="id23232895">Mức độ giảm âm được đặc trưng bởi đại lượng IL (Insertion Loss). Trị số IL ở mỗi tần số riêng cho ta biết sự giảm cường độ âm (dB) trên đường truyền từ nơi phát đến nơi thu nhận. Khả năng hấp thụ năng lượng só âm của vật liệu gọi là khả năng hút âm. Khi sóng âm va chạm vào bề mặt vật liệu xốp không khí sẽ dao động trong những lỗ hở nhỏ , sự cản trở của dòng khí và sự dao động của dòng khí trong khe hở đã biến một phần năng lượng sóng âm thành nhiệt và làm giảm năng lượng sóng âm đi đến.</para>
+        <para id="id23232923">Các vật liệu có khả năng hút âm tốt là vật liệu tơi xốp và mềm. Các sóng âm khi đi vào lớp vật liệu đó sẽ bị làm yếu một phần. Vật liệu hút âm thường sử dụng là : Bông thuỷ tinh, bông vải, vải vụn . Các tấm vải dày, mềm khi treo trên tường có khả năng chóng phản xạ âm rất tốt.</para>
+        <para id="id23232943">Để tiêu âm trên đường ống, thường người ta bọc các lớp bông thuỷ tinh bên trong đường ống . Lớp bông đó sẽ hút âm rất tốt.</para>
+        <para id="id21039868">Khi trong đường ống không có lớp vật liệu hút âm, vẫn tồn tại sự giảm âm tự nhiên do ma sát.</para>
+        <para id="id21039877">a. Đường ống tròn không có lớp hút âm</para>
+        <para id="id21039883">Khi sóng âm lan truyền trong không khí, do tính chất đàn hồi của môi trường không khí nên dao động song âm là dao động tắt dần, mức năng lượng âm giảm dần</para>
+        <para id="id21039894">Người ta tính được rằng trung bình độ ồn giảm tự nhiên là 0,03 dB trên 1feet chiều dài ống ở tần số dưới 1000 Hz và tăng không đều đến 0,1 dB/ft ở tần số 1000Hz.</para>
+        <para id="id21039908">b. Đối với ống chữ nhật không có lớp hút âm và cách nhiệt</para>
+        <para id="id21039915">Đối với đường ống chữ nhật độ giảm âm tự nhiên được tính theo bảng 9-6 dưới đây :</para>
+        <para id="id21039925">Bảng 9-6 : Độ giảm âm thanh dB/ft</para>
+        <table id="id21039930" summary="">
+          <tgroup cols="4">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <tbody>
+              <row>
+                <entry>Tỷ số P/A (in/in2)</entry>
+                <entrytbl namest="c2" nameend="c4" cols="3">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c3">Tần số trung bình dải ốc ta (Hz)</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>&gt; 250</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>&gt; 0,310,31 0,13&lt; 0,13</entry>
+                <entry>00,30,1</entry>
+                <entry>0,30,10,1</entry>
+                <entry>0,10,10,1</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21544696">P - Chu vi ống, in</para>
+        <para id="id21544702">A - Diện tích tiết diện ống , in2</para>
+        <para id="id21544713">c. Ống chữ nhật không có lót lớp hút âm, nhưng có bọc cách nhiệt bên ngoài</para>
+        <para id="id21544720">Đối với loại đường ống này, thì mức giảm âm lấy gấp đôi số liệu nêu trong bảng 9-6.</para>
+        <para id="id21544729">d. Ống tròn có lót lớp hút âm</para>
+        <para id="id21544735">Độ giảm âm phụ thuộc vào diện tích tiết diện ngang của đường ống và tính chất vật liệu hút âm . Các số liệu được dẫn ra ở bảng 9-7.</para>
+        <para id="id23285514">Bảng 9-7 : Độ giảm âm thanh dB/ft</para>
+        <table id="id23285520" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>Đường kính ống, in</entry>
+                <entrytbl namest="c2" nameend="c8" cols="7">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c7">Tần số trung tâm dải ốcta, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                      <entry>2000</entry>
+                      <entry>4000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>6122448</entry>
+                <entry>0,380,230,070</entry>
+                <entry>0,590,460,250</entry>
+                <entry>0,930,810,570,18</entry>
+                <entry>1,531,451,280,63</entry>
+                <entry>2,172,181,710,26</entry>
+                <entry>2,311,911,240,34</entry>
+                <entry>2,041,480,850,45</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21871772">e. Đối với đường ống chữ nhật có lót lớp hút âm</para>
+        <para id="id21871781">- Đối với tần số dải âm dưới 800 Hz độ giảm âm được tính như sau :</para>
+        <para id="id21871788">(9-10)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IL</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0,8</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:msup><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>0,</m:mn><m:mtext>357</m:mtext></m:mrow></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">/</m:mo><m:mi>A</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mi>L</m:mi><m:mtext>.</m:mtext><m:msup><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,</m:mn><m:mrow><m:mtext>17</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>0,</m:mn></m:mrow><m:mtext>19</m:mtext><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow><m:mrow><m:mtext>1190</m:mtext><m:mtext>.</m:mtext><m:msup><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2,3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IL"= {  {t rSup { size 8{0,8} }  "." h rSup { size 8{0,"357"} }  "."  \( P/A \)  "." L "." f rSup { size 8{ \( 1,"17"+0,"19"d \) } } }  over  {"1190" "." d rSup { size 8{2,3} } } } , ital "dB"} {}</m:annotation></m:semantics></m:math>IL - Độ giảm âm thanh, dB</para>
+        <para id="id21107226">t - Độ dày của lớp vật liệu hút âm, in</para>
+        <para id="id21107232">h - Cạnh ngắn lòng ống, in</para>
+        <para id="id21107237">P - Chu vi lòng ống, in</para>
+        <para id="id21107243">A- Diện tích lòng ống, in2 </para>
+        <para id="id21107253">L Chiều dài đoạn ống, ft</para>
+        <para id="id21107258">f- Tần số âm thanh, Hz</para>
+        <para id="id21107264">d- Khối lượng riêng vật hút âm, lb/ft3</para>
+        <para id="id21106717">(9-11)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IL</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mtext>.</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">/</m:mo><m:mi>A</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext><m:mi>L</m:mi><m:mtext>.</m:mtext><m:mi>f</m:mi><m:msup><m:mtext>.</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mn>1,</m:mn><m:mrow><m:mtext>51</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mtext>61</m:mtext><m:mtext>lg</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">/</m:mo><m:mi>A</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow><m:mrow><m:msup><m:mi>W</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2,5</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:msup><m:mi>h</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2,7</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IL"= {  {k "."  \( P/A \)  "." L "." f "."  rSup { size 8{ \[ 1,"51" - 1,"61""lg" \( P/A \)  \] } } }  over  {W rSup { size 8{2,5} }  "." h rSup { size 8{2,7} } } } , ital "dB"} {}</m:annotation></m:semantics></m:math> - Đối với tần số trên 800 Hz</para>
+        <para id="id21782982">trong đó :</para>
+        <para id="id21782986">k = 2,11.109</para>
+        <para id="id21782995">W - Cạnh dài của lòng ống, in</para>
+        <para id="id21783000">L - Chiều dài đoạn đang xét, ft</para>
+        <para id="id21783006">Công thức 9-11 tính khi L &lt; 10 ft. Khi L &gt; 10ft thì lấy L = 10ft</para>
+        <para id="id21544763">Bảng 9-8 : Độ giảm âm trên đoạn ống hình chữ nhật có lót lớp hút âm dày 1in, dB/ft</para>
+        <table id="id21544771" summary="">
+          <tgroup cols="9">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <tbody>
+              <row>
+                <entry>Kích thước lòng ống, in</entry>
+                <entry>Tỉ số P/A(in/in2)</entry>
+                <entrytbl namest="c3" nameend="c9" cols="7">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c7">Tần số trung tâm dải ốcta, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                      <entry>2000</entry>
+                      <entry>4000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>8 x 88 x 1612 x 1212 x 2418 x 1818 x 3624 x 2424 x 4836 x 3636 x 7248 x 4848 x 96</entry>
+                <entry>0,50,3750,330,250,220,170,1650,1250,1110,0830,080,063</entry>
+                <entry>0,100,080,080,060,060,050,050,040,040,030,030,02</entry>
+                <entry>0,280,220,220,160,170,130,140,100,110,080,090,07</entry>
+                <entry>0,770,580,600,450,460,340,380,290,290,220,240,18</entry>
+                <entry>2,121,591,641,231,260,941,050,780,810,600,670,50</entry>
+                <entry>5,824,374,483,363,452,592,871,902,011,021,300,66</entry>
+                <entry>6,083,894,482,893,372,152,731,752,031,301,651,05</entry>
+                <entry>2,952,172,671,972,421,782,261,662,041,501,901,40</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21605874">Để tránh làm cho IL quá lớn , đối với đường ống chữ nhật có lót hút âm , thì IL không được vượt quá 40 dB ở bất kỳ tần số nào.</para>
+        <para id="id21542085">Độ giảm IL nêu trên không tính tới độ giảm âm thanh tự nhiên, nên khi tính cần phải cộng vào </para>
+        <para id="id21542092">f. Đối với đường ống ô van</para>
+        <para id="id21605878">- Đối với đường ống ô van với tỷ số hai trục là 3 : 1 thì IL được lấy giống đường ống tròn có đường kính bằng trục ngắn của ống ô van.</para>
+        <para id="id21542107">Độ dày lớp hút âm có ảnh hưởng đến trị số IL. Ở tần số 800 HZ , khi chiều dày lớp hút âm là 2in thì hiệu qura giảm âm tăng 2 lần so với lớp dày 1in. Vì vậy cần lót lớp hút âm dày từ 2in đến 3in để nâng cao hiệu quả hút âm.</para>
+        <para id="id21542118">2. Tổn thất tại cút cong và chổ chia nhánh</para>
+        <para id="id21542124">a. Độ giảm âm tại cút cong tròn</para>
+        <para id="id21542129">Tại vị trí cút cong âm thanh bị phản hồi ngược lại một phần. Vì thế các cút cong có hay không có lớp hút âm thì đều có tác dụng giảm ồn nhất định</para>
+        <para id="id21542140">Tổn thất tại cút cong phụ thuộc vào kích thước của nó và tần số âm và cho ở bảng 9-9 dưới đây :</para>
+        <para id="id21542152">9-9: Độ giảm âm qua cút tròn, dB</para>
+        <table id="id21542158" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Trường hợp</entry>
+                <entry>Tổn thất âm IL (dB)</entry>
+              </row>
+              <row>
+                <entry>f.D &lt; 1,91,9 &lt; f.D &lt; 3,83,8 &lt; f.D &lt; 7,5f.D &gt; 7,5</entry>
+                <entry>0123</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21011234">f - Tần số âm , kHz</para>
+        <para id="id21011239">D- Đường kính ống tròn, in</para>
+        <para id="id21783747">b. Độ giảm âm tại cút cong chữ nhật</para>
+        <para id="id21783753">Cút vchữ nhật làm giảm tối đa nhưng âm thanh trong dải ốcta mà tần số trung tâm gần bằng hoặc lớn hơn 125 Hz.</para>
+        <para id="id21783762">Bảng 9-10 đưa ra các kết quả giảm âm khi dòng không khí đi qua cút chữ nhật có và không có lớp hút âm.</para>
+        <para id="id21783771">9-10: Độ giảm âm qua cút chữ nhật, dB</para>
+        <table id="id21783777" summary="">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <tbody>
+              <row>
+                <entry>Trường hợp</entry>
+                <entry>Không có lớp hút âm</entry>
+                <entry>Có lớp hút âm</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Cút chữ nhật không có cánh hướng dòng</entry>
+              </row>
+              <row>
+                <entry>f.W &lt; 1,91,9 &lt; f. W &lt; 3,83,8 &lt; f. W &lt; 7,57,5 &lt; f. W &lt; 1515 &lt; f. W &lt; 3030 &lt; f. W</entry>
+                <entry>015843</entry>
+                <entry>016111010</entry>
+              </row>
+              <row>
+                <entry namest="c1" nameend="c3">Cút chữ nhật có cánh hướng dòng</entry>
+              </row>
+              <row>
+                <entry>f. W &lt; 1,91,9 &lt; f. W &lt; 3,83,8 &lt; f. W &lt; 7,57,5 &lt; f. W &lt; 1515 &lt; f. W</entry>
+                <entry>01464</entry>
+                <entry>01477</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id18476235">W - Cạnh lớn của ống chữ nhật, in </para>
+        <para id="id18476243">f - Tần số âm tính bằng, kHz</para>
+        <para id="id18476250">c. Độ giảm âm tại chỗ chia nhánh</para>
+        <para id="id18476256">(9-12)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">ΔL</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>WB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>lg</m:mtext><m:mfrac><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>br</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub><m:msub><m:mi fontstyle="italic">ΣA</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>br</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle></m:msub></m:mfrac><m:mi>,</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔL rSub { size 8{ ital "WB"} } = - "10" "." "lg" {  {A rSub { size 8{ ital "br"} } }  over  {ΣA rSub { size 8{ ital "br"} } } } , ital "dB"} {}</m:annotation></m:semantics></m:math>Độ giảm âm do chia nhánh được tính theo công thức:</para>
+        <para id="id23270087">LWB - Độ giảm năng lượng âm do chia nhánh, dB</para>
+        <para id="id23270103">Abr - Diện tích nhánh rẻ đang xét, ft2 </para>
+        <para id="id23270119">Abr - Tổng diện tích các nhánh rẻ, ft2</para>
+        <para id="id21042749">3. Tổn thất âm do phản hồi cuối đường ống</para>
+        <para id="id21042756">Khi sóng âm thoát ra cuối đường ống để vào phòng , do mở rộng đột ngột nên gây ra sự phản hồi âm ngược lại. Điều này giảm đáng kể các âm thanh tần số thấp. </para>
+        <para id="id21042767">Tổn thất âm do phản hồi không cần tính nếu :</para>
+        <para id="id21042773">- Miệng thổi kiểu khuyếch tán gắn trực tiếp lên trần</para>
+        <para id="id21042782">- Miệng thổi khuyếch tán nối với đoạn đường ống thẳng dài hơn 3 lần đường kính ống</para>
+        <para id="id21042792">- Miệng thổi khuyếch tán nối với ống nối mềm </para>
+        <para id="id21042801">Tổn thất âm do phản hồi cuối đường ống được tính theo bảng dưới đây:</para>
+        <para id="id21042809">Bảng 9-11 : Tổn thất do âm phản hồi cuối đường ống, dB</para>
+        <table id="id21042816" summary="">
+          <tgroup cols="6">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <tbody>
+              <row>
+                <entry>Chiều rộng ống chính, in</entry>
+                <entrytbl namest="c2" nameend="c6" cols="5">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c5">Tần số trung bình của dải ốcta, dB</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>6810121620242832364872</entry>
+                <entry>18161413119876541</entry>
+                <entry>12119865432110</entry>
+                <entry>865421110000</entry>
+                <entry>421100000000</entry>
+                <entry>100000000000</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21039457">Chú ý: Các số liệu ở bảng 9-8 không sử dụng cho miệng thổi có lót lớp hút âm hoặc miệng thổi gắn trực tiếp lên đường ống. Nếu đầu cuối cùng của đường ống là miệng thổi khuyếch tán thì phải trừ đi ít nhất 6 dB</para>
+      </section>
+      <section id="id-99704298908">
+        <title>Sự truyền âm kiểu phát xạ và tổn thất trên đường truyền</title>
+        <para id="id21039484">1. Sự phát xạ âm</para>
+        <para id="id21039490">Tiếng ồn do sóng âm hoặc sự rối loạn của dòng không khí bên trong đường ống có thể xuyên qua thành ống làm thành ống dao động. Sự truyền âm theo cách đó gọi là sự phát xạ âm.</para>
+        <para id="id21039507">Tiếng ồn ngược lại cũng có thể truyền vào bên trong ống, chạy theo hệ thống đường ống và vào phòng hoặc ra ngoài.</para>
+        <para id="id21039518">2. Tổn thất âm phát xạ trên đường truyền</para>
+        <para id="id21039524">a. Khái niệm. </para>
+        <para id="id21039529">- Mức suy giảm âm thanh do truyền TL (Transmission loss) khi qua tường, vách ngăn hoặc các vật cản khác trong trường hợp tổng quát được tính theo công thức :</para>
+        <para id="id21039540">TL = 10.lg.(Wvao/WCL), dB(9-13)</para>
+        <para id="id21722911">TL - Tổn thất âm trên đường truyền, dB</para>
+        <para id="id21722917">Wvao - Năng lượng sóng âm tới, W</para>
+        <para id="id21722927">WCL - Năng lượng còn lại của sóng âm khi qua vách, W</para>
+        <para id="id21722941">Tổn thất do truyền âm phụ thuộc vào khối lượng riêng của vật liệu vách và tần số âm thanh.</para>
+        <para id="id21722953">Đối với tường bê tông hoặc ống kim loại khi tăng gấp đôi khối lượng vách thì trị số TL tăng từ 2  3 dB cho tiếng ồn dưới 800 Hz và tăng từ 5  6 dB cho tiếng ồn trên 800 Hz. Quan hệ giữa TL và khối lượng vật liệu bị ảnh hưởng của nhièu yếu tố khác như khe nứt, độ cứng, độ cộng hưởng, sự không đồng nhất của vách ngăn ...vv</para>
+        <para id="id21016468">(9-14)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>TL</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>V</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>lg</m:mtext><m:mfrac><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>N</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>A</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>T</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "TL" rSub { size 8{R} } =L rSub { size 8{V} }  - L rSub { size 8{R} } +"10" "." "lg" {  {A rSub { size 8{N} } }  over  {A rSub { size 8{T} } } } } {}</m:annotation></m:semantics></m:math>- Tổn thất âm do phát xạ từ trong ống ra trong trường hợp tổng quát :</para>
+        <para id="id21040018">trong đó:</para>
+        <para id="id21040022">LV - Mức năng lượng âm thanh đầu vào ống, dB</para>
+        <para id="id21040035">LR - Mức năng lượng âm phát xạ sau khi xuyên qua ống, dB</para>
+        <para id="id21749969">AN, AT - Diện tích phát xạ mặt ngoài ống và diện tích tiết diện ngang bên trong ống, in2</para>
+        <para id="id21749995">- Tổn thất phát xạ âm vào đường ống trong trường hợp tổng quát :</para>
+        <para id="id21750003">TLV = 10.lg(WV/2.WR), dB(9-15)</para>
+        <para id="id21750045">WV - Cường độ âm truyền tới ống, dB</para>
+        <para id="id22013976">WR- Cường độ âm được truyền qua ống, dB</para>
+        <para id="id22013988">b. Tổn thất âm do phát xạ qua thành ống chữ nhật ra ngoài</para>
+        <para id="id22013996"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>L</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>24</m:mtext><m:mi>,</m:mi><m:mtext>134</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mtext>.</m:mtext><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>0,5</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{L} } = {  {"24","134"}  over  { \( a "." b \)  rSup { size 8{0,5} } } } } {}</m:annotation></m:semantics></m:math>Để tính tổn thất trên đường truyền qua ống chữ nhật người ta giới hạn tần số âm thanh sau đây để làm mốc:</para>
+        <para id="id21016272">trong đó:</para>
+        <para id="id21016277">fL gọi là tần số âm mốc.</para>
+        <para id="id21016288">a, b là hai cạnh của ống chữ nhật, in</para>
+        <para id="id21016294">(9-16)- Khi tần số f &lt; fL thì kiểu sóng phẳng là chủ yếu và độ giảm âm tính theo công thức :</para>
+        <para id="id21016330">TLR = 10.lg[fm2/(a+b) + 17], dB(9-17)</para>
+        <para id="id21783660">- Khi f &gt; fL thì sóng âm là kiểu hỗn hợp được tính theo công thức:</para>
+        <para id="id21783679">TLR = 20.lg(mf) - 31, dB(9-18)</para>
+        <para id="id21783710">trong đó :</para>
+        <para id="id21783716">m - Khối lượng trên 1 đơn vị diện tích thành ống, lb/ft2</para>
+        <para id="id18325591">Theo công thức ở trên, tổn thất âm do truyền qua ống chữ nhật không phụ chiều dài ống mà phụ thuộc vào khối lượng trên 1 đơn vị diện tích thành ống m.</para>
+        <para id="id18325605">Dưới đây là tổn thất âm khi truyền qua đường ống ở các dải tần số khác nhau.</para>
+        <para id="id18325613">Bảng 9-12 : Tổn thất âm khi truyền từ ống ra ngoài TLR, dB</para>
+        <table id="id18325633" summary="">
+          <tgroup cols="9">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <tbody>
+              <row>
+                <entry>Kích thước lòng ống, in</entry>
+                <entrytbl namest="c2" nameend="c9" cols="8">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <colspec colnum="8" colname="c8"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c8">Tần số trung tâm dải ốcta, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                      <entry>2000</entry>
+                      <entry>4000</entry>
+                      <entry>8000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>12 x 1212 x 2412 x 4824 x 2424 x 4848 x 4848 x 96</entry>
+                <entry>21191920202119</entry>
+                <entry>21222223232422</entry>
+                <entry>27252526262725</entry>
+                <entry>30282829293029</entry>
+                <entry>33313132313535</entry>
+                <entry>36353737394141</entry>
+                <entry>41414343454545</entry>
+                <entry>45454545454545</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21091287">Bảng 9-13 : Tổn thất âm khi truyền vào đường ống TLV, dB</para>
+        <table id="id21091305" summary="">
+          <tgroup cols="9">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <tbody>
+              <row>
+                <entry>Kích thước ống, in</entry>
+                <entrytbl namest="c2" nameend="c9" cols="8">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <colspec colnum="8" colname="c8"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c8">Tần số trung tâm dải ốcta, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                      <entry>2000</entry>
+                      <entry>4000</entry>
+                      <entry>8000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>12 x 1212 x 2412 x 4824 x 2424 x 4848 x 4848 x 96</entry>
+                <entry>16151413121011</entry>
+                <entry>16151413151919</entry>
+                <entry>16172221232422</entry>
+                <entry>25252526262727</entry>
+                <entry>30282829283232</entry>
+                <entry>33323434363838</entry>
+                <entry>38384040424242</entry>
+                <entry>42424242424242</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21604686">c. Tổn thất âm do phát xạ qua thành ống dẫn tròn ra ngoài</para>
+        <para id="id21604694">Tổn thất âm khi truyền qua ống dẫn tròn khác với ống dẫn chữ nhật. Khi tần số thấp các sóng phẳng ngăn cản sự truyền âm trong ống ra ngoài nên tổn thất rất lớn.</para>
+        <para id="id21604706">Bảng 9-14 dưới đây trình bày các tổn thất do truyền âm từ ống dẫn ra ngoài </para>
+        <para id="id21604715">Bảng 9-14 : Tổn thất truyền âm từ ống tròn ra ngoài TLR, dB</para>
+        <table id="id21604736" summary="">
+          <tgroup cols="9">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <tbody>
+              <row>
+                <entry>Kích thước và kiểu ống, in</entry>
+                <entrytbl namest="c2" nameend="c9" cols="8">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <colspec colnum="8" colname="c8"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c8">Tần số trung tâm dải ốcta, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                      <entry>2000</entry>
+                      <entry>4000</entry>
+                      <entry>8000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>1. Ống ghép dọc+ D=8in, =0,022in, L=15ft+ D=14in, =0,028in, L=15ft+ D=22in, =0,034in, L=15ft+ D=32in, =0,034in, L=15ft2. Ống ghép xoắn+ D=8in, =0,022in, L=10ft+ D=14in, =0,022in, L=10ft+ D=26in, =0,028in, L=10ft+ D=26in, =0,028in, L=10ft+ D=32in, =0,034in, L=10ft</entry>
+                <entry>&gt;45&gt;5047(51)&gt;48&gt;43&gt;45&gt;48&gt;43</entry>
+                <entry>(53)605346&gt;64&gt;5350&gt;5342</entry>
+                <entry>55543726&gt;7555263628</entry>
+                <entry>52363326&gt;7233263225</entry>
+                <entry>443433245634253226</entry>
+                <entry>353127225635222824</entry>
+                <entry>342525384625364140</entry>
+                <entry>263843432940433645</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21655788">trong đó </para>
+        <para id="id21655793">D - đường kính ống, in</para>
+        <para id="id21655798"> - Chiều dày của ống, in</para>
+        <para id="id21655808">L - Chiều dài ống, ft</para>
+        <para id="id21655813">Trong trường hợp tập âm nèn che khuất tiếng ồn phát xạ, thì giới hạn thấp hơn của TL được biểu thị bằng dấu &gt;. Các số liệu trong dấu ngoặc đơn cho biết rằng tiếng động nền sẽ sinh ra một giá trị lơn hơn số liệu thông thường.</para>
+        <para id="id23136776">d. Tổn thất âm TL của ống ôvan</para>
+        <para id="id23136783">Mức tổn thất âm thanh khi truyền qua thành ống ôvan được dẫn ra ở bảng</para>
+        <para id="id23136791">Bảng 9-15 : Tổn thất truyền âm từ ống ôvan ra ngoài TLR, dB</para>
+        <table id="id23136810" summary="">
+          <tgroup cols="9">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <colspec colnum="9" colname="c9"/>
+            <tbody>
+              <row>
+                <entry>Kích thước trục axb, in</entry>
+                <entrytbl namest="c2" nameend="c9" cols="8">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <colspec colnum="8" colname="c8"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c8">Tần số trung tâm dải ốcta, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                      <entry>2000</entry>
+                      <entry>4000</entry>
+                      <entry>8000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>12 x 624 x 624 x 1248 x 1248 x 2496 x 2496 x 48</entry>
+                <entry>31242823272228</entry>
+                <entry>34273126302531</entry>
+                <entry>373034293328-</entry>
+                <entry>40333732---</entry>
+                <entry>4336--</entry>
+                <entry>-------</entry>
+                <entry>-------</entry>
+                <entry>-------</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21785192">3. Tổn thất âm khi qua cấu trúc xây dựng</para>
+        <para id="id21785198">Khi truyền âm qua các kết cấu xây dựng , năng lượng âm thanh bị tổn thất một lượng đáng kể , qua nghiên cứu người ta đã đưa ra các kết quả xác định tổn thất âm thành.</para>
+        <para id="id18797875">Tổn thất qua tường, vách ngăn, cửa kính và khoảng trống trên trần được tính theo bảng 9-16 dưới đây:</para>
+        <para id="id18797884">Bảng 9-16 : Tổn thất âm khi đi qua kết cấu xây dựng, dB</para>
+        <table id="id21785205" summary="">
+          <tgroup cols="8">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <colspec colnum="8" colname="c8"/>
+            <tbody>
+              <row>
+                <entry>Kích thước trục axb, in</entry>
+                <entrytbl namest="c2" nameend="c8" cols="7">
+                  <colspec colnum="1" colname="c1"/>
+                  <colspec colnum="2" colname="c2"/>
+                  <colspec colnum="3" colname="c3"/>
+                  <colspec colnum="4" colname="c4"/>
+                  <colspec colnum="5" colname="c5"/>
+                  <colspec colnum="6" colname="c6"/>
+                  <colspec colnum="7" colname="c7"/>
+                  <tbody>
+                    <row>
+                      <entry namest="c1" nameend="c7">Tần số trung tâm dải ốcta, Hz</entry>
+                    </row>
+                    <row>
+                      <entry>63</entry>
+                      <entry>125</entry>
+                      <entry>250</entry>
+                      <entry>500</entry>
+                      <entry>1000</entry>
+                      <entry>2000</entry>
+                      <entry>4000</entry>
+                    </row>
+                  </tbody>
+                </entrytbl>
+              </row>
+              <row>
+                <entry>- Bê tông đặc, dày 4 in, 48 lb/ft2- Bê tông đặc kết hợp bê tông bọt dày 4 in, 28 lb/ft2- Bê tông đặc kết hợp bê tông bọt dày 8 in, 28 lb/ft2- Vách ngăn tiêu chuẩn, khung gổ 2in, 4 in hai lớp thạch cao dày 5/8 in ở mỗi mặt- Vách ngăn tiêu chuẩn, khung kim loại 29/8 in, hai lớp thạch cao dày 5/8 in ở mỗi mặt - Kính 1 lớp dày 1 / 2 in- Kính 2 lớp mỗi lớp dày 1 /2in, 2 lớp cách nhau 1 /2in.- Trần bằng sợi vô cơ- Trần thạch cao- Tác dụng kết hợp của khoảng trống trên trần với trần có phủ bông thuỷ tinh dày 1 /2in, 6 lb/ft2- Tác dụng kết hợp của khoảng trống trên trần với trần có phủ lớp sợi vô cơ dày 5 /8in, 35 lb/ft2- Cửa gổ thường xuyên đóng</entry>
+                <entry>322931122511121941</entry>
+                <entry>343233173616162158523</entry>
+                <entry>353335344323234208927</entry>
+                <entry>3734363550272782581029</entry>
+                <entry>42374142503232931101227</entry>
+                <entry>49424838442830933101426</entry>
+                <entry>554954445532351427141529</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21041092">4 Hiệu ứng làm giảm âm kết hợp giữa trần và khoảng trống trên trần</para>
+        <para id="id21041099">Trần và khoảng trống trên trần có tác dụng giảm âm phát xạ từ đường ống ra một cách đáng kể, đặc biệt là trần có cách âm.</para>
+        <para id="id21041109">Đối với trần cách âm bằng sợi vô cơ khối lượng 35 lb/ft3 thì mức độ giảm âm theo các dải tần cho ở bảng 9-17 :</para>
+        <para id="id21041122">Bảng 9-17 : Tổn thất âm qua trần cách âm, dB</para>
+        <table id="id21041128" summary="">
+          <tgroup cols="7">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <colspec colnum="3" colname="c3"/>
+            <colspec colnum="4" colname="c4"/>
+            <colspec colnum="5" colname="c5"/>
+            <colspec colnum="6" colname="c6"/>
+            <colspec colnum="7" colname="c7"/>
+            <tbody>
+              <row>
+                <entry>Tần số f, Hz</entry>
+                <entry>125</entry>
+                <entry>250</entry>
+                <entry>500</entry>
+                <entry>1000</entry>
+                <entry>2000</entry>
+                <entry>4000</entry>
+              </row>
+              <row>
+                <entry>Độ giảm âm, dB</entry>
+                <entry>-5</entry>
+                <entry>-9</entry>
+                <entry>-10</entry>
+                <entry>-12</entry>
+                <entry>-14</entry>
+                <entry>-15</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-276124379536">
+        <title>Quan hệ giữa mức áp suất âm trong phòng với cường độ âm</title>
+        <para id="id22531160">1. Trường hợp có một hoặc nhiều nguồn âm trong phòng</para>
+        <para id="id21751102">Căn cứ vào thực nghiệm người ta đưa ra công thức tính mức áp suất trong phòng Lpr (dB) từ mức cường độ âm LWr</para>
+        <para id="id21751122">Lpr = LWr - 5.lgV - 3.lgf - 10.lgr + 25(9-19)</para>
+        <para id="id21751147">trong đó :</para>
+        <para id="id21751151">Lwr - Mức cường độ âm trong phòng, dB</para>
+        <para id="id21751163">V - Thể tích của phòng, ft3</para>
+        <para id="id21751172">f - Tần số trung tâm của dải ốcta, Hz</para>
+        <para id="id21751178">r - Khoảng cách từ nguồn âm tới nơi thu nhận, ft</para>
+        <para id="id21751184">Nếu trong phòng có nhiều nguồn âm thì tính Lpr riêng rẻ và cộng lại để tính tổng áp sấu âm tại nơi thu nhận.</para>
+        <para id="id21751199">2. Trường hợp có nhiều miệng thổi khuyếch tán đặt sát trần</para>
+        <para id="id21751206">Trong các văn phòng và phòng lớn trong toà nhà thường có nhiều miệng thổi . Nếu số lượng lớn hơn hay bằng 4 và độ độ cao lắp đặt như nhau thì mức áp suất âm trong phòng ở độ cao 5 ft cách sàn được xác định như sau :</para>
+        <para id="id21751211">Lp5 = LWS - 5.lgX - 28.lgh + 1,3.lgN - 3.lgf + 31(9-20)</para>
+        <para id="id21723542">LWS - Mức cường độ âm thanh của miệng thổi, dB</para>
+        <para id="id21723553">h - độ cao của trần, ft</para>
+        <para id="id21723558">N - Số miệng thổi</para>
+        <para id="id21723563">X = F/h2 : F - Diện tích sàn do 1 miệng thổi đảm nhận, ft2</para>
+        <para id="id21723581">3. Hiệu ứng không gian</para>
+        <para id="id21723587">Hiệu ứng không gian là sự chênh lệch giữa mức áp suất âm thanh và mức cường độ âm thanh trong phòng Lp - Lw</para>
+      </section>
+    </section>
+    <section id="id-717039889878">
+      <title>Thiết bị tiêu âm</title>
+      <para id="id21723616">Trong kỹ thuật điều hoà không khí người ta thường sử dụng các thiết bị tiêu âm nhằm giảm âm thanh phát ra từ các thiết bị và dòng không khí chuyển động truyền đến khu vực xung quanh và đặc biệt là truyền vào phòng.</para>
+      <para id="id21723621">Đối với các thiết bị nhỏ như các quạt, FCu và AHU người ta bọc kín thiết bị bằng các hộp tiêu âm để hút hết các âm thanh phát xạ từ thiết bị không để chúng lan truyền ra chung quanh</para>
+      <para id="id23307487">Đối với các AHU lớn, phòng máy Chiller người ta đặt trong các phòng máy kín có bọc cách âm.</para>
+      <para id="id23307497">Đối với dòng không khí người ta sử dụng các hộp tiêu âm đặt trên đường đi. Các hộp tiêu âm này có nhiệm vụ hút hết âm lan truyền theo dòng không khí chuyển động. Dưới đây trình bày cấu tạo của hộp tiêu âm đặt trên đường ống.</para>
+      <figure id="id23307513">
+        <media id="id18210162" alt=""><image src="../../media/graphics1-c165.png" mime-type="image/png" height="193" width="476"/></media>
+      </figure>
+      <para id="id23307537">Trên hình 9-2 là cấu tạo của hộp tiêu âm thường được sử dụng trong kỹ thuật điều hoà không khí.</para>
+      <para id="id23307546">Cấu tạo của hộp tiêu âm gồm các lớp sau đây (kể từ trong ra ngoài) :</para>
+      <para id="id23307555">- Lớp tôn có đực lỗ 6, a=20mm</para>
+      <para id="id23307569">- Lớp vải mỏng</para>
+      <para id="id23307576">- Lớp bông hút âm</para>
+      <para id="id23307583">- Lớp tôn vỏ ngoài</para>
+      <para id="id23307590">Hộp tiêu âm được định hình nhờ khung gỗ bao quanh . Độ dày D của lớp bông thuỷ tinh nằm trong khoảng 100  300mm. Độ dày càng lớn khả năng hút âm càng tốt. Lớp trong cùng là lớp tôn đục lỗ , các lỗ có tác dụng hút âm thanh, trong một số trường hợp người ta sử dụng lứới sắt hoặc lưới nhựa để thay thế.</para>
+      <para id="id21037465"/>
+    </section>
+    <section id="id-771048339369">
+      <title>Lọc bụi</title>
+      <section id="id-806885644098">
+        <title>Khái niệm</title>
+        <para id="id21037505">Bụi là một trong các chất độc hại . Tác hại của bụi phụ thuộc vào các yếu tố : Kích cỡ bụi, nồng độ bụi và nguồn gốc bụi.</para>
+        <para id="id21037516">- Nguồn gốc:</para>
+        <para id="id21037522">+ Hữu cơ : Do các sản phẩm nông nghiệp và thực phẩm như thuốc lá, bông gỗ, các sản phẩm nông sản, da, lông súc vật</para>
+        <para id="id21037534">+ Bụi vô cơ : Đất, đá, xi măng, amiăng, bụi kim loại</para>
+        <para id="id21037542">- Kích cỡ hạt: Bụi có kích cỡ càng bé tác hại càng lớn do khả năng xâm nhập sâu, tồn tại trong không khí lâu và khó xử lý.</para>
+        <para id="id21782351">+ Rất mịn : 0,1 - 1 m</para>
+        <para id="id21782366">+ Mịn: 1 - 10 m</para>
+        <para id="id21782382">+ Thô: &gt; 10 m</para>
+        <para id="id21782399">- Nồng độ :</para>
+        <para id="id21782405">+ Nồng độ bụi cho phép trong không khí thường cho theo nòng độ ôxit silic</para>
+        <para id="id21782423">Bảng 9-18</para>
+        <table id="id21782449" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Hàm lượng SO2, %</entry>
+                <entry>Nồng độ cho phép</entry>
+              </row>
+              <row>
+                <entry>Z &gt; 102  10&lt; 2Bụi amiăng</entry>
+                <entry>Zb &lt; 2 mm/m32  44  6&lt; 2</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id21042937">Khi lựa chọn thiết bị lọc bụi căn cứ vào các đặc tính sau:</para>
+        <para id="id21042947">- Hiệu quả lọc bụi b : </para>
+        <para id="id21782243">b = (G'b - G"b).100% /G'b = (z'b - z"b).100% /z'b(9-21)</para>
+        <para id="id21782295">G'b, G"b - Lượng bụi vào ra thiết bị trong một đơn vị thời gian</para>
+        <para id="id21782317">z'b, z"b - Nồng độ bụi vào ra thiết bị trong một đơn vị thời gian</para>
+        <para id="id21782338">- Phụ tải không khí : L (m3/h.m2) Lưu lượng lưu thông không khí tính cho 1m2 diện tích bề mặt lọc.</para>
+        <para id="id23271249">- Trở lực thủy lực p = ..2/2: Trở lực thủy lực của thiết bị lọc</para>
+      </section>
+      <section id="id-569578071556">
+        <title>Các thiết bị lọc bụi và tính toán </title>
+        <para id="id23271298">Thiết bị lọc bụi có nhiều loại, tuỳ thuộc vào nguyên lý tách bụi, hình thức bên ngoài, chất liệu hút bụi mà người ta chia ra :</para>
+        <para id="id23271311">- Buồng lắng bụi</para>
+        <para id="id23271317">- Thiết bị lọc bụi kiểu xiclon</para>
+        <para id="id23271324">- Thiết bị lọc bụi kiểu quán tính</para>
+        <para id="id23271330">- Thiết bị lọc bụi kiểu túi vải, lưới lọc, thùng quay.</para>
+        <para id="id23271336">- Thiết bị lọc bụi kiểu tĩnh điện</para>
+        <section id="id-0722089628837">
+          <title>Buồng lắng bụi.</title>
+          <para id="id21707100">Buồng lắng bụi có cấu tạo dạng hộp , không khí vào 1 đầu và ra đầu kia. Nguyên tắc tách bụi của buồng lắng bụi chủ yếu là :</para>
+          <para id="id21707111">- Giảm tốc độ hổn hợp không khí và bụi một cách đột ngột khi vào buồng. Các hại bụi mất động năng và rơi xuống dưới tác dụng của trọng lực.</para>
+          <para id="id21707125">- Dùng các vách chắn, vách ngăn để khi không khí va đập vào các hạt bụi bị mất động năng và rơi xuống đáy buồng.</para>
+          <para id="id21707140">- Ngoặt dòng khi chuyển động trong buồng. </para>
+          <para id="id21707147">Trên hình 9-3 trình bày một số kiểu dạng buồng lắng bụi</para>
+          <para id="id21707155">Buồng lắng bụi đơn giản chỉ dựa trên nguyên tắc giảm tốc độ đột ngột có nhược điểm là hiệu quả không cao , chỉ đạt 50  60% và phụ tải không lớn. </para>
+          <para id="id21707172">Buồng lắng bụi có nhiều ngăn và loại có tấm chắn hiệu quả cao hơn . Trong các buồng lắng bụi này không khí chuyển động dích dắc hoặc xoáy tròn nên khi va đập vào các tấm chắn và vách ngăn sẽ mất động năng và rơi xuống. Hiệu quả có thể đạt 85  90%</para>
+          <para id="id21707198">a) Buồng lắng bụi đơn giãn</para>
+          <para id="id21751553">b) Buồng lắng bụi nhiều ngăn </para>
+          <para id="id21751558">c) buồng lắng bụi có tấm chắn</para>
+          <para id="id21751578">Hình 9-3 : Các loại buồng lắng bụi</para>
+          <para id="id21751583">* Tính toán buồng lắng bụi đơn giản:</para>
+          <para id="id21751592">- Chiều dài tối thiểu cần thiết của buồng lắng bụi để giữ lại hạt bụi có đường kính d:</para>
+          <para id="id21751603">(9-22)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>18</m:mtext><m:mi fontstyle="italic">μL</m:mi></m:mrow><m:mrow><m:msub><m:mi>γ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:msup><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:mi>B</m:mi></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{"min"} } = {  {"18"μL}  over  {γ rSub { size 8{m} }  "." d rSup { size 8{2} }  "." B} } ,m} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id21605028">trong đó :</para>
+          <para id="id21605034"> - Độ nhớt động học của không khí, kg.s/m2</para>
+          <para id="id21605051">L - Lưu lượng không khí đi qua buồng lắng , m3/s</para>
+          <para id="id21605065">m - Trọng lượng đơn vị của bụi, kg/m3</para>
+          <para id="id21605085">d - Đường kính hạt bụi, m</para>
+          <para id="id22079952">B - Chiều rộng buồng lắng, m</para>
+          <para id="id22079960">(9-23)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>min</m:mtext></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mtext>18</m:mtext><m:mtext>.</m:mtext><m:mi>μ</m:mi><m:mtext>.</m:mtext><m:mi>L</m:mi></m:mrow><m:mrow><m:msub><m:mi>γ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext><m:mi>B</m:mi><m:mtext>.</m:mtext><m:mi>l</m:mi></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{"min"} } = sqrt { {  {"18" "." μ "." L}  over  {γ rSub { size 8{m} }  "." B "." l} } } } {}</m:annotation></m:semantics></m:math>- Ngược lại, khi kích thước buồng đã xác định, ta có thể xác định đường kính hạt bụi bé nhất mà buồng có khả năng giữ lại :</para>
+          <para id="id21658063">Các công thức trên đây chỉ tính trong trường hợp không khí chuyển động trong buồng là chảy tầng. Thực tế không tốc độ không khí chuyển động trong buồng thường chọn là 0,6 m/s.</para>
+          <para id="id21658074">Khi đó dòng không khí đang chảy tầng. Khi chuyển sang chế độ chảy rối công thức trên không còn đúng nữa.</para>
+        </section>
+        <section id="id-308054687129">
+          <title>Bộ lọc bụi kiểu xiclôn</title>
+          <para id="id21658095">Bộ lọc bụi xiclon là thiết bị lọc bụi được sử dụng tương đối phổ biến . Nguyên lý làm việc của thiết bị lọc bụi kiểu xiclon là lợi dụng lực ly tâm khi dòng không khí chuyển động để tách bụi ra khỏi không khí</para>
+          <para id="id21658110">Hình 9-4 : Cấu tạo lọc bụi kiểu xiclon</para>
+          <para id="id21658116">Nguyên lý làm việc của thiết bị lọc bụi xiclon như sau : Không khí có bụi lẫn đi qua ống 1 theo phương tiếp tuyến với ống trụ 2 và chuyển động xoáy tròn đi xuống dưới phía dưới, khi gặp phễu 3 dòng không khí bị đẩy ngược lên chuyển động xoáy trong ống 4 và thoát ra ngoài. Trong quá trình chuyển động xoáy ốc lên và xuống trong các ống các hạt bụi dưới tác dụng của lực ly tâm va vào thành, mất quán tính và rơi xuống dưới . Ở đáy xiclon người ta có lắp thêm van xản để xả bụi vào thùng chứa. Van xả 5 là van xả kép 2 cửa 5a và 5b không mở đồng thời nhằm đảm bảo luôn cách ly bên trong xiclon với thùng chứa bụi, không cho không khí lọt ra ngoài.</para>
+          <para id="id21658152">* Tính toán Xiclon :</para>
+          <para id="id21658158">Để tính toán người ta giả thiết </para>
+          <para id="id21658164">1- Các hạt bụi có kích thước hình cầu.</para>
+          <para id="id21041461">2- Lực ly tâm tác dụng lên hạt bụi theo hướng bán kính của xiclon và bỏ qua lực tác dụng của trọng lực.</para>
+          <para id="id21041471">3- Hạt bụi được tách ra khỏi không khí sau khi va chạm và thành xiclon</para>
+          <para id="id21041479">(9-24)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:msqrt><m:mrow><m:mfrac><m:mi>ν</m:mi><m:mrow><m:mi>π</m:mi><m:mtext>.</m:mtext><m:mi>n</m:mi><m:mtext>.</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mfrac><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>γ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>γ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mtext>.</m:mtext><m:mtext>ln</m:mtext><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac></m:mrow></m:msqrt><m:mi>,</m:mi><m:mi>m</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d=3 "."  sqrt { {  {ν}  over  {π "." n "."  %OMEGA } }  "."  {  {γ rSub { size 8{k} } }  over  {γ rSub { size 8{m} } } }  "." "ln" {  {R rSub { size 8{2} } }  over  {R rSub { size 8{1} } } } } ,m} {}</m:annotation></m:semantics></m:math>Dựa vào các giả thiết đó người ta đã xác định được cỡ hạt bụi nhỏ nhất có thể giữ lại được trong xiclon và thời gian chuyển động của hạt bụi từ lúc vào đến lúc lắng đọng dưới đáy xiclon : </para>
+          <para id="id21481737">(9-25)
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>τ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>18</m:mtext><m:mtext>.</m:mtext><m:mi>ν</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mtext>.</m:mtext><m:msup><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow><m:mtext>.</m:mtext><m:mfrac><m:msub><m:mi>γ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>k</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>γ</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>m</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mtext>.</m:mtext><m:mtext>ln</m:mtext><m:mfrac><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:msub><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mfrac><m:mi>,</m:mi><m:mi>s</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ= {  {"18" "." ν}  over  { %OMEGA  rSup { size 8{2} }  "." d rSup { size 8{2} } } }  "."  {  {γ rSub { size 8{k} } }  over  {γ rSub { size 8{m} } } }  "." "ln" {  {R rSub { size 8{2} } }  over  {R rSub { size 8{1} } } } ,s} {}</m:annotation></m:semantics></m:math></para>
+          <para id="id21107581">trong đó :</para>
+          <para id="id21107586"> - Độ nhớt động học của không khí, m2/s</para>
+          <para id="id21657420">k, m - Khối lượng riêng của không khí và bụi, kg/m3</para>
+          <para id="id21657449">R1 - Bán kính của ống thoát khí , m</para>
+          <para id="id21657460">R2 - Bán kính hình trụ của xiclon, m</para>
+          <para id="id21657471"> - Vận tốc trung bình của hạt bụi , s-1</para>
+        </section>
+        <section id="id-525618889928">
+          <title>Bộ lọc bụi kiểu quán tính</title>
+          <para id="id21657495">Nguyên lý hoạt động của thiết bị lọc bụi kiểu quán tính là dựa vào lực quán tính của hạt bụi khi thay đổi chiều chuyển động đột ngột.</para>
+          <para id="id21657507">Trên hình 9-5 trình bày cấu tạo của thiết bị lọc bụi kiểu quán tính. Cấu tạo gòm nhiều khoang ống hình chóp cụt có đường kính giảm dần xếp chồng lên nhau tạo ra các góc hợp với phương thẳng đứng khoảng 60o và khoảng cách giữa các khoang ống khoảng từ 5  6mm.</para>
+          <para id="id21657534">Không khí có bụi được đưa qua miệng 1 vào phẩu thứ nhất, các hạt bụi có quá tính lớn đi thẳng, không khí một phần đi qua khe hở giữa các chóp và thoát ra ống 3. Các hạt bụi được dồn vào cuối thiết bị .</para>
+          <para id="id21657539">Thiết bị lọc bụi kiểu quá tính có cấu tạo và nguyên lý hoạt động tương đối đơn giản nhưng nhược điểm là hiệu qủa lọc bụi thấp , để tăng hiệu quả lọc bụi người ta thường kết hợp các kiểu lọc bụi với nhau, đặc biệt với kiểu lọc kiểu xclôn, hiệu quả có thể đạt 80  98%. Phần không khí có nhiều bụi ở cuối thiết bị được đưa vào xiclôn để lọc tiếp.</para>
+        </section>
+        <section id="id-932690927166">
+          <title>Bộ lọc bụi kiểu túi vải.</title>
+          <para id="id21725533">Thiết bị lọc bụi kiểu túi vải được sử dụng rất phổ biến cho các loại bụi mịn, khô khó tách khỏi không khí nhờ lực quán tính và ly tâm. Để lọc người ta cho luồng không khí có nhiễm bụi đi qua các túi vải mịn, túi vải sẽ ngăn các hạt bụi lại và để không khí đi thoát qua.</para>
+          <para id="id21725553">Qua một thời gian lọc, lượng bụi bám lại bên trong nhiều , khi đó hiệu quả lọc bụi cao đạt 90  95% nhưng trở lực khi đó lớn p = 600  800 Pa, nên sau một thời gian làm việc phải định kỳ rũ bụi bằng tay hoặc khí nén để tránh nghẽn dòng gió đi qua thiết bị. Đối với dòng khí ẩm cần sấy khô trước khi lọc bụi tránh hiện tượng bết dính trên bề mặt vải lọc làm tăng trở lực và năng suất lọc. Thiết bị lọc bụi kiểu túi vải có năng suất lọc khoảng 150  180m3/h trên 1m2 diện tích bề mặt vải lọc. Khi nồng độ bụi khoảng 30  80 mg/m3 thì hiệu quả lọc bụi khá cao đạt từ 9699%. Nếu nồng độ bụi trong không khí cao trên 5000 mg/m3 thì cần lọc sơ bộ bằng thiết bị lọc khác trước khi đưa sang bộ lọc túi vải.</para>
+          <para id="id21045653">Bộ lọc kiểu túi vải có nhiều kiểu dạng khác nhau, dưới đây trình bày kiểu túi vải thường được sử dụng.</para>
+          <para id="id21045663">Trên hình 9-5 là cấu tạo của thiết bị lọc bụi kiểu túi vải đơn giản. Hỗn hợp không khí và bụi đi vào cửa 1 và chuyển động xoáy đi xuống các túi vải 2, không khí lọt qua túi vải và đi ra cửa thoát gió 5. Bụi được các túi vải ngăn lại và rơi xuống phểu 3 và định kỳ xả nhờ van 4</para>
+          <para id="id21045685">Để rũ bụi người ta thường sử dụng các cánh gạt bụi hoặc khí nén chuyển động ngược chiều khi lọc bụi , các lớp bụi bám trên vải sẽ rời khỏi bề mặt bên trong túi vải.</para>
+          <figure id="id21045697">
+            <media id="id18212024" alt=""><image src="../../media/graphics2-01fc.png" mime-type="image/png" height="298" width="319"/></media>
+          </figure>
+        </section>
+        <section id="id-596062917375">
+          <title>Bộ lọc bụi kiểu lưới</title>
+          <para id="id21045734">Bộ lọc bụi kiểu lưới được chế tạo từ nhiều loại vật liệu khác nhau nhằm làm cho dòng không khí đi qua chuyển động dích dắc nhằm loại bỏ các hạt bụi lẫn trong không khí. Loại phổ biến nhất gồm một khung làm bằng thép , hai mặt có lưới thép và ở giữa là lớp vật liệu ngăn bụi. Lớp vật liệu này có thể là các mẩu kim loại, sứ, sợi thuỷ tính, sợi nhựa, ...</para>
+          <para id="id22334708">Kích thước của vật liệu đệm càng bé thì khe hở giữa chúng càng bé và khả năng lọc bụi càng cao. Tuy nhiên đối với các loại lọc bụi kiểu này khi hiệu quả lọc bụi tăng đều kèm theo tăng trở lực </para>
+          <para id="id22334722">Trên hình 9-6 là tấm lưới lọc với vật liệu đệm là lỏi kim loại hoặc sứ. Kích thước thông thường của tấm lọc là 500 x 500 x (75  80)mm, khâu kim loại có kích thước 13 x 13 x 1mm. Lưới lọc có trở lực khá bé 30  40 Pa. Hiệu quả lọc bụi có thể đạt 99%, năng suất lọc đạt 4000  5000 m3/h cho 1m2 diện tích bề mặt lưới lọc . Loại lọc bụi kiểu lưới này rất thích hợp cho các loại bụi là sợi bông, sợi vải .. . Hàm lượng bụi sau bộ lọc đạt 6  20 mg/m3</para>
+          <para id="id22334790">Tuỳ theo lưu lượng không khí cần lọc các tấm được ghép với nhau trên khung phẳng hoặc ghép nhiều tầng để tăng hiệu quả lọc.</para>
+          <para id="id22334801">Trong một số trường hợp vật liệu đệm được tẩm dầu để nâng cao hiệu quả lọc bụi. Tuy nhiên dầu sử dụng cần lưu ý đảm bảo không mùi , lâu khô và khó ôxi hoá.</para>
+          <para id="id22334815">Sau một thời gian làm việc hiệu quả khử bụi kém nên định kỳ vệ sinh bộ lọc </para>
+          <para id="id22334824">Hình 9-6 Thiết bị lọc bụi kiểu lưới</para>
+        </section>
+        <section id="id-5785614076">
+          <title>Bộ lọc bụi kiểu tĩnh điện</title>
+          <para id="id21010487">Bộ lọc tĩnh điện được sử dụng lực hút giữa các hạt nhỏ nạp điện âm. Các hạt bụi bên trong thiết bị lọc bụi hút nhau và kết lại thành khối có kích thước lớn ở các tấm thu góp. Chúng rất dễ khử bỏ nhờ dòng khí.</para>
+          <para id="id21010502"><figure id="id21010505"><media id="id18212257" alt=""><image src="graphics3.wmf" mime-type="image/wmf" height="240" width="524"/></media></figure> Thiết bị lọc bụi kiểu điển hình trình bày trên hình 9-7. Thiết bị được chia thành 2 vùng: Vùng iôn hoá và vùng thu góp. Vùng iôn hoá có căng các sợi dây mang điện tích dương với điện thế 1200V. Các hạt bụi trong không khí khi đi qua vùng iôn hoá sẽ mang điện tích dương. Sau vùng iôn hoá là vùng thu góp, gồm các bản cực tích điện dương và âm xen kẻ nhau nối với nguồn điện 6000V. Các bản tích điện âm nối đất. Các hạt bụi tích điện dương khi đi qua vùng thu góp sẽ được bản cực âm hút vào. Do giữa các hạt bụi có rất nhiều điểm tiếp xúc nên liên kết giữa các hạt bụi bằng lực phân tử sẽ lớn hơn lực hút giữa các tấm cực với các hạt bụi . Do đó các hạt bụi kết lại và lớn dần lên. Khi kích thước các hạt đủ lớn sẽ bị dòng không khí thổi rời khỏi bề mặt tấm cực âm. Các hạt bụi lớn rời khỏi các tấm cực ở vùng thu góp sẽ được thu gom nhờ bộ lọc bụi thô kiểu trục quay đặt ở cuối gom lại.</para>
+          <para id="id21010573">Hình 9-7: Bộ lọc bụi kiểu tĩnh điện</para>
+          <para id="id21010579">Thiết bị lọc bụi kiểu tĩnh điện rất hiệu quả đối với các loại bụi kích cỡ từ 0,5 đếm 8m. Khi các hạt bụi có kích cỡ khoảng 10m và lớn hơn thì hiệu quả giảm. Tổn thất áp suất khi đi qua vùng iôn hoá và vùng thu góp thấp và nằm trong khoảng từ 0,15 đến 0,25 in . WC (từ 37 đến 62 Pa) và tốc độ khong khí từ 300 đến 500 fpm (1,5 đến 2,5m/s).</para>
+          <para id="id22296944">Cần lưu ý vấn đề an toàn vì điện thế sử dụng rất cao và nguy hiểm đến tính mạng con người.</para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>
