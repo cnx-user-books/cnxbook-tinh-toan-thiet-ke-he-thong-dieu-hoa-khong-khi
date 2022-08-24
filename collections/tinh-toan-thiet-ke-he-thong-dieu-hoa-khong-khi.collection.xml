@@ -1,3 +1,21 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10869</md:content-id>  <md:title>Tính toán thiết kế hệ thống điều hòa không khí</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>vi</md:language>              <md:uuid>afbf1b2c-90a6-4165-8451-5dfd507a28a6</md:uuid>
-<md:slug>tinh-toan-thiet-ke-he-thong-dieu-hoa-khong-khi</md:slug>
-</metadata>  <col:content>          <col:module document="m30114"/>                            <col:module document="m30151"/>                            <col:module document="m30434"/>                            <col:module document="m30015"/>                            <col:module document="m30756"/>                            <col:module document="m30040"/>                            <col:module document="m30016"/>                            <col:module document="m30020"/>                    </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course" authors="TS. V&#xF5; Ch&#xED; Ch&#xED;nh">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10869</md:content-id>
+    <md:title>T&#xED;nh to&#xE1;n thi&#x1EBF;t k&#x1EBF; h&#x1EC7; th&#x1ED1;ng &#x111;i&#x1EC1;u h&#xF2;a kh&#xF4;ng kh&#xED;</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>afbf1b2c-90a6-4165-8451-5dfd507a28a6</md:uuid>
+    <md:slug>tinh-toan-thiet-ke-he-thong-dieu-hoa-khong-khi</md:slug>
+  </metadata>
+  <col:content>
+    <col:module document="m30114"/>
+    <col:module document="m30151"/>
+    <col:module document="m30434"/>
+    <col:module document="m30015"/>
+    <col:module document="m30756"/>
+    <col:module document="m30040"/>
+    <col:module document="m30016"/>
+    <col:module document="m30020"/>
+  </col:content>
+</col:collection>
